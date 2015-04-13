@@ -1,23 +1,23 @@
 from libmproxy.protocol.http import HTTPResponse
 from netlib.odict import ODictCaseless
 from libmproxy.script import concurrent
-import threading,os,time
+import threading,os,time,argparse,sys
 
 
 def start(context, argv):
-    if len(argv) != 4:
-        raise ValueError('Usage: -s "script.py firstURL suspendURL logFile"')
-    #remember to change root direcoty
-    if '/' in argv[3]:
-        raise ValueError('filename should not contain path info')
-    
-    #Configure
-    context.root = "/Users/a/Projects/android/adsdisplay/mitmproxy_logs/"
-    context.threshold = 10
-    
-    context.fullLogPath = os.path.join(context.root,argv[3]) 
+    if len(argv) != 6:
+        print >>sys.stderr, "argv length:",str(len(argv)),argv[len(argv)-2]
+        raise ValueError('Usage: -s "script.py firstURL suspendURL LogDir logFile threshold"')
+    context.root = argv[3]
+    if (not os.path.exists(context.root)) or \
+        (not os.path.isdir(context.root) ):
+        raise ValueError("path %s doesn't exist"%(context.root) )
+    context.threshold = int(argv[5])
+    context.fullLogPath = os.path.join(context.root,argv[4]) 
     context.firstURL = argv[1].lower().strip()
     context.suspendURL = argv[2].lower().strip()
+    if context.suspendURL == "none":
+        context.suspendURL = None
     context.outFile = open(context.fullLogPath,'w')
     context.lock = threading.RLock()
     
@@ -31,6 +31,7 @@ def request(context, flow):
                 ODictCaseless([["Content-Type", "text/html"]]),
                 "done %s"%context.fullLogPath)
             context.lock.acquire()
+            context.outFile.write('EndFile\n')
             context.outFile.close()
             context.lock.release()
             print "close file ",context.fullLogPath
@@ -46,7 +47,7 @@ def request(context, flow):
         context.startTime = currentTime
         context.lock.release()
 
-    if url == context.suspendURL:
+    if context.suspendURL and (url == context.suspendURL):
         print "target url wait for %d seconds" % context.threshold
         context.lock.acquire()
         log="%d TARGETURL:%s START\n" % (currentTime,url)
