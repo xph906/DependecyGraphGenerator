@@ -116,7 +116,7 @@ def readConfigure(file_path):
 #			Other Utilities				#
 #########################################
 
-def repeatedVisitWebPage(url,suspendURL,times,configureFilePath,logFileBaseName=None):
+def repeatedVisitWebPage(url,times,configureFilePath,logFileBaseName=None):
 	logger.debug("Start visiting web page %s for %d times..."%(url,times))
 	data = readConfigure(configureFilePath)
 	if data == None:
@@ -139,7 +139,7 @@ def repeatedVisitWebPage(url,suspendURL,times,configureFilePath,logFileBaseName=
 			logName = logFileBaseName % i
 			logger.debug("  start running mitmproxy");
 			p, outFile, errFile = runMitmproxy(data['mitmproxyScriptPath'], \
-									url, suspendURL, data['logDir'], logName, 10)
+									url, "none", data['logDir'], logName, 10)
 			logger.debug("  start browsing %d time and store to file %s"%(i,logName) )
 			openNewTab(browser)
 			browser.get(url)
@@ -153,6 +153,9 @@ def repeatedVisitWebPage(url,suspendURL,times,configureFilePath,logFileBaseName=
 			logger.error("error in repeatedVisitWebPage reason: %s"%str(e))
 	browser.quit()
 
+def suspendKeyRequest(url,hostList,configureFilePath,logFileBaseName=None):
+	pass
+
 def main():
 	hdlr = logging.FileHandler('driver.log')
 	formatter = logging.Formatter('%(asctime)s %(levelname)s %(message)s')
@@ -163,7 +166,9 @@ def main():
 	logger.addHandler(consoleHandler)
 	logger.setLevel(logging.DEBUG)
 	#repeatedVisitWebPage(url,suspendURL,times,configureFilePath,logFileBaseName=None):
-	repeatedVisitWebPage(sys.argv[1],"none",10,sys.argv[2])
+	#						url 		times
+	repeatedVisitWebPage(sys.argv[1],10,sys.argv[2])
+	suspendEachRequest(sys.argv[1],10)
 
 
 if __name__ == "__main__":
