@@ -12,7 +12,6 @@ import subprocess
 import psutil
 
 ####Configure Info######
-FirefoxProfileName = "/Users/xpan/Documents/projects/ads-display/DependecyGraphGenerator/firefox-profiles"
 
 logger = logging.getLogger('firefox-driver')
 
@@ -153,8 +152,67 @@ def repeatedVisitWebPage(url,times,configureFilePath,logFileBaseName=None):
 			logger.error("error in repeatedVisitWebPage reason: %s"%str(e))
 	browser.quit()
 
-def suspendKeyRequest(url,hostList,configureFilePath,logFileBaseName=None):
-	pass
+def createObjectDependecyExtractionTraces(url,hostList,configureFilePath,logFileBaseName=None,threshold=10):
+	logger.debug("Start create ObjectDependecy traces for website:%s with %d items" % (url,len(hostList)) )
+	data = readConfigure(configureFilePath)
+	if data == None:
+		logger.error("failed to read configure file")
+		return
+
+	profile = webdriver.FirefoxProfile(data['firefoxProfilePath'])
+	browser = webdriver.Firefox(profile)
+	if browser == None:
+		logger.error("failed to create firefox instance")
+		return 
+	o = urlparse(url)
+	host = o.netloc;
+	if logFileBaseName == None:
+		logFileBaseName = 'ODT_'+host+'_%d'
+	else:
+		logFileBaseName += '_%d'
+	count = 0
+	for item in hostList:
+		count += 1
+		try:
+			logName = logFileBaseName%count
+			repeatedTimes = 0
+			logger.debug("Start browsing %s with %s as suspended URL and store the requests at %s"%(url,item,logName) )
+			while True:
+				p, outFile, errFile = runMitmproxy(data['mitmproxyScriptPath'], \
+										url, item, data['logDir'], logName, threshold)
+				logger.debug("  done starting mitmproxy");
+				openNewTab(browser)
+				browser.get(url)
+				closeCurrentTab(browser)
+				logger.debug("  done browsing %s with %s as suspended URL and store the requests at %s"%(url,item,logName) )
+				sendExitSignalToProxy()
+				terminateMitmproxy(p, outFile, errFile)
+				logger.debug("  done terminating mitmproxy")
+				time.sleep(2);
+				path = os.path.join(data['logDir'],logName)
+				fileSize = os.stat(path).st_size
+				if fileSize > 1000:
+					logger.debug("  successfully collects %d bytes requests" % fileSize)
+					break
+				elif repeatedTimes > 5:
+					logger.error("  failed to capture requests while browsing %s with %s as suspended URL" % (url,item) )
+					break
+				else:
+					logger.warning("  repeat browsing %s with %s as suspended URL: too few requests captured (%d bytes)" \
+									% (url,item,fileSize))
+					repeatedTimes += 1
+			logger.debug('\n')
+		except Exception as e:
+			logger.error("error in createObjectDependecyExtractionTraces[%s] reason: %s"%(item,str(e)) )
+	browser.quit()
+
+def readHostList(filePath):
+	f = open(filePath)
+	data = []
+	for line in f:
+		line = line.strip()
+		data.append(line)
+	return data
 
 def main():
 	hdlr = logging.FileHandler('driver.log')
@@ -167,8 +225,12 @@ def main():
 	logger.setLevel(logging.DEBUG)
 	#repeatedVisitWebPage(url,suspendURL,times,configureFilePath,logFileBaseName=None):
 	#						url 		times
-	repeatedVisitWebPage(sys.argv[1],10,sys.argv[2])
-	suspendEachRequest(sys.argv[1],10)
+	#repeatedVisitWebPage(sys.argv[1],10,sys.argv[2])
+	#argv1: firstURL
+	#argv2: path for hostList
+	#argv3: path for configuration 
+	hostList = readHostList(sys.argv[2])
+	createObjectDependecyExtractionTraces(sys.argv[1],hostList,sys.argv[3],logFileBaseName="DDD")
 
 
 if __name__ == "__main__":
