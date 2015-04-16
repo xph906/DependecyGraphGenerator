@@ -230,7 +230,7 @@ def main():
 	#argv2: path for hostList
 	#argv3: path for configuration 
 	hostList = readHostList(sys.argv[2])
-	createObjectDependecyExtractionTraces(sys.argv[1],hostList,sys.argv[3],logFileBaseName="DDD")
+	createObjectDependecyExtractionTraces(sys.argv[1],hostList,sys.argv[3],logFileBaseName="WWW")
 
 
 if __name__ == "__main__":

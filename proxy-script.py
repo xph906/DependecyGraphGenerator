@@ -2,6 +2,7 @@ from libmproxy.protocol.http import HTTPResponse
 from netlib.odict import ODictCaseless
 from libmproxy.script import concurrent
 import threading,os,time,argparse,sys
+from urlparse import urlparse
 
 
 def start(context, argv):
@@ -19,6 +20,7 @@ def start(context, argv):
     if context.suspendURL == "none":
         context.suspendURL = None
     context.outFile = open(context.fullLogPath,'w')
+    context.outFile.write("DEBUG_SU:"+context.suspendURL+"\n")
     context.lock = threading.RLock()
     
 
@@ -38,8 +40,14 @@ def request(context, flow):
             flow.reply(resp)
         else:
             print flow.request.path.strip()
-    
+    #d = flow.request.path.find('?')
+    #realPath = flow.request.path
+    #if d != -1:
+    #    realPath = flow.request.path[:d]
     url = "%s://%s%s" % (flow.request.scheme,flow.request.host,flow.request.path)
+    o = urlparse(url)
+    url = "%s://%s%s" % (flow.request.scheme,o.netloc,o.path)
+    url = url.lower()
     currentTime = int(time.time())
     if url == context.firstURL:
         context.lock.acquire()
@@ -47,7 +55,7 @@ def request(context, flow):
         context.startTime = currentTime
         context.lock.release()
 
-    if context.suspendURL and (url == context.suspendURL):
+    if context.suspendURL and url == context.suspendURL:
         print "target url wait for %d seconds" % context.threshold
         context.lock.acquire()
         log="%d TARGETURL:%s START\n" % (currentTime,url)
