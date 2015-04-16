@@ -271,6 +271,14 @@ def simplifyURL(url):
 		rs += o.path
 	return rs
 	
+def analyzeBroLog(filePath):
+	dnsTable = {} #host => ip
+	handshakeTable = {} #ip => [conn time]
+	f = open(filePath)
+	for line in f:
+		line = line.strip().lower()
+		item = json.loads(line)
+
 def main():
 	'''
 	hostSet = getCommonURLHostsFromDir(sys.argv[1],'www.cnn.com')
@@ -296,24 +304,10 @@ def main():
 	degreeList = sorted(degreeGraph.items(), key=lambda x: x[1][0], reverse=True)
 	for item in degreeList:
 		print "[%2d] %s"%(item[1][0],item[0])
-		#print item,str(l+1)
-		#for m in reversed(p):
-		#	print simplifyURL(m),'->',
-		#print '\n'
 	
 	for badLog in badLogs:
 		print "badLog: ",badLog	
 
-	'''
-	for item in graph:
-		print item,':'
-		parents = graph[item]
-		if parents == None:
-			print "  None"
-		else:
-			for p in parents:
-				print '  ',p
-	'''
 			
 
 if __name__ == '__main__':

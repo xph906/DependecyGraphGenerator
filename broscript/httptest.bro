@@ -2,6 +2,7 @@
 @load base/frameworks/notice
 @load base/protocols/http
 @load policy/protocols/http/detect-sqli.bro
+@load base/protocols/conn
 redef Site::local_nets += { 10.2.0.0/16, 165.124.182.177/32 };
 module HTTP;
 
@@ -23,8 +24,7 @@ export {
 
 event http_reply(c: connection, version: string, code: count, reason: string) &priority=0
 {
-	
-	#print fmt("[%f] REPLY: %s",network_time(), c$http$uri);
+	print fmt("{\"TAG\":\"RESPD\", \"TIME\":%f, \"DSTIP\":\"%-15s\", \"URL\":\"%s%s\"}",network_time(),c$http$id$resp_h,c$http$host,c$http$uri);
 }
 
 #event http_request(c: connection, method: string, original_URI: string, unescaped_URI: string, version: string){
@@ -36,19 +36,27 @@ event http_request(c: connection, method: string, original_URI: string, unescape
 }
 	
 event http_header(c: connection, is_orig: bool, name: string, value: string) &priority=0
-	{
-	set_state(c, F, is_orig);
-
+{
 	if ( is_orig ) # client headers
-		{
+	{
 		if ( name == "HOST" )
-			print fmt("[%f] REQUEST_HOST: %s%s",network_time(), c$http$host,c$http$uri);
-		}
-
+			print fmt("{\"TAG\":\"REQ\",   \"TIME\":%f, \"DSTIP\":\"%-15s\", \"URL\":\"%s%s\"}",network_time(),c$http$id$resp_h,c$http$host,c$http$uri);
 	}
+}
+	
 
 event http_message_done(c: connection, is_orig: bool, stat: http_message_stat) &priority=0
 {
-	#if(is_orig==F )
-	#	print fmt("[%f] REPLY_MSG_DONE: %s",network_time(), c$http$uri);
+	if(is_orig==F )	
+		print fmt("{\"TAG\":\"RESPD\", \"TIME\":%f, \"DSTIP\":\"%-15s\", \"URL\":\"%s%s\"}",network_time(),c$http$id$resp_h,c$http$host,c$http$uri);
 }
+
+event connection_established(c: connection)  &priority=0
+{
+	print fmt("{\"TAG\":\"CONNE\", \"TIME\":%f, \"DSTIP\":\"%-15s\", \"DSTPORT\":%d, \"DURATION\":%f, \"SRCPORT\":%d}",network_time(), c$id$resp_h, port_to_count(c$id$resp_p),c$duration,port_to_count(c$id$orig_p) );
+}
+
+#event connection_SYN_packet(c: connection, pkt: SYN_packet) &priority=0
+#{
+#	print fmt("NEW_C TIME:%f DSTIP:%s DSTPORT:%d SRCPORT:%d",network_time(), c$id$resp_h, port_to_count(c$id$resp_p),port_to_count(c$id$orig_p) );
+#}
