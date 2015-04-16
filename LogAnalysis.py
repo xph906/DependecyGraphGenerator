@@ -272,12 +272,24 @@ def simplifyURL(url):
 	return rs
 	
 def analyzeBroLog(filePath):
-	dnsTable = {} #host => ip
+	dnsTable = {} 		#host => ip
 	handshakeTable = {} #ip => [conn time]
+	requestTable = {}	#scheme://host/path => (reqTime,repTime,repDoneTime)
 	f = open(filePath)
 	for line in f:
 		line = line.strip().lower()
-		item = json.loads(line)
+		try:
+			item = json.loads(line)
+		except Exception as e:
+			logger.error("failed to parse %s as json object "%line)
+			continue
+		if item['tag'] == "conne":
+			ip = item['dstip'].strip()
+			if not ip in handshakeTable:
+				handshakeTable[ip] = []
+			handshakeTable[ip].append(item['duration'])
+		elif item['tag'] == "REQ" 
+		
 
 def main():
 	'''
