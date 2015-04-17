@@ -1,4 +1,4 @@
-import sys,os,logging,pydot
+import sys,os,logging,pydot,json
 from urlparse import urlparse
 from Queue import Queue
 
@@ -270,11 +270,15 @@ def simplifyURL(url):
 	else:
 		rs += o.path
 	return rs
-	
-def analyzeBroLog(filePath):
+
+#firstURL/endURL scheme+"://"+netloc+path	
+def analyzeBroLog(filePath,firstURL,endURL):
 	dnsTable = {} 		#host => ip
 	handshakeTable = {} #ip => [conn time]
-	requestTable = {}	#scheme://host/path => (reqTime,repTime,repDoneTime)
+	#requestTable = {}	#scheme://host/path => (reqTime,repTime,repDoneTime)
+	intervalRusults = []
+	firstURLTime = 0
+	#endURLTime = 0
 	f = open(filePath)
 	for line in f:
 		line = line.strip().lower()
@@ -288,8 +292,24 @@ def analyzeBroLog(filePath):
 			if not ip in handshakeTable:
 				handshakeTable[ip] = []
 			handshakeTable[ip].append(item['duration'])
-		elif item['tag'] == "REQ" 
-		
+		elif item['tag'] == "req":
+			ip = item['dstip'].strip()
+			url = item['url'].strip()
+			o = urlparse(url)
+			shortURL = o.scheme+"://"+o.netloc+o.path
+			host = o.scheme+'://'+o.netloc
+			if not host in dnsTable:
+				dnsTable[host] = ip
+			if firstURL == shortURL:
+				firstURLTime = item['time']
+			elif endURL == shortURL:
+				if firstURLTime != 0:
+					interval = item['time'] - firstURLTime
+					intervalRusults.append(interval)
+					firstURLTime = 0
+				else:
+					logger.warning("firstURLTime is 0 while endURLtime is not!")
+	return dnsTable,handshakeTable,intervalRusults
 
 def main():
 	'''
@@ -298,6 +318,8 @@ def main():
 	for line in hostSet:
 		f.write(line+"\n")
 	f.close()
+	'''
+
 	'''
 	#createDependecyGraph(dirPath, firstURL,prefix, hostSet)
 	#argv[1]: dirPath
@@ -319,6 +341,23 @@ def main():
 	
 	for badLog in badLogs:
 		print "badLog: ",badLog	
+	'''
+
+	dnsTable,handshakeTable,intervalRusults = analyzeBroLog(sys.argv[1],sys.argv[2],sys.argv[3])
+	for item in dnsTable:
+		print item,'=>',dnsTable[item]
+
+	for item in handshakeTable:
+		print item,":"
+		for t in handshakeTable[item]:
+			print '  ',t,
+		print ''
+
+
+	print "intervalRusults:"
+	for item in intervalRusults:
+		print item,' '
+
 
 			
 
