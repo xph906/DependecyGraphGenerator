@@ -258,10 +258,6 @@ def main():
 	consoleHandler.setFormatter(formatter)
 	logger.addHandler(consoleHandler)
 	logger.setLevel(logging.DEBUG)
-
-	outFile = open("/Users/a/Projects/android/adsdisplay/selenium/logs/stdout",'w')
-	errFile = open("/Users/a/Projects/android/adsdisplay/selenium/logs/stderr",'w')
-
 	#repeatedVisitWebPage(url,times,configureFilePath,logFileBaseName=None,useProxy=False):
 	#						url 		times
 	#repeatedVisitWebPage(sys.argv[1],10,sys.argv[2],useProxy=True,logFileBaseName="TSINA2")
