@@ -32,7 +32,7 @@ def getCommonURLHostsFromDir(dirPath, prefix):
 					curHostSet.add(t)
 				except Exception as e:
 					logger.warning("no url found in "+parts[1])
-		if len(curHostSet) > 100:
+		if len(curHostSet) > 200:
 			logger.debug("length of distinct hosts: %d"%len(curHostSet))
 			sets.append(curHostSet)
 		else:
@@ -281,6 +281,9 @@ def tagURL(url):
 		rs += o.path
 	return rs
 
+#def analyzeBroLogWithMultipleInstances(filePath,firstURL,endURL):
+#	for line in f:
+
 #firstURL/endURL scheme+"://"+netloc+path	
 def analyzeBroLog(filePath,firstURL,endURL):
 	dnsTable = {} 			#host => ip
@@ -376,6 +379,7 @@ def parse_arguments():
 	parser.add_argument('--lasturl','-lu', help='the last url of each trace')
 	parser.add_argument('--commonurllist','-c', help='the path of valid object url list')
 	parser.add_argument('--graphoutputpath','-go', help='the path to output the graph')
+	parser.add_argument('--hostlistoutpath','-ho', help='the path to output the common host list')
 	parser.add_argument('--graphinputpath','-gi', help='the path of graph to read from')
 	parser.add_argument('--brofilepath','-b', help='the path of bro log')
 	args = parser.parse_args()
@@ -389,7 +393,7 @@ def main():
 		#Extract Common Hosts
 		#'''
 		hostSet = getCommonURLHostsFromDir(args.dir,args.prefix)
-		f = open('cnnHostList','w')
+		f = open(args.hostlistoutpath,'w')
 		for line in hostSet:
 			f.write(line+"\n")
 		f.close()
