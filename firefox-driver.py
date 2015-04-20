@@ -10,6 +10,7 @@ import json
 import os
 import subprocess
 import psutil
+import argparse
 
 ####Configure Info######
 
@@ -249,15 +250,31 @@ def readHostList(filePath):
 		data.append(line)
 	return data
 
+def parse_arguments():
+	parser = argparse.ArgumentParser()
+	parser.add_argument('--function','-f', help='the function to execute')
+	parser.add_argument('--prefix','-p', help='prefix of file names')
+	parser.add_argument('--configurepath','-c', help='the path of configure file')
+	parser.add_argument('--dir','-d', help='directory of log files')
+	parser.add_argument('--times','-t', help='the times of browsing a file')
+	parser.add_argument('--firsturl','-fu', help='the first url of each trace')
+	parser.add_argument('--lasturl','-lu', help='the last url of each trace')
+	parser.add_argument('--commonurllist','-c', help='the path of valid object url list')
+	args = parser.parse_args()
+    
+	return args
+
 def main():
 	hdlr = logging.FileHandler('driver.log')
 	formatter = logging.Formatter('%(asctime)s %(levelname)s %(message)s')
 	hdlr.setFormatter(formatter)
-	#logger.addHandler(hdlr) 
+	logger.addHandler(hdlr) 
 	consoleHandler = logging.StreamHandler()
 	consoleHandler.setFormatter(formatter)
 	logger.addHandler(consoleHandler)
 	logger.setLevel(logging.DEBUG)
+
+
 	#repeatedVisitWebPage(url,times,configureFilePath,logFileBaseName=None,useProxy=False):
 	#						url 		times
 	#repeatedVisitWebPage(sys.argv[1],10,sys.argv[2],useProxy=True,logFileBaseName="TSINA2")
