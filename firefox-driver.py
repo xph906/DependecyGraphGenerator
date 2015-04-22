@@ -142,6 +142,7 @@ def repeatedVisitWebPage(url,times,configureFilePath,logFileBaseName=None,usePro
 	else:
 		logFileBaseName += '_%d'
 	browser.set_page_load_timeout(60)
+	openNewTab(browser)
 	for i in range(times):
 		try:
 			logName = logFileBaseName % i
