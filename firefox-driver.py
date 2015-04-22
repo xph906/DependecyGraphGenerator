@@ -27,7 +27,7 @@ def openNewTab(browser):
 		ActionChains(browser).send_keys(Keys.CONTROL, "t").perform()
 		ActionChains(browser).send_keys(Keys.CONTROL, "t").perform()
 	else:
-		logger.error("openNewTab unsupported OS: %s"sys.platform)
+		logger.error("openNewTab unsupported OS: %s"%sys.platform)
 
 def closeCurrentTab(browser):
 	if sys.platform == "darwin":
@@ -35,7 +35,7 @@ def closeCurrentTab(browser):
 	elif sys.platform == "linux2":
 		browser.find_element_by_tag_name('body').send_keys(Keys.CONTROL + 'w')
 	else:
-		logger.error("closeCurrentTab unsupported OS: %s"sys.platform)
+		logger.error("closeCurrentTab unsupported OS: %s"%sys.platform)
 
 def testSelenium():
 	profile = webdriver.FirefoxProfile(FirefoxProfileName)
