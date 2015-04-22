@@ -20,11 +20,22 @@ logger = logging.getLogger('firefox-driver')
 #			Selenium Utilities			#
 #########################################
 def openNewTab(browser):
-	ActionChains(browser).send_keys(Keys.COMMAND, "t").perform()
-	ActionChains(browser).send_keys(Keys.COMMAND, "t").perform()
+	if sys.platform == "darwin":
+		ActionChains(browser).send_keys(Keys.COMMAND, "t").perform()
+		ActionChains(browser).send_keys(Keys.COMMAND, "t").perform()
+	elif sys.platform == "linux2":
+		ActionChains(browser).send_keys(Keys.CONTROL, "t").perform()
+		ActionChains(browser).send_keys(Keys.CONTROL, "t").perform()
+	else:
+		logger.error("openNewTab unsupported OS: %s"sys.platform)
 
 def closeCurrentTab(browser):
-	browser.find_element_by_tag_name('body').send_keys(Keys.COMMAND + 'w')
+	if sys.platform == "darwin":
+		browser.find_element_by_tag_name('body').send_keys(Keys.COMMAND + 'w')
+	elif sys.platform == "linux2":
+		browser.find_element_by_tag_name('body').send_keys(Keys.CONTROL + 'w')
+	else:
+		logger.error("closeCurrentTab unsupported OS: %s"sys.platform)
 
 def testSelenium():
 	profile = webdriver.FirefoxProfile(FirefoxProfileName)
@@ -142,7 +153,7 @@ def repeatedVisitWebPage(url,times,configureFilePath,logFileBaseName=None,usePro
 	else:
 		logFileBaseName += '_%d'
 	browser.set_page_load_timeout(60)
-	openNewTab(browser)
+	#openNewTab(browser)
 	for i in range(times):
 		try:
 			logName = logFileBaseName % i
@@ -260,6 +271,7 @@ def parse_arguments():
 	parser.add_argument('--times','-t',type=int, help='the times of browsing a file')
 	parser.add_argument('--timeout','-to',type=int, help='the timeout of loading a page')
 	parser.add_argument('--firsturl','-fu', help='the first url of each trace')
+	#parser.add_argument('--os','-os', help='the operating system type')
 	#parser.add_argument('--lasturl','-lu', help='the last url of each trace')
 	parser.add_argument('--commonhostlist','-ch', help='the path of valid object url list')
 	args = parser.parse_args()
