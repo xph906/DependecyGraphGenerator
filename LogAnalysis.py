@@ -285,6 +285,89 @@ def tagURL(url):
 #	for line in f:
 
 #firstURL/endURL scheme+"://"+netloc+path	
+def analyzeBroLogWithMultipleEndURLs(filePath,firstURL,endURLSet):
+	dnsTable = {} 			#host => ip
+	handshakeTable = {} 	#ip => [conn time]
+	objectSizeTable = {}	#scheme+"://"+netloc+path => [obj size]
+	intervalRusults = []
+	transmittionTime = {}
+	firstURLTime = 0
+	endURLTimeSet = {}
+	for item in endURLSet:
+		endURLTimeSet[item] = 0
+
+	f = open(filePath)
+	for line in f:
+		line = line.strip().lower()
+		try:
+			item = json.loads(line)
+		except Exception as e:
+			logger.error("failed to parse %s as json object "%line)
+			continue
+		if item['tag'] == "conne":
+			ip = item['dstip'].strip()
+			if not ip in handshakeTable:
+				handshakeTable[ip] = []
+			handshakeTable[ip].append(item['duration'])
+		elif item['tag'] == "req":
+			ip = item['dstip'].strip()
+			url = simplifyURL(item['url'].strip())
+			o = urlparse(url)
+			shortURL = o.scheme+"://"+o.netloc+o.path
+			host = o.scheme+'://'+o.netloc
+			if not host in dnsTable:
+				dnsTable[host] = ip
+			if firstURL == shortURL:
+				firstURLTime = item['time']
+			elif shortURL in endURLSet:
+				if endURLTimeSet[shortURL] != 0:
+					continue
+				endURLTimeSet[shortURL] = item['time']
+				done = True
+				for t in endURLTimeSet:
+					if endURLTimeSet[t] == 0:
+						done = False
+						break	
+				if done:
+					interval = item['time'] - firstURLTime
+					intervalRusults.append(interval)
+					for item in endURLTimeSet:
+						interval = endURLTimeSet[item] - firstURLTime
+						#logger.debug("[lasturl:%s] interval of %s object: %f"%(shortURL,item,interval) )
+						endURLTimeSet[item] = 0 
+					firstURLTime = 0
+							
+		elif item['tag'] == "respd":
+			url = simplifyURL(item['url'].strip())
+			o = urlparse(url)
+			shortURL = o.scheme+"://"+o.netloc+o.path
+			if not shortURL in objectSizeTable:
+				objectSizeTable[shortURL] = []
+			objectSizeTable[shortURL].append(item['size'])
+	
+			url = item['url'].strip()
+			if url in transmittionTime:
+				first = transmittionTime[url][0] 
+				transmittionTime[url] = (first,item['time'])
+		elif item['tag'] == "respb":
+			url = item['url'].strip()
+			transmittionTime[url] = (item['time'],0)
+	
+	transmittionTime2 = {}
+	for url in transmittionTime:
+		duration = str(transmittionTime[url][1] - transmittionTime[url][0])
+		sURL = simplifyURL(url)
+		o = urlparse(sURL)
+		sURL = o.scheme+"://"+o.netloc+o.path
+		if not sURL in transmittionTime2:
+			transmittionTime2[sURL] = [duration]
+		else:
+			transmittionTime2[sURL].append(duration)
+	
+	return dnsTable,handshakeTable,objectSizeTable,intervalRusults,transmittionTime2
+
+
+#firstURL/endURL scheme+"://"+netloc+path	
 def analyzeBroLog(filePath,firstURL,endURL):
 	dnsTable = {} 			#host => ip
 	handshakeTable = {} 	#ip => [conn time]
@@ -320,6 +403,7 @@ def analyzeBroLog(filePath,firstURL,endURL):
 			elif endURL == shortURL:
 				if firstURLTime != 0:
 					interval = item['time'] - firstURLTime
+					logger.warning("one brosing instance")
 					intervalRusults.append(interval)
 					firstURLTime = 0
 				else:
@@ -377,6 +461,7 @@ def parse_arguments():
 	parser.add_argument('--dir','-d', help='directory of log files')
 	parser.add_argument('--firsturl','-fu', help='the first url of each trace')
 	parser.add_argument('--lasturl','-lu', help='the last url of each trace')
+	parser.add_argument('--finalurls','-lus', help='the path of file containing essential urls')
 	parser.add_argument('--commonurllist','-c', help='the path of valid object url list')
 	parser.add_argument('--graphoutputpath','-go', help='the path to output the graph')
 	parser.add_argument('--hostlistoutpath','-ho', help='the path to output the common host list')
@@ -452,13 +537,31 @@ def main():
 		graph = loadGraphMapFromFile(args.graphinputpath)
 		hostSet = readHostList(args.commonurllist)
 		#finalURL = "http://cdn.krxd.net/controltag"
-		finalURL = args.lasturl
-		parents = getAllSuccessor(graph,finalURL)
-		
+		if args.lasturl:
+			finalURL = args.lasturl
+			parents = getAllSuccessor(graph,finalURL)
+			logger.debug("length of parents: %d" % len(parents))
+			dnsTable,handshakeTable,sizeTable,intervalRusults,transmittionTable = \
+							analyzeBroLog(args.brofilepath,args.firsturl,finalURL)
+		else:
+			tmp = readHostList(args.finalurls)
+			finalURLSet = set()
+			for item in tmp:
+				if item in hostSet:
+					finalURLSet.add(item)
+			parents = set()
+			parents = parents | finalURLSet
+			for item in finalURLSet:
+				curParent = getAllSuccessor(graph,item)
+				parents = curParent | parents
+			logger.debug("length of finalurls:%d and parents: %d" % (len(finalURLSet),len(parents)))
+			dnsTable,handshakeTable,sizeTable,intervalRusults,transmittionTable = \
+				analyzeBroLogWithMultipleEndURLs(args.brofilepath,args.firsturl,finalURLSet)
+		#parents = set()
 		#analyzeBroLog(filePath,firstURL,endURL)
-		dnsTable,handshakeTable,sizeTable,intervalRusults,transmittionTable = analyzeBroLog(args.brofilepath,args.firsturl,finalURL)
+		
 		tmpDict = {}
-		print "length of parents: %d" % len(parents)
+		
 		for p in parents:
 			o = urlparse(p)
 			k = o.scheme+"://"+o.netloc+o.path

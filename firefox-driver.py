@@ -256,12 +256,17 @@ def parse_arguments():
 	parser.add_argument('--prefix','-p', help='prefix of file names')
 	parser.add_argument('--configurepath','-c', help='the path of configure file')
 	parser.add_argument('--dir','-d', help='directory of log files')
-	parser.add_argument('--times','-t', help='the times of browsing a file')
+	parser.add_argument('--times','-t',type=int, help='the times of browsing a file')
+	parser.add_argument('--timeout','-to',type=int, help='the timeout of loading a page')
 	parser.add_argument('--firsturl','-fu', help='the first url of each trace')
-	parser.add_argument('--lasturl','-lu', help='the last url of each trace')
-	parser.add_argument('--commonurllist','-c', help='the path of valid object url list')
+	#parser.add_argument('--lasturl','-lu', help='the last url of each trace')
+	parser.add_argument('--commonhostlist','-ch', help='the path of valid object url list')
 	args = parser.parse_args()
-    
+	try:
+		o = urlparse(args.firsturl)
+	except Exception as e:
+		parser.print_help()
+		return None
 	return args
 
 def main():
@@ -273,8 +278,23 @@ def main():
 	consoleHandler.setFormatter(formatter)
 	logger.addHandler(consoleHandler)
 	logger.setLevel(logging.DEBUG)
-
-
+	
+	args = parse_arguments()
+	if not args:
+		return
+	if args.function == "normalvisit":
+		logger.debug("repated visit %s for %d times without proxy" % (args.firsturl,args.times))
+		repeatedVisitWebPage(args.firsturl,args.times,args.configurepath,args.prefix,useProxy=False)
+	elif args.function == "proxyvisit":
+		logger.debug("repated visit %s for %d times with proxy" % (args.firsturl,args.times))
+		repeatedVisitWebPage(args.firsturl,args.times,args.configurepath,args.prefix,useProxy=True)
+	elif args.function == "createdependencygraph":
+		logger.debug("create dependency graph for %s with timeout %d" %(args.firsturl,args.timeout))
+		#argv1: firstURL
+		#argv2: path for hostList
+		#argv3: path for configuration 
+		hostList = readHostList(args.commonurllist)
+		createObjectDependecyExtractionTraces(args.firsturl,args.commonurllist,args.configurepath,args.prefix,args.timeout)
 	#repeatedVisitWebPage(url,times,configureFilePath,logFileBaseName=None,useProxy=False):
 	#						url 		times
 	#repeatedVisitWebPage(sys.argv[1],10,sys.argv[2],useProxy=True,logFileBaseName="TSINA2")
@@ -283,8 +303,8 @@ def main():
 	#argv1: firstURL
 	#argv2: path for hostList
 	#argv3: path for configuration 
-	hostList = readHostList(sys.argv[2])
-	createObjectDependecyExtractionTraces(sys.argv[1],hostList,sys.argv[3],logFileBaseName="sinagraph",threshold=30)
+	#hostList = readHostList(sys.argv[2])
+	#createObjectDependecyExtractionTraces(sys.argv[1],hostList,sys.argv[3],logFileBaseName="sinagraph",threshold=30)
 
 
 if __name__ == "__main__":
