@@ -20,58 +20,65 @@ def start(context, argv):
     if context.suspendURL == "none":
         context.suspendURL = None
     context.outFile = open(context.fullLogPath,'w')
-    context.outFile.write("DEBUG_SU:"+context.suspendURL+"\n")
+    context.outFile.write("DEBUG_SU:"+str(context.suspendURL)+"\n")
     context.lock = threading.RLock()
     
 
 @concurrent
 def request(context, flow):
-    if flow.request.pretty_host(hostheader=True).endswith("localhost"):
-        if flow.request.path.strip().startswith("/commands/exit"):
-            resp = HTTPResponse(
-                [1, 1], 200, "OK",
-                ODictCaseless([["Content-Type", "text/html"]]),
-                "done %s"%context.fullLogPath)
-            context.lock.acquire()
-            context.outFile.write('EndFile\n')
-            context.outFile.close()
-            context.lock.release()
-            print "close file ",context.fullLogPath
-            flow.reply(resp)
-        else:
-            print flow.request.path.strip()
-    #d = flow.request.path.find('?')
-    #realPath = flow.request.path
-    #if d != -1:
-    #    realPath = flow.request.path[:d]
-    url = "%s://%s%s" % (flow.request.scheme,flow.request.host,flow.request.path)
-    o = urlparse(url)
-    url = "%s://%s%s" % (flow.request.scheme,o.netloc,o.path)
-    url = url.lower()
-    currentTime = int(time.time())
-    if url == context.firstURL:
-        context.lock.acquire()
-        print "find first url ",url
-        context.startTime = currentTime
-        context.lock.release()
-
-    if context.suspendURL and url == context.suspendURL:
-        print "target url wait for %d seconds" % context.threshold
-        context.lock.acquire()
-        log="%d TARGETURL:%s START\n" % (currentTime,url)
-        context.outFile.write(log)
-        context.lock.release()
-        time.sleep(context.threshold)
+    try:
+        if flow.request.pretty_host(hostheader=True).endswith("localhost"):
+            if flow.request.path.strip().startswith("/commands/exit"):
+                resp = HTTPResponse(
+                    [1, 1], 200, "OK",
+                    ODictCaseless([["Content-Type", "text/html"]]),
+                    "done %s"%context.fullLogPath)
+                context.lock.acquire()
+                if not context.outFile.closed:
+                    context.outFile.write('EndFile\n')
+                    context.outFile.close()
+                context.lock.release()
+                print "close file ",context.fullLogPath
+                flow.reply(resp)
+            else:
+                print flow.request.path.strip()
+        #d = flow.request.path.find('?')
+        #realPath = flow.request.path
+        #if d != -1:
+        #    realPath = flow.request.path[:d]
+        url = "%s://%s%s" % (flow.request.scheme,flow.request.host,flow.request.path)
+        o = urlparse(url)
+        url = "%s://%s%s" % (flow.request.scheme,o.netloc,o.path)
+        url = url.lower()
         currentTime = int(time.time())
-        context.lock.acquire()
-        log="%d TARGETURL:%s END\n" % (currentTime,url)
-        context.outFile.write(log)
-        context.lock.release()
-    else:
-        context.lock.acquire()
-        log="%d REGULARURL:%s END\n" % (currentTime,url)
-        context.outFile.write(log)
-        context.lock.release()
+        if url == context.firstURL:
+            context.lock.acquire()
+            print "find first url ",url
+            context.startTime = currentTime
+            context.lock.release()
+
+        if context.suspendURL and url == context.suspendURL:
+            print "target url wait for %d seconds" % context.threshold
+            context.lock.acquire()
+            log="%d TARGETURL:%s START\n" % (currentTime,url)
+            if not context.outFile.closed:
+                context.outFile.write(log)
+            context.lock.release()
+            time.sleep(context.threshold)
+            currentTime = int(time.time())
+            context.lock.acquire()
+            log="%d TARGETURL:%s END\n" % (currentTime,url)
+            if not context.outFile.closed:
+                context.outFile.write(log)
+            context.lock.release()
+        else:
+            context.lock.acquire()
+            log="%d REGULARURL:%s END\n" % (currentTime,url)
+            if not context.outFile.closed:
+                context.outFile.write(log)
+            context.lock.release()
+    except Exception as e:
+        print >>sys.stderr, "error %s: [%s]" % (str(e),url)
     
     
     
