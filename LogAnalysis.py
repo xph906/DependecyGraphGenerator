@@ -32,13 +32,12 @@ def getCommonURLHostsFromDir(dirPath, prefix):
 					curHostSet.add(t)
 				except Exception as e:
 					logger.warning("no url found in "+parts[1])
-		if len(curHostSet) > 200:
+		if len(curHostSet) > 10:
 			logger.debug("length of distinct hosts: %d"%len(curHostSet))
 			sets.append(curHostSet)
 		else:
 			logger.debug("get rid of this host set for its length: %d"%len(curHostSet))
 		f.close()
-
 	if len(sets) == 0:
 		return None
 	curHostSet = sets[0]
@@ -50,6 +49,7 @@ def getCommonURLHostsFromDir(dirPath, prefix):
 	#		if not item in curHostSet:
 	#			logger.debug("unique host:"+item)
 	logger.debug("common set's length: %d"%len(curHostSet))
+	logger.debug(curHostSet)
 	return curHostSet
 
 def createDependecyGraph(dirPath, firstURL,prefix, hostSet):

@@ -1,3 +1,3 @@
 python LogAnalysis.py -f analyzebrolog -fu http://www.cnn.com/ -lu http://cdn.krxd.net/controltag -gi test2 -c cnnHostList -b broscript/x3
-python LogAnalysis.py -f generategraph -p WWW -d ./logs/ -fu http://www.cnn.com/ -go test3 -lu http://cdn.krxd.net/controltag -gi test2 -c cnnHostList -b broscript/x3 
+python LogAnalysis.py -f generategraph -p WWW -d ./logs/ -fu http://www.cnn.com/ -go test3 -lu http://cdn.krxd.net/controltag -gi cnnGraph -c cnnHostList -b broscript/x3 
 python firefox-driver.py -f normalvisit -fu http://www.sina.com.cn/ -t 15 -c mini_configure -p XO
