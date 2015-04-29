@@ -14,13 +14,13 @@ The proxy you will use.
 pip install mitmproxy
 ```
 
-2. Network Link Conditioner:
+3. Network Link Conditioner:
 Control the bandwidth and other network condition.Download at https://developer.apple.com/downloads/index.action?q=Network%20Link%20Conditioner#
 
-3. Bro:
+4. Bro:
 Monitor all the traffic.
 
-4. ipfw:
+5. ipfw:
 programmatically control the bandwidth and other network condition.
 
 
@@ -47,7 +47,8 @@ Take Wall street journal (http://www.wsj.com) for example.
           input: common url list
           output: dependency graph
 ```
-python LogAnalysis.py -f generategraph -p WSJ -d ./logs/ -fu http://www.wsj.com/ -go wsjGraph -lu http://video-api.wsj.com/api-video/player/v2/css/wsjvideo.min.css -c wsjHostList  
+python LogAnalysis.py -f generategraph -p WSJ -d ./logs/ -fu http://www.wsj.com/ -go wsjGraph -lu
+http://video-api.wsj.com/api-video/player/v2/css/wsjvideo.min.css -c wsjHostList  
 ```
 5. calculate user-perceived delay in different network conditions
           On each network condition, run firefox multiple times without proxy, use bro to monitor, record important information of traffic and get bro log. Then analyze bro log using script.
