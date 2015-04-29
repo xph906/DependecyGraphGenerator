@@ -718,3 +718,13 @@
 2015-04-28 20:08:18,758 DEBUG   start browsing 6 time and store to file WSJ_6
 2015-04-28 20:08:26,386 DEBUG   done browsing 6 time and store to file WSJ_6
 2015-04-28 20:08:28,460 DEBUG   done terminating mitmproxy
+2015-04-28 20:43:47,349 DEBUG repated visit http://www.wsj.com for 15 times with proxy
+2015-04-28 20:43:47,349 DEBUG Start visiting web page http://www.wsj.com for 15 times...
+2015-04-28 20:43:50,126 DEBUG   start running mitmproxy
+2015-04-28 20:43:50,126 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_0 10""
+2015-04-28 20:43:53,132 DEBUG successfully run mitmproxy with pid 12005 
+2015-04-28 20:43:53,132 DEBUG   start browsing 0 time and store to file WSJ_0
+2015-04-28 20:44:04,435 DEBUG   done browsing 0 time and store to file WSJ_0
+2015-04-28 20:44:06,524 DEBUG   done terminating mitmproxy
+2015-04-28 20:44:08,526 DEBUG   start running mitmproxy
+2015-04-28 20:44:08,527 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_1 10""
