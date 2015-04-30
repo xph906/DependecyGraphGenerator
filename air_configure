@@ -1,4 +1,5 @@
-{"firefoxProfilePath":"/Users/xpan/Documents/projects/ads-display/DependecyGraphGenerator/firefox-profiles",
- "mitmproxyScriptPath": "/Users/xpan/Documents/projects/ads-display/DependecyGraphGenerator/proxy-script.py",
- "logDir": "/Users/xpan/Documents/projects/ads-display/DependecyGraphGenerator/logs"
+{"firefoxProfilePathWithoutProxy":"/Users/yanghu/Library/Application Support/Firefox/Profiles/y0900nx6.withoutProxy",
+"firefoxProfilePathWithProxy":"/Users/yanghu/Library/Application Support/Firefox/Profiles/cv3aemgc.withProxy",
+ "mitmproxyScriptPath": "./proxy-script.py",
+ "logDir": "./logs"
 }

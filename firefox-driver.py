@@ -273,7 +273,7 @@ def parse_arguments():
 	parser.add_argument('--firsturl','-fu', help='the first url of each trace')
 	#parser.add_argument('--os','-os', help='the operating system type')
 	#parser.add_argument('--lasturl','-lu', help='the last url of each trace')
-	parser.add_argument('--commonhostlist','-ch', help='the path of valid object url list')
+	parser.add_argument('--commonurllist','-ch', help='the path of valid object url list')
 	args = parser.parse_args()
 	try:
 		o = urlparse(args.firsturl)
