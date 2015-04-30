@@ -1,2 +1,2 @@
-python firefox-driver.py -f normalvisit -fu http://www.sina.com.cn/ -t 15 -c mini_configure -p XO
-python firefox-driver.py -f proxyvisit -fu http://www.cnn.com/ -t 15 -c mini_configure -p XO
+python screenshot-firefox-driver.py -f proxyvisit -fu http://www.cnn.com/ -t 15 -c screenshot_configure -d ./logs/
+

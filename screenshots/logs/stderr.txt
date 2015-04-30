@@ -1,0 +1,23 @@
+write sth for test....
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/libmproxy/console/__init__.py", line 614, in run
+    self.ui.run_wrapper(self.loop)
+  File "/usr/local/lib/python2.7/dist-packages/urwid/display_common.py", line 757, in run_wrapper
+    return fn()
+  File "/usr/local/lib/python2.7/dist-packages/libmproxy/console/__init__.py", line 828, in loop
+    keys = self.ui.get_input()
+  File "/usr/local/lib/python2.7/dist-packages/urwid/raw_display.py", line 324, in get_input
+    keys, raw = self.parse_input(None, None, self.get_available_raw_input())
+  File "/usr/local/lib/python2.7/dist-packages/urwid/raw_display.py", line 426, in get_available_raw_input
+    codes = self._get_gpm_codes() + self._get_keyboard_codes()
+  File "/usr/local/lib/python2.7/dist-packages/urwid/raw_display.py", line 500, in _get_keyboard_codes
+    code = self._getch_nodelay()
+  File "/usr/local/lib/python2.7/dist-packages/urwid/raw_display.py", line 634, in _getch_nodelay
+    return self._getch(0)
+  File "/usr/local/lib/python2.7/dist-packages/urwid/raw_display.py", line 544, in _getch
+    return ord(os.read(self._term_input_file.fileno(), 1))
+TypeError: ord() expected a character, but string of length 0 found
+
+mitmproxy has crashed!
+Please lodge a bug report at: https://github.com/mitmproxy/mitmproxy
+Shutting down...

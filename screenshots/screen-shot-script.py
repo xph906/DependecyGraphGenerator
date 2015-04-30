@@ -55,6 +55,10 @@ def response(context, flow):
 	info = '[SIMILAR:%f][REQUEST:%s]' % (picture_similar, str(url))
 
 	f.write(info + '\n')
+
+	if picture_similar <= 0.85 and picture_similar > 0.75:
+		f.write("FOUND THRESHOLD HERE")
+
 	f.close()
 
 	shutil.copy("outputImagePost.png", "outputImagePre.png")
