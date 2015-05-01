@@ -26,7 +26,7 @@ programmatically control the bandwidth and other network condition.
 
 
   
-## Brif steps
+## Brief steps
 
 Take Wall street journal (http://www.wsj.com) for example. 
 1. Set firefox proxy profile
