@@ -1,0 +1,611 @@
+{"TAG":"CONNE", "TIME":1431101137.509075, "DSTIP":"31.13.74.1     ", "DSTPORT":443, "DURATION":0.005161, "SRCPORT":54845}
+{"TAG":"REQ",   "TIME":1431101137.513359, "DSTIP":"31.13.74.1     ", "URL":"https://www.facebook.com"}
+{"TAG":"CONNE", "TIME":1431101137.674075, "DSTIP":"129.105.230.7  ", "DSTPORT":443, "DURATION":0.002558, "SRCPORT":54846}
+{"TAG":"REQ",   "TIME":1431101137.762317, "DSTIP":"129.105.230.7  ", "URL":"https://fbstatic-a.akamaihd.net"}
+{"TAG":"CONNE", "TIME":1431101137.880019, "DSTIP":"31.13.74.7     ", "DSTPORT":443, "DURATION":0.012056, "SRCPORT":54847}
+{"TAG":"CONNE", "TIME":1431101137.911824, "DSTIP":"216.156.225.99 ", "DSTPORT":443, "DURATION":0.043211, "SRCPORT":54848}
+{"TAG":"REQ",   "TIME":1431101138.592750, "DSTIP":"31.13.74.7     ", "URL":"https://scontent-ord.xx.fbcdn.net"}
+{"TAG":"REQ",   "TIME":1431101138.820695, "DSTIP":"216.156.225.99 ", "URL":"https://fbcdn-profile-a.akamaihd.net"}
+{"TAG":"CONNE", "TIME":1431101139.872273, "DSTIP":"129.105.230.8  ", "DSTPORT":80, "DURATION":0.002686, "SRCPORT":54849}
+{"TAG":"REQ",   "TIME":1431101139.873355, "DSTIP":"129.105.230.8  ", "URL":"http://thedailyshow.cc.com/videos/svt15r/baltimore-on-fire"}
+{"TAG":"RESPB", "TIME":1431101139.928898, "DSTIP":"129.105.230.8  ", "URL":"http://thedailyshow.cc.com/videos/svt15r/baltimore-on-fire"}
+{"TAG":"RESPD", "TIME":1431101139.929849, "DSTIP":"129.105.230.8  ", "URL":"http://thedailyshow.cc.com/videos/svt15r/baltimore-on-fire", "SIZE":55937}
+{"TAG":"REQ",   "TIME":1431101139.937831, "DSTIP":"129.105.230.8  ", "URL":"http://thedailyshow.cc.com/media/base.css?hash=f00a18fe82861d5"}
+{"TAG":"CONNE", "TIME":1431101139.941704, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.002320, "SRCPORT":54850}
+{"TAG":"CONNE", "TIME":1431101139.942251, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.002531, "SRCPORT":54851}
+{"TAG":"REQ",   "TIME":1431101139.942363, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/sitewide/js/jquery-2.1.0.min.js"}
+{"TAG":"REQ",   "TIME":1431101139.942909, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/media/base.js?hash=f4f2b6fd6bda542"}
+{"TAG":"CONNE", "TIME":1431101139.944133, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.002410, "SRCPORT":54852}
+{"TAG":"REQ",   "TIME":1431101139.944843, "DSTIP":"129.105.230.9  ", "URL":"http://a.postrelease.com/serve/load.js?async=true"}
+{"TAG":"CONNE", "TIME":1431101139.956522, "DSTIP":"173.223.251.28 ", "DSTPORT":80, "DURATION":0.010471, "SRCPORT":54853}
+{"TAG":"REQ",   "TIME":1431101139.957303, "DSTIP":"173.223.251.28 ", "URL":"http://btg.mtvnservices.com/aria/projectX/projectX.html"}
+{"TAG":"RESPB", "TIME":1431101139.960461, "DSTIP":"129.105.230.9  ", "URL":"http://a.postrelease.com/serve/load.js?async=true"}
+{"TAG":"RESPD", "TIME":1431101139.977050, "DSTIP":"129.105.230.9  ", "URL":"http://a.postrelease.com/serve/load.js?async=true", "SIZE":139571}
+{"TAG":"RESPB", "TIME":1431101139.977690, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/sitewide/js/jquery-2.1.0.min.js"}
+{"TAG":"RESPB", "TIME":1431101139.981194, "DSTIP":"173.223.251.28 ", "URL":"http://btg.mtvnservices.com/aria/projectX/projectX.html"}
+{"TAG":"RESPD", "TIME":1431101139.981462, "DSTIP":"173.223.251.28 ", "URL":"http://btg.mtvnservices.com/aria/projectX/projectX.html", "SIZE":7046}
+{"TAG":"RESPD", "TIME":1431101139.985605, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/sitewide/js/jquery-2.1.0.min.js", "SIZE":83615}
+{"TAG":"RESPB", "TIME":1431101139.994261, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/media/base.js?hash=f4f2b6fd6bda542"}
+{"TAG":"RESPD", "TIME":1431101140.013048, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/media/base.js?hash=f4f2b6fd6bda542", "SIZE":183652}
+{"TAG":"RESPB", "TIME":1431101140.022136, "DSTIP":"129.105.230.8  ", "URL":"http://thedailyshow.cc.com/media/base.css?hash=f00a18fe82861d5"}
+{"TAG":"RESPD", "TIME":1431101140.030582, "DSTIP":"129.105.230.8  ", "URL":"http://thedailyshow.cc.com/media/base.css?hash=f00a18fe82861d5", "SIZE":325657}
+{"TAG":"REQ",   "TIME":1431101140.119068, "DSTIP":"129.105.230.8  ", "URL":"http://thedailyshow.cc.com/sitewide/images/sprites/loading.gif"}
+{"TAG":"REQ",   "TIME":1431101140.119296, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/feeds/f1008/1.0/3d329367-c1a2-4a09-9dd3-77eee10cc0c4/ef7c9318-59b7-4123-8fad-73256c37a74b"}
+{"TAG":"REQ",   "TIME":1431101140.119453, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/sitewide/images/tds_site2013_bgrepeat_1920.gif"}
+{"TAG":"RESPB", "TIME":1431101140.124007, "DSTIP":"129.105.230.8  ", "URL":"http://thedailyshow.cc.com/sitewide/images/sprites/loading.gif"}
+{"TAG":"RESPD", "TIME":1431101140.124145, "DSTIP":"129.105.230.8  ", "URL":"http://thedailyshow.cc.com/sitewide/images/sprites/loading.gif", "SIZE":3208}
+{"TAG":"REQ",   "TIME":1431101140.124677, "DSTIP":"129.105.230.8  ", "URL":"http://thedailyshow.cc.com/feeds/f1013/1.0/cc5f40ce-0382-4308-8ff9-69f1d2587dc3"}
+{"TAG":"CONNE", "TIME":1431101140.124921, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.003740, "SRCPORT":54854}
+{"TAG":"CONNE", "TIME":1431101140.124924, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.003434, "SRCPORT":54855}
+{"TAG":"CONNE", "TIME":1431101140.125511, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.003847, "SRCPORT":54856}
+{"TAG":"REQ",   "TIME":1431101140.126478, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/sitewide/images/sprites/search-anim-full.png"}
+{"TAG":"REQ",   "TIME":1431101140.126755, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/sitewide/images/TDS_VideoPlayerBG.jpg"}
+{"TAG":"RESPB", "TIME":1431101140.127133, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/sitewide/images/tds_site2013_bgrepeat_1920.gif"}
+{"TAG":"REQ",   "TIME":1431101140.127500, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/sitewide/images/sprites/TDS_sprite2013.png"}
+{"TAG":"CONNE", "TIME":1431101140.134504, "DSTIP":"23.197.159.139 ", "DSTPORT":80, "DURATION":0.009185, "SRCPORT":54859}
+{"TAG":"REQ",   "TIME":1431101140.135276, "DSTIP":"23.197.159.139 ", "URL":"http://connect.facebook.net/en_US/fbds.js"}
+{"TAG":"RESPB", "TIME":1431101140.135432, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/sitewide/images/sprites/TDS_sprite2013.png"}
+{"TAG":"RESPB", "TIME":1431101140.142319, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/sitewide/images/sprites/search-anim-full.png"}
+{"TAG":"RESPD", "TIME":1431101140.144879, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/sitewide/images/tds_site2013_bgrepeat_1920.gif", "SIZE":98757}
+{"TAG":"RESPB", "TIME":1431101140.144997, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/sitewide/images/TDS_VideoPlayerBG.jpg"}
+{"TAG":"REQ",   "TIME":1431101140.145227, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/feeds/f1014/1.0/d4249f7b-e1c1-40b3-9b5a-9b976b5027cc"}
+{"TAG":"RESPD", "TIME":1431101140.149660, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/sitewide/images/sprites/TDS_sprite2013.png", "SIZE":41719}
+{"TAG":"REQ",   "TIME":1431101140.149984, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/feeds/f1012/1.0/1fcbf68c-490e-4f35-89fa-42ce4d8e4cba"}
+{"TAG":"CONNE", "TIME":1431101140.150096, "DSTIP":"107.20.229.159 ", "DSTPORT":80, "DURATION":0.026503, "SRCPORT":54858}
+{"TAG":"REQ",   "TIME":1431101140.150924, "DSTIP":"107.20.229.159 ", "URL":"http://adserve.postrelease.com/serve/trigger/1431101140065.js?prx_url=http%3A%2F%2Fthedailyshow.cc.com%2Fvideos%2Fsvt15r%2Fbaltimore-on-fire"}
+{"TAG":"RESPB", "TIME":1431101140.161007, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/feeds/f1008/1.0/3d329367-c1a2-4a09-9dd3-77eee10cc0c4/ef7c9318-59b7-4123-8fad-73256c37a74b"}
+{"TAG":"RESPD", "TIME":1431101140.161274, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/feeds/f1008/1.0/3d329367-c1a2-4a09-9dd3-77eee10cc0c4/ef7c9318-59b7-4123-8fad-73256c37a74b", "SIZE":17733}
+{"TAG":"REQ",   "TIME":1431101140.161662, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/feeds/f1002/1.0/d8e2e156-2de8-4e1b-96f8-bfc4b6845be2/ef7c9318-59b7-4123-8fad-73256c37a74b"}
+{"TAG":"RESPB", "TIME":1431101140.162997, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/feeds/f1012/1.0/1fcbf68c-490e-4f35-89fa-42ce4d8e4cba"}
+{"TAG":"RESPD", "TIME":1431101140.163072, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/feeds/f1012/1.0/1fcbf68c-490e-4f35-89fa-42ce4d8e4cba", "SIZE":8041}
+{"TAG":"REQ",   "TIME":1431101140.163448, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/modules/ent_m072_tds/2.0/543caf9e-e88b-4502-86c0-cd80d5759f14"}
+{"TAG":"RESPD", "TIME":1431101140.167419, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/sitewide/images/sprites/search-anim-full.png", "SIZE":96966}
+{"TAG":"REQ",   "TIME":1431101140.167649, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/modules/reporting/b1b74015-6002-42fe-a5ad-daefe28f0e75"}
+{"TAG":"RESPD", "TIME":1431101140.168674, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/sitewide/images/TDS_VideoPlayerBG.jpg", "SIZE":81616}
+{"TAG":"REQ",   "TIME":1431101140.168879, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/feeds/ent_m006_tds/1.0/cc39d4ba-bd8d-4078-8c2e-d3dbd0c860fa"}
+{"TAG":"RESPB", "TIME":1431101140.173283, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/modules/ent_m072_tds/2.0/543caf9e-e88b-4502-86c0-cd80d5759f14"}
+{"TAG":"RESPD", "TIME":1431101140.173527, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/modules/ent_m072_tds/2.0/543caf9e-e88b-4502-86c0-cd80d5759f14", "SIZE":7235}
+{"TAG":"RESPB", "TIME":1431101140.173692, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/modules/reporting/b1b74015-6002-42fe-a5ad-daefe28f0e75"}
+{"TAG":"RESPD", "TIME":1431101140.173692, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/modules/reporting/b1b74015-6002-42fe-a5ad-daefe28f0e75", "SIZE":142}
+{"TAG":"REQ",   "TIME":1431101140.173884, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/media/module/ENT_M017_TDS?OTRmNGNiNjViOThiOTk4ZW50X20wMTdfdGRzX3Y0,"}
+{"TAG":"RESPB", "TIME":1431101140.174163, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/feeds/f1002/1.0/d8e2e156-2de8-4e1b-96f8-bfc4b6845be2/ef7c9318-59b7-4123-8fad-73256c37a74b"}
+{"TAG":"RESPD", "TIME":1431101140.174163, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/feeds/f1002/1.0/d8e2e156-2de8-4e1b-96f8-bfc4b6845be2/ef7c9318-59b7-4123-8fad-73256c37a74b", "SIZE":410}
+{"TAG":"RESPB", "TIME":1431101140.174415, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/feeds/f1014/1.0/d4249f7b-e1c1-40b3-9b5a-9b976b5027cc"}
+{"TAG":"REQ",   "TIME":1431101140.174532, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/media/module/ENT_M072_TDS?YjRiMTFjMWVkYWQxYzg5ZW50X20wNzJfdGRzX3Yz,"}
+{"TAG":"REQ",   "TIME":1431101140.175059, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/sitewide/webfonts/25F192_7_0.woff"}
+{"TAG":"RESPD", "TIME":1431101140.175545, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/feeds/f1014/1.0/d4249f7b-e1c1-40b3-9b5a-9b976b5027cc", "SIZE":60730}
+{"TAG":"RESPB", "TIME":1431101140.175814, "DSTIP":"129.105.230.8  ", "URL":"http://thedailyshow.cc.com/feeds/f1013/1.0/cc5f40ce-0382-4308-8ff9-69f1d2587dc3"}
+{"TAG":"REQ",   "TIME":1431101140.175901, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/sitewide/images/sprites/CC_GlobalSprite2013.png"}
+{"TAG":"RESPD", "TIME":1431101140.176606, "DSTIP":"129.105.230.8  ", "URL":"http://thedailyshow.cc.com/feeds/f1013/1.0/cc5f40ce-0382-4308-8ff9-69f1d2587dc3", "SIZE":43138}
+{"TAG":"RESPB", "TIME":1431101140.177598, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/feeds/ent_m006_tds/1.0/cc39d4ba-bd8d-4078-8c2e-d3dbd0c860fa"}
+{"TAG":"RESPD", "TIME":1431101140.177598, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/feeds/ent_m006_tds/1.0/cc39d4ba-bd8d-4078-8c2e-d3dbd0c860fa", "SIZE":1871}
+{"TAG":"RESPB", "TIME":1431101140.182008, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/sitewide/images/sprites/CC_GlobalSprite2013.png"}
+{"TAG":"RESPD", "TIME":1431101140.182976, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/sitewide/images/sprites/CC_GlobalSprite2013.png", "SIZE":11891}
+{"TAG":"RESPB", "TIME":1431101140.183423, "DSTIP":"107.20.229.159 ", "URL":"http://adserve.postrelease.com/serve/trigger/1431101140065.js?prx_url=http%3A%2F%2Fthedailyshow.cc.com%2Fvideos%2Fsvt15r%2Fbaltimore-on-fire"}
+{"TAG":"RESPD", "TIME":1431101140.183423, "DSTIP":"107.20.229.159 ", "URL":"http://adserve.postrelease.com/serve/trigger/1431101140065.js?prx_url=http%3A%2F%2Fthedailyshow.cc.com%2Fvideos%2Fsvt15r%2Fbaltimore-on-fire", "SIZE":17}
+{"TAG":"RESPB", "TIME":1431101140.185995, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/sitewide/webfonts/25F192_7_0.woff"}
+{"TAG":"RESPD", "TIME":1431101140.188339, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/sitewide/webfonts/25F192_7_0.woff", "SIZE":29462}
+{"TAG":"RESPB", "TIME":1431101140.190268, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/media/module/ENT_M072_TDS?YjRiMTFjMWVkYWQxYzg5ZW50X20wNzJfdGRzX3Yz,"}
+{"TAG":"RESPD", "TIME":1431101140.191089, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/media/module/ENT_M072_TDS?YjRiMTFjMWVkYWQxYzg5ZW50X20wNzJfdGRzX3Yz,", "SIZE":30428}
+{"TAG":"RESPB", "TIME":1431101140.193225, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/media/module/ENT_M017_TDS?OTRmNGNiNjViOThiOTk4ZW50X20wMTdfdGRzX3Y0,"}
+{"TAG":"RESPD", "TIME":1431101140.194260, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/media/module/ENT_M017_TDS?OTRmNGNiNjViOThiOTk4ZW50X20wMTdfdGRzX3Y0,", "SIZE":44890}
+{"TAG":"RESPB", "TIME":1431101140.227499, "DSTIP":"23.197.159.139 ", "URL":"http://connect.facebook.net/en_US/fbds.js"}
+{"TAG":"RESPD", "TIME":1431101140.227753, "DSTIP":"23.197.159.139 ", "URL":"http://connect.facebook.net/en_US/fbds.js", "SIZE":3052}
+{"TAG":"CONNE", "TIME":1431101140.235218, "DSTIP":"188.40.102.95  ", "DSTPORT":80, "DURATION":0.111816, "SRCPORT":54857}
+{"TAG":"REQ",   "TIME":1431101140.236122, "DSTIP":"188.40.102.95  ", "URL":"http://browser-update.org/update.js"}
+{"TAG":"REQ",   "TIME":1431101140.273773, "DSTIP":"129.105.230.8  ", "URL":"http://thedailyshow.cc.com/media/module/ENT_M008_TDS?NjVjYmUxNDc5MzA2YzM1ZW50X20wMDhfdGRzX3Yx,"}
+{"TAG":"REQ",   "TIME":1431101140.273925, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/sitewide/webfonts/25F192_1_0.woff"}
+{"TAG":"REQ",   "TIME":1431101140.274078, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/sitewide/fonts/ccicons-webfont/ccicons-regular-webfont.woff"}
+{"TAG":"REQ",   "TIME":1431101140.274281, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/sitewide/webfonts/eamescenturymodernbolditalic.woff"}
+{"TAG":"REQ",   "TIME":1431101140.274364, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/sitewide/webfonts/brandon-grotesque-black.woff"}
+{"TAG":"REQ",   "TIME":1431101140.274486, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/media/module/ENT_M013_TDS?MTE0YjhkNTQ4MjkxNjA3ZW50X20wMTNfdGRzX3Yx,"}
+{"TAG":"RESPB", "TIME":1431101140.278835, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/sitewide/fonts/ccicons-webfont/ccicons-regular-webfont.woff"}
+{"TAG":"RESPD", "TIME":1431101140.279864, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/sitewide/fonts/ccicons-webfont/ccicons-regular-webfont.woff", "SIZE":10736}
+{"TAG":"REQ",   "TIME":1431101140.280262, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/media/module/ENT_M014_TDS?YWY4NzgwNGRmZTYwMGJjZW50X20wMTRfdGRzX3Yx,"}
+{"TAG":"CONNE", "TIME":1431101140.283027, "DSTIP":"129.105.230.8  ", "DSTPORT":80, "DURATION":0.002758, "SRCPORT":54860}
+{"TAG":"REQ",   "TIME":1431101140.283852, "DSTIP":"129.105.230.8  ", "URL":"http://widgets4.flux.com/Core?includeJquery=false"}
+{"TAG":"RESPB", "TIME":1431101140.284089, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/sitewide/webfonts/brandon-grotesque-black.woff"}
+{"TAG":"RESPB", "TIME":1431101140.287195, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/sitewide/webfonts/25F192_1_0.woff"}
+{"TAG":"RESPD", "TIME":1431101140.287354, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/sitewide/webfonts/brandon-grotesque-black.woff", "SIZE":32332}
+{"TAG":"REQ",   "TIME":1431101140.287601, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/media/module/ENT_M012_TDS?MTQ5MGJjZDcxZTFhOGQwZW50X20wMTJfdGRzX3Yx,"}
+{"TAG":"RESPD", "TIME":1431101140.289753, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/sitewide/webfonts/25F192_1_0.woff", "SIZE":29336}
+{"TAG":"RESPB", "TIME":1431101140.289848, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/media/module/ENT_M013_TDS?MTE0YjhkNTQ4MjkxNjA3ZW50X20wMTNfdGRzX3Yx,"}
+{"TAG":"RESPD", "TIME":1431101140.290032, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/media/module/ENT_M013_TDS?MTE0YjhkNTQ4MjkxNjA3ZW50X20wMTNfdGRzX3Yx,", "SIZE":13581}
+{"TAG":"RESPB", "TIME":1431101140.293570, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/media/module/ENT_M014_TDS?YWY4NzgwNGRmZTYwMGJjZW50X20wMTRfdGRzX3Yx,"}
+{"TAG":"RESPD", "TIME":1431101140.294197, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/media/module/ENT_M014_TDS?YWY4NzgwNGRmZTYwMGJjZW50X20wMTRfdGRzX3Yx,", "SIZE":21692}
+{"TAG":"RESPB", "TIME":1431101140.295326, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/sitewide/webfonts/eamescenturymodernbolditalic.woff"}
+{"TAG":"RESPB", "TIME":1431101140.301788, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/media/module/ENT_M012_TDS?MTQ5MGJjZDcxZTFhOGQwZW50X20wMTJfdGRzX3Yx,"}
+{"TAG":"RESPD", "TIME":1431101140.302823, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/media/module/ENT_M012_TDS?MTQ5MGJjZDcxZTFhOGQwZW50X20wMTJfdGRzX3Yx,", "SIZE":12577}
+{"TAG":"RESPB", "TIME":1431101140.304389, "DSTIP":"129.105.230.8  ", "URL":"http://widgets4.flux.com/Core?includeJquery=false"}
+{"TAG":"RESPD", "TIME":1431101140.307725, "DSTIP":"129.105.230.9  ", "URL":"http://thedailyshow.cc.com/sitewide/webfonts/eamescenturymodernbolditalic.woff", "SIZE":84556}
+{"TAG":"RESPB", "TIME":1431101140.310770, "DSTIP":"129.105.230.8  ", "URL":"http://thedailyshow.cc.com/media/module/ENT_M008_TDS?NjVjYmUxNDc5MzA2YzM1ZW50X20wMDhfdGRzX3Yx,"}
+{"TAG":"RESPD", "TIME":1431101140.311309, "DSTIP":"129.105.230.8  ", "URL":"http://thedailyshow.cc.com/media/module/ENT_M008_TDS?NjVjYmUxNDc5MzA2YzM1ZW50X20wMDhfdGRzX3Yx,", "SIZE":15442}
+{"TAG":"RESPD", "TIME":1431101140.330146, "DSTIP":"129.105.230.8  ", "URL":"http://widgets4.flux.com/Core?includeJquery=false", "SIZE":195702}
+{"TAG":"RESPB", "TIME":1431101140.352971, "DSTIP":"188.40.102.95  ", "URL":"http://browser-update.org/update.js"}
+{"TAG":"RESPD", "TIME":1431101140.353802, "DSTIP":"188.40.102.95  ", "URL":"http://browser-update.org/update.js", "SIZE":17478}
+{"TAG":"REQ",   "TIME":1431101140.449541, "DSTIP":"129.105.230.8  ", "URL":"http://thedailyshow.cc.com/media/module/ENT_M006_TDS?OWJkNDlkMmQyYjVlMDViZW50X20wMDZfdjE=,"}
+{"TAG":"RESPB", "TIME":1431101140.457009, "DSTIP":"129.105.230.8  ", "URL":"http://thedailyshow.cc.com/media/module/ENT_M006_TDS?OWJkNDlkMmQyYjVlMDViZW50X20wMDZfdjE=,"}
+{"TAG":"RESPD", "TIME":1431101140.457009, "DSTIP":"129.105.230.8  ", "URL":"http://thedailyshow.cc.com/media/module/ENT_M006_TDS?OWJkNDlkMmQyYjVlMDViZW50X20wMDZfdjE=,", "SIZE":1764}
+{"TAG":"CONNE", "TIME":1431101140.458317, "DSTIP":"129.105.230.8  ", "DSTPORT":80, "DURATION":0.005134, "SRCPORT":54861}
+{"TAG":"REQ",   "TIME":1431101140.459088, "DSTIP":"129.105.230.8  ", "URL":"http://1.images.comedycentral.com/images/shows/tds/videos/season_20/20097/ds_20_097_04.jpg?quality=0.85&width=360&height=202&crop=true"}
+{"TAG":"CONNE", "TIME":1431101140.459184, "DSTIP":"129.105.230.8  ", "DSTPORT":80, "DURATION":0.005976, "SRCPORT":54862}
+{"TAG":"REQ",   "TIME":1431101140.459826, "DSTIP":"129.105.230.8  ", "URL":"http://1.images.comedycentral.com/images/shows/tds/videos/season_20/20097/ds_20_097_01.jpg?quality=0.85&width=348&height=196&crop=true"}
+{"TAG":"CONNE", "TIME":1431101140.460242, "DSTIP":"129.105.230.8  ", "DSTPORT":80, "DURATION":0.007011, "SRCPORT":54863}
+{"TAG":"CONNE", "TIME":1431101140.460243, "DSTIP":"129.105.230.8  ", "DSTPORT":80, "DURATION":0.007012, "SRCPORT":54864}
+{"TAG":"REQ",   "TIME":1431101140.461019, "DSTIP":"129.105.230.8  ", "URL":"http://1.images.comedycentral.com/images/shows/tds/videos/season_20/20097/ds_20_097_02.jpg?quality=0.85&width=360&height=202&crop=true"}
+{"TAG":"REQ",   "TIME":1431101140.461137, "DSTIP":"129.105.230.8  ", "URL":"http://1.images.comedycentral.com/images/shows/tds/videos/season_20/20097/ds_20_097_03.jpg?quality=0.85&width=360&height=202&crop=true"}
+{"TAG":"CONNE", "TIME":1431101140.462633, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.004110, "SRCPORT":54865}
+{"TAG":"REQ",   "TIME":1431101140.463279, "DSTIP":"129.105.230.9  ", "URL":"http://s.fluxstatic.com/widgets4/CSS/common.css?v=32"}
+{"TAG":"CONNE", "TIME":1431101140.463436, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.003312, "SRCPORT":54866}
+{"TAG":"CONNE", "TIME":1431101140.463712, "DSTIP":"129.105.230.8  ", "DSTPORT":80, "DURATION":0.003093, "SRCPORT":54867}
+{"TAG":"REQ",   "TIME":1431101140.464217, "DSTIP":"129.105.230.9  ", "URL":"http://cus.flux.com/api/widgetsService/widgetList?communityUcid=4CFAFFFF009922C10002FFFFFA4C&callback=F1E52EA3D"}
+{"TAG":"REQ",   "TIME":1431101140.464466, "DSTIP":"129.105.230.8  ", "URL":"http://daapiak.flux.com/2.0/00001/json/4CFAFFFF009922C10002FFFFFA4C/feeds/widgets4Context?callback=F41EF0479"}
+{"TAG":"RESPB", "TIME":1431101140.466931, "DSTIP":"129.105.230.8  ", "URL":"http://1.images.comedycentral.com/images/shows/tds/videos/season_20/20097/ds_20_097_01.jpg?quality=0.85&width=348&height=196&crop=true"}
+{"TAG":"RESPB", "TIME":1431101140.470543, "DSTIP":"129.105.230.8  ", "URL":"http://1.images.comedycentral.com/images/shows/tds/videos/season_20/20097/ds_20_097_04.jpg?quality=0.85&width=360&height=202&crop=true"}
+{"TAG":"RESPB", "TIME":1431101140.471990, "DSTIP":"129.105.230.8  ", "URL":"http://1.images.comedycentral.com/images/shows/tds/videos/season_20/20097/ds_20_097_02.jpg?quality=0.85&width=360&height=202&crop=true"}
+{"TAG":"RESPB", "TIME":1431101140.473459, "DSTIP":"129.105.230.8  ", "URL":"http://daapiak.flux.com/2.0/00001/json/4CFAFFFF009922C10002FFFFFA4C/feeds/widgets4Context?callback=F41EF0479"}
+{"TAG":"RESPD", "TIME":1431101140.473461, "DSTIP":"129.105.230.8  ", "URL":"http://daapiak.flux.com/2.0/00001/json/4CFAFFFF009922C10002FFFFFA4C/feeds/widgets4Context?callback=F41EF0479", "SIZE":3792}
+{"TAG":"RESPB", "TIME":1431101140.473773, "DSTIP":"129.105.230.9  ", "URL":"http://cus.flux.com/api/widgetsService/widgetList?communityUcid=4CFAFFFF009922C10002FFFFFA4C&callback=F1E52EA3D"}
+{"TAG":"RESPD", "TIME":1431101140.474377, "DSTIP":"129.105.230.9  ", "URL":"http://cus.flux.com/api/widgetsService/widgetList?communityUcid=4CFAFFFF009922C10002FFFFFA4C&callback=F1E52EA3D", "SIZE":6962}
+{"TAG":"RESPD", "TIME":1431101140.474757, "DSTIP":"129.105.230.8  ", "URL":"http://1.images.comedycentral.com/images/shows/tds/videos/season_20/20097/ds_20_097_01.jpg?quality=0.85&width=348&height=196&crop=true", "SIZE":27135}
+{"TAG":"RESPB", "TIME":1431101140.474851, "DSTIP":"129.105.230.8  ", "URL":"http://1.images.comedycentral.com/images/shows/tds/videos/season_20/20097/ds_20_097_03.jpg?quality=0.85&width=360&height=202&crop=true"}
+{"TAG":"RESPD", "TIME":1431101140.475855, "DSTIP":"129.105.230.8  ", "URL":"http://1.images.comedycentral.com/images/shows/tds/videos/season_20/20097/ds_20_097_03.jpg?quality=0.85&width=360&height=202&crop=true", "SIZE":16182}
+{"TAG":"RESPB", "TIME":1431101140.479151, "DSTIP":"129.105.230.9  ", "URL":"http://s.fluxstatic.com/widgets4/CSS/common.css?v=32"}
+{"TAG":"RESPD", "TIME":1431101140.480986, "DSTIP":"129.105.230.8  ", "URL":"http://1.images.comedycentral.com/images/shows/tds/videos/season_20/20097/ds_20_097_04.jpg?quality=0.85&width=360&height=202&crop=true", "SIZE":27440}
+{"TAG":"RESPD", "TIME":1431101140.481466, "DSTIP":"129.105.230.8  ", "URL":"http://1.images.comedycentral.com/images/shows/tds/videos/season_20/20097/ds_20_097_02.jpg?quality=0.85&width=360&height=202&crop=true", "SIZE":28517}
+{"TAG":"RESPD", "TIME":1431101140.483816, "DSTIP":"129.105.230.9  ", "URL":"http://s.fluxstatic.com/widgets4/CSS/common.css?v=32", "SIZE":66072}
+{"TAG":"REQ",   "TIME":1431101140.549715, "DSTIP":"129.105.230.8  ", "URL":"http://thedailyshow.cc.com/media/module/ENT_TDS_AR_V1?YWEzNWEwOTgzNTI1ZWI4cmVwb3J0aW5nX3Yx,"}
+{"TAG":"RESPB", "TIME":1431101140.558614, "DSTIP":"129.105.230.8  ", "URL":"http://thedailyshow.cc.com/media/module/ENT_TDS_AR_V1?YWEzNWEwOTgzNTI1ZWI4cmVwb3J0aW5nX3Yx,"}
+{"TAG":"RESPD", "TIME":1431101140.558788, "DSTIP":"129.105.230.8  ", "URL":"http://thedailyshow.cc.com/media/module/ENT_TDS_AR_V1?YWEzNWEwOTgzNTI1ZWI4cmVwb3J0aW5nX3Yx,", "SIZE":7400}
+{"TAG":"CONNE", "TIME":1431101140.581019, "DSTIP":"129.105.230.7  ", "DSTPORT":80, "DURATION":0.004895, "SRCPORT":54868}
+{"TAG":"REQ",   "TIME":1431101140.581869, "DSTIP":"129.105.230.7  ", "URL":"http://repo.comedycentral.com/feeds/websites/thedailyshow.cc.com/pages?url=%2Fvideos%2Fsvt15r%2Fbaltimore-on-fire&cmsPageId=22a32fd0-0297-4de9-952d-a8fb0e871720&pageType=show_video_clip&itemId=ef7c9318-59b7-4123-8fad-73256c37a74b&callback=repoLoad"}
+{"TAG":"RESPB", "TIME":1431101140.614407, "DSTIP":"129.105.230.7  ", "URL":"http://repo.comedycentral.com/feeds/websites/thedailyshow.cc.com/pages?url=%2Fvideos%2Fsvt15r%2Fbaltimore-on-fire&cmsPageId=22a32fd0-0297-4de9-952d-a8fb0e871720&pageType=show_video_clip&itemId=ef7c9318-59b7-4123-8fad-73256c37a74b&callback=repoLoad"}
+{"TAG":"RESPD", "TIME":1431101140.614407, "DSTIP":"129.105.230.7  ", "URL":"http://repo.comedycentral.com/feeds/websites/thedailyshow.cc.com/pages?url=%2Fvideos%2Fsvt15r%2Fbaltimore-on-fire&cmsPageId=22a32fd0-0297-4de9-952d-a8fb0e871720&pageType=show_video_clip&itemId=ef7c9318-59b7-4123-8fad-73256c37a74b&callback=repoLoad", "SIZE":1421}
+{"TAG":"REQ",   "TIME":1431101140.620431, "DSTIP":"173.223.251.28 ", "URL":"http://btg.mtvnservices.com/aria/coda.html?site=thedailyshow.cc.com&Ads_DFP=1&Ads=0"}
+{"TAG":"RESPB", "TIME":1431101140.676541, "DSTIP":"173.223.251.28 ", "URL":"http://btg.mtvnservices.com/aria/coda.html?site=thedailyshow.cc.com&Ads_DFP=1&Ads=0"}
+{"TAG":"RESPD", "TIME":1431101140.704025, "DSTIP":"173.223.251.28 ", "URL":"http://btg.mtvnservices.com/aria/coda.html?site=thedailyshow.cc.com&Ads_DFP=1&Ads=0", "SIZE":161475}
+{"TAG":"REQ",   "TIME":1431101140.718604, "DSTIP":"173.223.251.28 ", "URL":"http://btg.mtvnservices.com/aria/uuid.html?c=3988786155"}
+{"TAG":"REQ",   "TIME":1431101140.718762, "DSTIP":"129.105.230.8  ", "URL":"http://daapiak.flux.com/2.0/00001/json/4CFAFFFF009922C10002FFFFFA4C/feeds/widgets4ContextShortest?windowVariable=Widgets4Context"}
+{"TAG":"RESPB", "TIME":1431101140.722859, "DSTIP":"129.105.230.8  ", "URL":"http://daapiak.flux.com/2.0/00001/json/4CFAFFFF009922C10002FFFFFA4C/feeds/widgets4ContextShortest?windowVariable=Widgets4Context"}
+{"TAG":"RESPD", "TIME":1431101140.722859, "DSTIP":"129.105.230.8  ", "URL":"http://daapiak.flux.com/2.0/00001/json/4CFAFFFF009922C10002FFFFFA4C/feeds/widgets4ContextShortest?windowVariable=Widgets4Context", "SIZE":69}
+{"TAG":"CONNE", "TIME":1431101140.726933, "DSTIP":"129.105.230.8  ", "DSTPORT":80, "DURATION":0.002313, "SRCPORT":54870}
+{"TAG":"REQ",   "TIME":1431101140.727643, "DSTIP":"129.105.230.8  ", "URL":"http://b.scorecardresearch.com/beacon.js?c1=2&c2=6036034&c3=&c4=http%253A%2F%2Fthedailyshow.cc.com%2Fvideos%2Fsvt15r%2Fbaltimore-on-fire&c5=20000&c6=&c15="}
+{"TAG":"CONNE", "TIME":1431101140.734580, "DSTIP":"74.125.225.25  ", "DSTPORT":80, "DURATION":0.009900, "SRCPORT":54871}
+{"TAG":"REQ",   "TIME":1431101140.735303, "DSTIP":"74.125.225.25  ", "URL":"http://www.googletagservices.com/tag/js/gpt.js"}
+{"TAG":"RESPB", "TIME":1431101140.738852, "DSTIP":"129.105.230.8  ", "URL":"http://b.scorecardresearch.com/beacon.js?c1=2&c2=6036034&c3=&c4=http%253A%2F%2Fthedailyshow.cc.com%2Fvideos%2Fsvt15r%2Fbaltimore-on-fire&c5=20000&c6=&c15="}
+{"TAG":"RESPD", "TIME":1431101140.738977, "DSTIP":"129.105.230.8  ", "URL":"http://b.scorecardresearch.com/beacon.js?c1=2&c2=6036034&c3=&c4=http%253A%2F%2Fthedailyshow.cc.com%2Fvideos%2Fsvt15r%2Fbaltimore-on-fire&c5=20000&c6=&c15=", "SIZE":2065}
+{"TAG":"REQ",   "TIME":1431101140.740787, "DSTIP":"129.105.230.8  ", "URL":"http://b.scorecardresearch.com/b?c1=2&c2=6036034&c3=&c4=http%253A%2F%2Fthedailyshow.cc.com%2Fvideos%2Fsvt15r%2Fbaltimore-on-fire&c5=20000&c6=&c10=&c15=&c16=&r=&ns__t=1431101140739&ns_c=UTF-8&c8=Baltimore%20on%20Fire%20-%20The%20Daily%20Show%20-%20Video%20Clip%20%7C%20Comedy%20Central&c7=http%3A%2F%2Fthedailyshow.cc.com%2Fvideos%2Fsvt15r%2Fbaltimore-on-fire&c9="}
+{"TAG":"RESPB", "TIME":1431101140.744876, "DSTIP":"129.105.230.8  ", "URL":"http://b.scorecardresearch.com/b?c1=2&c2=6036034&c3=&c4=http%253A%2F%2Fthedailyshow.cc.com%2Fvideos%2Fsvt15r%2Fbaltimore-on-fire&c5=20000&c6=&c10=&c15=&c16=&r=&ns__t=1431101140739&ns_c=UTF-8&c8=Baltimore%20on%20Fire%20-%20The%20Daily%20Show%20-%20Video%20Clip%20%7C%20Comedy%20Central&c7=http%3A%2F%2Fthedailyshow.cc.com%2Fvideos%2Fsvt15r%2Fbaltimore-on-fire&c9="}
+{"TAG":"RESPD", "TIME":1431101140.744876, "DSTIP":"129.105.230.8  ", "URL":"http://b.scorecardresearch.com/b?c1=2&c2=6036034&c3=&c4=http%253A%2F%2Fthedailyshow.cc.com%2Fvideos%2Fsvt15r%2Fbaltimore-on-fire&c5=20000&c6=&c10=&c15=&c16=&r=&ns__t=1431101140739&ns_c=UTF-8&c8=Baltimore%20on%20Fire%20-%20The%20Daily%20Show%20-%20Video%20Clip%20%7C%20Comedy%20Central&c7=http%3A%2F%2Fthedailyshow.cc.com%2Fvideos%2Fsvt15r%2Fbaltimore-on-fire&c9=", "SIZE":0}
+{"TAG":"REQ",   "TIME":1431101140.746412, "DSTIP":"129.105.230.8  ", "URL":"http://b.scorecardresearch.com/b2?c1=2&c2=6036034&c3=&c4=http%253A%2F%2Fthedailyshow.cc.com%2Fvideos%2Fsvt15r%2Fbaltimore-on-fire&c5=20000&c6=&c10=&c15=&c16=&r=&ns__t=1431101140739&ns_c=UTF-8&c8=Baltimore%20on%20Fire%20-%20The%20Daily%20Show%20-%20Video%20Clip%20%7C%20Comedy%20Central&c7=http%3A%2F%2Fthedailyshow.cc.com%2Fvideos%2Fsvt15r%2Fbaltimore-on-fire&c9="}
+{"TAG":"CONNE", "TIME":1431101140.746659, "DSTIP":"74.119.118.100 ", "DSTPORT":80, "DURATION":0.024666, "SRCPORT":54869}
+{"TAG":"CONNE", "TIME":1431101140.747235, "DSTIP":"72.5.205.25    ", "DSTPORT":80, "DURATION":0.022234, "SRCPORT":54872}
+{"TAG":"REQ",   "TIME":1431101140.747317, "DSTIP":"74.119.118.100 ", "URL":"http://rtax.criteo.com/delivery/rta/rta.js?netId=1513&cookieName=cto_via&rnd=525608758791349800&varName=crtg_content"}
+{"TAG":"CONNE", "TIME":1431101140.747399, "DSTIP":"72.5.205.39    ", "DSTPORT":80, "DURATION":0.021386, "SRCPORT":54873}
+{"TAG":"REQ",   "TIME":1431101140.747867, "DSTIP":"72.5.205.25    ", "URL":"http://pixel.quantserve.com/api/segments.json?a=p-94wNw88f65Rhk&callback=btg.QuantCast.Ads.setCookieDemoTargetVal"}
+{"TAG":"REQ",   "TIME":1431101140.748085, "DSTIP":"72.5.205.39    ", "URL":"http://edge.quantserve.com/quant.js"}
+{"TAG":"RESPB", "TIME":1431101140.750824, "DSTIP":"129.105.230.8  ", "URL":"http://b.scorecardresearch.com/b2?c1=2&c2=6036034&c3=&c4=http%253A%2F%2Fthedailyshow.cc.com%2Fvideos%2Fsvt15r%2Fbaltimore-on-fire&c5=20000&c6=&c10=&c15=&c16=&r=&ns__t=1431101140739&ns_c=UTF-8&c8=Baltimore%20on%20Fire%20-%20The%20Daily%20Show%20-%20Video%20Clip%20%7C%20Comedy%20Central&c7=http%3A%2F%2Fthedailyshow.cc.com%2Fvideos%2Fsvt15r%2Fbaltimore-on-fire&c9="}
+{"TAG":"RESPD", "TIME":1431101140.750824, "DSTIP":"129.105.230.8  ", "URL":"http://b.scorecardresearch.com/b2?c1=2&c2=6036034&c3=&c4=http%253A%2F%2Fthedailyshow.cc.com%2Fvideos%2Fsvt15r%2Fbaltimore-on-fire&c5=20000&c6=&c10=&c15=&c16=&r=&ns__t=1431101140739&ns_c=UTF-8&c8=Baltimore%20on%20Fire%20-%20The%20Daily%20Show%20-%20Video%20Clip%20%7C%20Comedy%20Central&c7=http%3A%2F%2Fthedailyshow.cc.com%2Fvideos%2Fsvt15r%2Fbaltimore-on-fire&c9=", "SIZE":0}
+{"TAG":"CONNE", "TIME":1431101140.757658, "DSTIP":"54.210.99.70   ", "DSTPORT":80, "DURATION":0.023732, "SRCPORT":54874}
+{"TAG":"REQ",   "TIME":1431101140.758356, "DSTIP":"54.210.99.70   ", "URL":"http://mtvn.demdex.net/event?d_stuff=1&d_dst=1&d_rtbd=json&d_cts=1&d_cb=aam_tnt_cb"}
+{"TAG":"RESPB", "TIME":1431101140.762259, "DSTIP":"74.125.225.25  ", "URL":"http://www.googletagservices.com/tag/js/gpt.js"}
+{"TAG":"RESPD", "TIME":1431101140.766257, "DSTIP":"74.125.225.25  ", "URL":"http://www.googletagservices.com/tag/js/gpt.js", "SIZE":48947}
+{"TAG":"RESPB", "TIME":1431101140.770442, "DSTIP":"72.5.205.25    ", "URL":"http://pixel.quantserve.com/api/segments.json?a=p-94wNw88f65Rhk&callback=btg.QuantCast.Ads.setCookieDemoTargetVal"}
+{"TAG":"RESPD", "TIME":1431101140.770442, "DSTIP":"72.5.205.25    ", "URL":"http://pixel.quantserve.com/api/segments.json?a=p-94wNw88f65Rhk&callback=btg.QuantCast.Ads.setCookieDemoTargetVal", "SIZE":69}
+{"TAG":"RESPB", "TIME":1431101140.774756, "DSTIP":"74.119.118.100 ", "URL":"http://rtax.criteo.com/delivery/rta/rta.js?netId=1513&cookieName=cto_via&rnd=525608758791349800&varName=crtg_content"}
+{"TAG":"RESPD", "TIME":1431101140.774756, "DSTIP":"74.119.118.100 ", "URL":"http://rtax.criteo.com/delivery/rta/rta.js?netId=1513&cookieName=cto_via&rnd=525608758791349800&varName=crtg_content", "SIZE":155}
+{"TAG":"REQ",   "TIME":1431101140.775688, "DSTIP":"74.125.225.25  ", "URL":"http://www.googletagservices.com/tag/js/check_359604.js"}
+{"TAG":"RESPB", "TIME":1431101140.780065, "DSTIP":"74.125.225.25  ", "URL":"http://www.googletagservices.com/tag/js/check_359604.js"}
+{"TAG":"RESPD", "TIME":1431101140.780257, "DSTIP":"74.125.225.25  ", "URL":"http://www.googletagservices.com/tag/js/check_359604.js", "SIZE":2945}
+{"TAG":"RESPB", "TIME":1431101140.786247, "DSTIP":"72.5.205.39    ", "URL":"http://edge.quantserve.com/quant.js"}
+{"TAG":"RESPD", "TIME":1431101140.786975, "DSTIP":"72.5.205.39    ", "URL":"http://edge.quantserve.com/quant.js", "SIZE":7874}
+{"TAG":"RESPB", "TIME":1431101140.787015, "DSTIP":"54.210.99.70   ", "URL":"http://mtvn.demdex.net/event?d_stuff=1&d_dst=1&d_rtbd=json&d_cts=1&d_cb=aam_tnt_cb"}
+{"TAG":"RESPD", "TIME":1431101140.787015, "DSTIP":"54.210.99.70   ", "URL":"http://mtvn.demdex.net/event?d_stuff=1&d_dst=1&d_rtbd=json&d_cts=1&d_cb=aam_tnt_cb", "SIZE":0}
+{"TAG":"REQ",   "TIME":1431101140.788681, "DSTIP":"54.210.99.70   ", "URL":"http://mtvn.demdex.net/firstevent?d_stuff=1&d_dst=1&d_rtbd=json&d_cts=1&d_cb=aam_tnt_cb"}
+{"TAG":"RESPB", "TIME":1431101140.813288, "DSTIP":"173.223.251.28 ", "URL":"http://btg.mtvnservices.com/aria/uuid.html?c=3988786155"}
+{"TAG":"RESPD", "TIME":1431101140.813288, "DSTIP":"173.223.251.28 ", "URL":"http://btg.mtvnservices.com/aria/uuid.html?c=3988786155", "SIZE":153}
+{"TAG":"RESPB", "TIME":1431101140.822017, "DSTIP":"54.210.99.70   ", "URL":"http://mtvn.demdex.net/firstevent?d_stuff=1&d_dst=1&d_rtbd=json&d_cts=1&d_cb=aam_tnt_cb"}
+{"TAG":"RESPD", "TIME":1431101140.822694, "DSTIP":"54.210.99.70   ", "URL":"http://mtvn.demdex.net/firstevent?d_stuff=1&d_dst=1&d_rtbd=json&d_cts=1&d_cb=aam_tnt_cb", "SIZE":301}
+{"TAG":"CONNE", "TIME":1431101140.826028, "DSTIP":"173.223.251.28 ", "DSTPORT":80, "DURATION":0.010224, "SRCPORT":54875}
+{"TAG":"REQ",   "TIME":1431101140.826768, "DSTIP":"173.223.251.28 ", "URL":"http://btg.mtvnservices.com/aria/uuid.html?3pc=1"}
+{"TAG":"RESPB", "TIME":1431101140.841655, "DSTIP":"173.223.251.28 ", "URL":"http://btg.mtvnservices.com/aria/uuid.html?3pc=1"}
+{"TAG":"RESPD", "TIME":1431101140.841655, "DSTIP":"173.223.251.28 ", "URL":"http://btg.mtvnservices.com/aria/uuid.html?3pc=1", "SIZE":1289}
+{"TAG":"REQ",   "TIME":1431101140.954733, "DSTIP":"54.210.99.70   ", "URL":"http://mtvn.demdex.net/event?d_rtbd=json&d_dst=1&d_cts=1&d_cb=btg.Demdex.response&c_uuid=a2665c45-505e-b16d-8852-2ef26c8672bf&c_visit=thedailyshow.cc.com_visit"}
+{"TAG":"CONNE", "TIME":1431101140.981351, "DSTIP":"54.209.195.89  ", "DSTPORT":80, "DURATION":0.024071, "SRCPORT":54876}
+{"TAG":"REQ",   "TIME":1431101140.982232, "DSTIP":"54.209.195.89  ", "URL":"http://mtvn.demdex.net/event?d_rtbd=json&d_dst=1&d_cts=1&d_cb=btg.Demdex.response&c_linkName=GUID%20reporting&c_linkType=o&c_lnk=true&c_referrer=http%3A%2F%2Fthedailyshow.cc.com%2Fvideos%2Fsvt15r%2Fbaltimore-on-fire&c_v57=a2665c45-505e-b16d-8852-2ef26c8672bf&c_c6=not%20logged-in&c_c5=non-member&c_visitorNamespace=mtvn&c_host=thedailyshow.cc.com"}
+{"TAG":"RESPB", "TIME":1431101140.990684, "DSTIP":"54.210.99.70   ", "URL":"http://mtvn.demdex.net/event?d_rtbd=json&d_dst=1&d_cts=1&d_cb=btg.Demdex.response&c_uuid=a2665c45-505e-b16d-8852-2ef26c8672bf&c_visit=thedailyshow.cc.com_visit"}
+{"TAG":"RESPD", "TIME":1431101140.991147, "DSTIP":"54.210.99.70   ", "URL":"http://mtvn.demdex.net/event?d_rtbd=json&d_dst=1&d_cts=1&d_cb=btg.Demdex.response&c_uuid=a2665c45-505e-b16d-8852-2ef26c8672bf&c_visit=thedailyshow.cc.com_visit", "SIZE":310}
+{"TAG":"CONNE", "TIME":1431101141.002924, "DSTIP":"74.125.30.104  ", "DSTPORT":443, "DURATION":0.017913, "SRCPORT":54877}
+{"TAG":"RESPB", "TIME":1431101141.017741, "DSTIP":"54.209.195.89  ", "URL":"http://mtvn.demdex.net/event?d_rtbd=json&d_dst=1&d_cts=1&d_cb=btg.Demdex.response&c_linkName=GUID%20reporting&c_linkType=o&c_lnk=true&c_referrer=http%3A%2F%2Fthedailyshow.cc.com%2Fvideos%2Fsvt15r%2Fbaltimore-on-fire&c_v57=a2665c45-505e-b16d-8852-2ef26c8672bf&c_c6=not%20logged-in&c_c5=non-member&c_visitorNamespace=mtvn&c_host=thedailyshow.cc.com"}
+{"TAG":"RESPD", "TIME":1431101141.018017, "DSTIP":"54.209.195.89  ", "URL":"http://mtvn.demdex.net/event?d_rtbd=json&d_dst=1&d_cts=1&d_cb=btg.Demdex.response&c_linkName=GUID%20reporting&c_linkType=o&c_lnk=true&c_referrer=http%3A%2F%2Fthedailyshow.cc.com%2Fvideos%2Fsvt15r%2Fbaltimore-on-fire&c_v57=a2665c45-505e-b16d-8852-2ef26c8672bf&c_c6=not%20logged-in&c_c5=non-member&c_visitorNamespace=mtvn&c_host=thedailyshow.cc.com", "SIZE":333}
+{"TAG":"REQ",   "TIME":1431101141.053715, "DSTIP":"74.125.30.104  ", "URL":"https://www.google.com"}
+{"TAG":"CONNE", "TIME":1431101141.156692, "DSTIP":"74.125.225.23  ", "DSTPORT":443, "DURATION":0.002868, "SRCPORT":54878}
+{"TAG":"REQ",   "TIME":1431101141.180517, "DSTIP":"74.125.225.23  ", "URL":"https://ssl.gstatic.com"}
+{"TAG":"CONNE", "TIME":1431101141.507714, "DSTIP":"74.125.225.9   ", "DSTPORT":443, "DURATION":0.003009, "SRCPORT":54879}
+{"TAG":"REQ",   "TIME":1431101141.527561, "DSTIP":"74.125.225.9   ", "URL":"https://www.youtube.com"}
+{"TAG":"CONNE", "TIME":1431101141.566925, "DSTIP":"74.125.225.0   ", "DSTPORT":443, "DURATION":0.002907, "SRCPORT":54880}
+{"TAG":"REQ",   "TIME":1431101141.588804, "DSTIP":"74.125.225.0   ", "URL":"https://s.ytimg.com"}
+{"TAG":"CONNE", "TIME":1431101141.711455, "DSTIP":"98.137.201.252 ", "DSTPORT":443, "DURATION":0.016957, "SRCPORT":54881}
+{"TAG":"REQ",   "TIME":1431101141.759025, "DSTIP":"98.137.201.252 ", "URL":"https://search.yahoo.com"}
+{"TAG":"CONNE", "TIME":1431101141.904213, "DSTIP":"104.130.214.108", "DSTPORT":80, "DURATION":0.004626, "SRCPORT":54882}
+{"TAG":"REQ",   "TIME":1431101141.905597, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/"}
+{"TAG":"RESPB", "TIME":1431101141.988283, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/"}
+{"TAG":"RESPD", "TIME":1431101141.994765, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/", "SIZE":20766}
+{"TAG":"REQ",   "TIME":1431101142.001725, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/js/matchMedia/matchMedia.addListener.js"}
+{"TAG":"RESPB", "TIME":1431101142.008190, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/js/matchMedia/matchMedia.addListener.js"}
+{"TAG":"RESPD", "TIME":1431101142.008628, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/js/matchMedia/matchMedia.addListener.js", "SIZE":2815}
+{"TAG":"CONNE", "TIME":1431101142.008629, "DSTIP":"104.130.214.108", "DSTPORT":80, "DURATION":0.004783, "SRCPORT":54884}
+{"TAG":"REQ",   "TIME":1431101142.008875, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/css/app/home.css"}
+{"TAG":"CONNE", "TIME":1431101142.009116, "DSTIP":"104.130.214.108", "DSTPORT":80, "DURATION":0.004701, "SRCPORT":54887}
+{"TAG":"REQ",   "TIME":1431101142.009646, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/css/global.css"}
+{"TAG":"CONNE", "TIME":1431101142.009679, "DSTIP":"104.130.214.108", "DSTPORT":80, "DURATION":0.005696, "SRCPORT":54885}
+{"TAG":"CONNE", "TIME":1431101142.009681, "DSTIP":"104.130.214.108", "DSTPORT":80, "DURATION":0.005834, "SRCPORT":54883}
+{"TAG":"CONNE", "TIME":1431101142.009904, "DSTIP":"104.130.214.108", "DSTPORT":80, "DURATION":0.005389, "SRCPORT":54888}
+{"TAG":"REQ",   "TIME":1431101142.009973, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/css/bootstrap.min.css"}
+{"TAG":"REQ",   "TIME":1431101142.010436, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/js/jquery.js"}
+{"TAG":"REQ",   "TIME":1431101142.010671, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/css/font-awesome.min.css"}
+{"TAG":"REQ",   "TIME":1431101142.010793, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/js/matchMedia/matchMedia.js"}
+{"TAG":"RESPB", "TIME":1431101142.015333, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/css/app/home.css"}
+{"TAG":"RESPD", "TIME":1431101142.015825, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/css/app/home.css", "SIZE":2638}
+{"TAG":"REQ",   "TIME":1431101142.016325, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/css/slick/slick.css"}
+{"TAG":"CONNE", "TIME":1431101142.017332, "DSTIP":"74.125.193.95  ", "DSTPORT":80, "DURATION":0.012918, "SRCPORT":54886}
+{"TAG":"RESPB", "TIME":1431101142.018474, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/js/matchMedia/matchMedia.js"}
+{"TAG":"REQ",   "TIME":1431101142.018499, "DSTIP":"74.125.193.95  ", "URL":"http://fonts.googleapis.com/css?family=Amatic+SC:400,700"}
+{"TAG":"RESPD", "TIME":1431101142.018686, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/js/matchMedia/matchMedia.js", "SIZE":1698}
+{"TAG":"REQ",   "TIME":1431101142.019125, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/gallery/css/gallery_items.css"}
+{"TAG":"RESPB", "TIME":1431101142.020267, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/css/font-awesome.min.css"}
+{"TAG":"RESPB", "TIME":1431101142.021831, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/css/global.css"}
+{"TAG":"RESPD", "TIME":1431101142.022231, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/css/global.css", "SIZE":7292}
+{"TAG":"RESPB", "TIME":1431101142.022328, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/css/bootstrap.min.css"}
+{"TAG":"REQ",   "TIME":1431101142.022449, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/css/responsive.css"}
+{"TAG":"RESPB", "TIME":1431101142.023730, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/css/slick/slick.css"}
+{"TAG":"RESPD", "TIME":1431101142.024609, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/css/slick/slick.css", "SIZE":3546}
+{"TAG":"REQ",   "TIME":1431101142.024802, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/js/global.js"}
+{"TAG":"RESPB", "TIME":1431101142.024974, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/js/jquery.js"}
+{"TAG":"RESPB", "TIME":1431101142.025878, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/gallery/css/gallery_items.css"}
+{"TAG":"RESPD", "TIME":1431101142.025878, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/gallery/css/gallery_items.css", "SIZE":873}
+{"TAG":"REQ",   "TIME":1431101142.026125, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/js/nav.js"}
+{"TAG":"RESPD", "TIME":1431101142.028418, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/css/font-awesome.min.css", "SIZE":17780}
+{"TAG":"REQ",   "TIME":1431101142.028654, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/js/bootstrap.js"}
+{"TAG":"RESPB", "TIME":1431101142.032230, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/js/global.js"}
+{"TAG":"RESPD", "TIME":1431101142.032230, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/js/global.js", "SIZE":662}
+{"TAG":"REQ",   "TIME":1431101142.032978, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/js/swfobject.js"}
+{"TAG":"RESPB", "TIME":1431101142.033067, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/css/responsive.css"}
+{"TAG":"RESPD", "TIME":1431101142.034525, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/css/responsive.css", "SIZE":9169}
+{"TAG":"REQ",   "TIME":1431101142.034761, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/js/homepage.js"}
+{"TAG":"RESPB", "TIME":1431101142.036204, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/js/nav.js"}
+{"TAG":"RESPD", "TIME":1431101142.036256, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/js/nav.js", "SIZE":1929}
+{"TAG":"REQ",   "TIME":1431101142.036594, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/js/slick/slick.min.js"}
+{"TAG":"RESPB", "TIME":1431101142.037057, "DSTIP":"74.125.193.95  ", "URL":"http://fonts.googleapis.com/css?family=Amatic+SC:400,700"}
+{"TAG":"RESPD", "TIME":1431101142.037059, "DSTIP":"74.125.193.95  ", "URL":"http://fonts.googleapis.com/css?family=Amatic+SC:400,700", "SIZE":512}
+{"TAG":"RESPB", "TIME":1431101142.038956, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/js/bootstrap.js"}
+{"TAG":"RESPB", "TIME":1431101142.047686, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/js/homepage.js"}
+{"TAG":"RESPD", "TIME":1431101142.047687, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/js/homepage.js", "SIZE":1409}
+{"TAG":"REQ",   "TIME":1431101142.049310, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/gallery/js/jquery.budegallery.js"}
+{"TAG":"RESPB", "TIME":1431101142.049928, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/js/swfobject.js"}
+{"TAG":"RESPD", "TIME":1431101142.050496, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/js/swfobject.js", "SIZE":9759}
+{"TAG":"RESPB", "TIME":1431101142.050594, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/js/slick/slick.min.js"}
+{"TAG":"REQ",   "TIME":1431101142.051754, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/js/debug.js"}
+{"TAG":"RESPD", "TIME":1431101142.059158, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/css/bootstrap.min.css", "SIZE":100488}
+{"TAG":"RESPD", "TIME":1431101142.063334, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/js/bootstrap.js", "SIZE":55258}
+{"TAG":"RESPD", "TIME":1431101142.065684, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/js/slick/slick.min.js", "SIZE":24047}
+{"TAG":"RESPB", "TIME":1431101142.065980, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/gallery/js/jquery.budegallery.js"}
+{"TAG":"RESPD", "TIME":1431101142.066832, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/gallery/js/jquery.budegallery.js", "SIZE":6588}
+{"TAG":"RESPB", "TIME":1431101142.066885, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/js/debug.js"}
+{"TAG":"RESPD", "TIME":1431101142.066885, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/js/debug.js", "SIZE":509}
+{"TAG":"RESPD", "TIME":1431101142.070490, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/js/jquery.js", "SIZE":95785}
+{"TAG":"REQ",   "TIME":1431101142.145758, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/img/header_order_online.png"}
+{"TAG":"REQ",   "TIME":1431101142.146485, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/img/bg_repeat.jpg"}
+{"TAG":"REQ",   "TIME":1431101142.146687, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/img/header_logo.png"}
+{"TAG":"REQ",   "TIME":1431101142.146861, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/media/image/Gallery.GalleryItem/970x388/10_1"}
+{"TAG":"REQ",   "TIME":1431101142.147039, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/media/image/Gallery.GalleryItem/970x388/5_1"}
+{"TAG":"REQ",   "TIME":1431101142.147197, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/media/image/Gallery.GalleryItem/970x388/6_1"}
+{"TAG":"RESPB", "TIME":1431101142.152676, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/img/bg_repeat.jpg"}
+{"TAG":"RESPD", "TIME":1431101142.152954, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/img/bg_repeat.jpg", "SIZE":2210}
+{"TAG":"REQ",   "TIME":1431101142.153358, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/media/image/Gallery.GalleryItem/970x388/8_1"}
+{"TAG":"CONNE", "TIME":1431101142.154347, "DSTIP":"74.125.225.23  ", "DSTPORT":80, "DURATION":0.003027, "SRCPORT":54890}
+{"TAG":"CONNE", "TIME":1431101142.154885, "DSTIP":"74.125.225.23  ", "DSTPORT":80, "DURATION":0.003563, "SRCPORT":54889}
+{"TAG":"REQ",   "TIME":1431101142.155028, "DSTIP":"74.125.225.23  ", "URL":"http://fonts.gstatic.com/s/amaticsc/v6/DPPfSFKxRTXvae2bKDzp5CZ2oysoEQEeKwjgmXLRnTc.ttf"}
+{"TAG":"CONNE", "TIME":1431101142.155446, "DSTIP":"31.13.74.10    ", "DSTPORT":443, "DURATION":0.003012, "SRCPORT":54891}
+{"TAG":"REQ",   "TIME":1431101142.155454, "DSTIP":"74.125.225.23  ", "URL":"http://fonts.gstatic.com/s/amaticsc/v6/IDnkRTPGcrSVo50UyYNK75S3E-kSBmtLoNJPDtbj2Pk.ttf"}
+{"TAG":"CONNE", "TIME":1431101142.157309, "DSTIP":"74.125.225.9   ", "DSTPORT":80, "DURATION":0.003125, "SRCPORT":54892}
+{"TAG":"REQ",   "TIME":1431101142.158034, "DSTIP":"74.125.225.9   ", "URL":"http://www.google-analytics.com/ga.js"}
+{"TAG":"RESPB", "TIME":1431101142.159802, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/img/header_order_online.png"}
+{"TAG":"REQ",   "TIME":1431101142.160476, "DSTIP":"31.13.74.10    ", "URL":"https://scontent.cdninstagram.com"}
+{"TAG":"RESPB", "TIME":1431101142.161614, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/img/header_logo.png"}
+{"TAG":"RESPD", "TIME":1431101142.163924, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/img/header_logo.png", "SIZE":34156}
+{"TAG":"REQ",   "TIME":1431101142.164585, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/media/image/Gallery.GalleryItem/970x388/9_1"}
+{"TAG":"RESPB", "TIME":1431101142.165370, "DSTIP":"74.125.225.23  ", "URL":"http://fonts.gstatic.com/s/amaticsc/v6/DPPfSFKxRTXvae2bKDzp5CZ2oysoEQEeKwjgmXLRnTc.ttf"}
+{"TAG":"RESPB", "TIME":1431101142.166287, "DSTIP":"74.125.225.23  ", "URL":"http://fonts.gstatic.com/s/amaticsc/v6/IDnkRTPGcrSVo50UyYNK75S3E-kSBmtLoNJPDtbj2Pk.ttf"}
+{"TAG":"RESPD", "TIME":1431101142.170255, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/img/header_order_online.png", "SIZE":27794}
+{"TAG":"REQ",   "TIME":1431101142.170836, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/img/instagram_logo.png"}
+{"TAG":"RESPB", "TIME":1431101142.171633, "DSTIP":"74.125.225.9   ", "URL":"http://www.google-analytics.com/ga.js"}
+{"TAG":"CONNE", "TIME":1431101142.174199, "DSTIP":"31.13.74.10    ", "DSTPORT":443, "DURATION":0.008113, "SRCPORT":54893}
+{"TAG":"CONNE", "TIME":1431101142.174201, "DSTIP":"31.13.74.10    ", "DSTPORT":443, "DURATION":0.007820, "SRCPORT":54896}
+{"TAG":"CONNE", "TIME":1431101142.174202, "DSTIP":"31.13.74.10    ", "DSTPORT":443, "DURATION":0.007902, "SRCPORT":54895}
+{"TAG":"CONNE", "TIME":1431101142.174221, "DSTIP":"31.13.74.10    ", "DSTPORT":443, "DURATION":0.007920, "SRCPORT":54894}
+{"TAG":"CONNE", "TIME":1431101142.174222, "DSTIP":"31.13.74.10    ", "DSTPORT":443, "DURATION":0.007745, "SRCPORT":54897}
+{"TAG":"RESPD", "TIME":1431101142.175946, "DSTIP":"74.125.225.23  ", "URL":"http://fonts.gstatic.com/s/amaticsc/v6/IDnkRTPGcrSVo50UyYNK75S3E-kSBmtLoNJPDtbj2Pk.ttf", "SIZE":27472}
+{"TAG":"RESPD", "TIME":1431101142.176464, "DSTIP":"74.125.225.23  ", "URL":"http://fonts.gstatic.com/s/amaticsc/v6/DPPfSFKxRTXvae2bKDzp5CZ2oysoEQEeKwjgmXLRnTc.ttf", "SIZE":28716}
+{"TAG":"RESPD", "TIME":1431101142.177477, "DSTIP":"74.125.225.9   ", "URL":"http://www.google-analytics.com/ga.js", "SIZE":40948}
+{"TAG":"RESPB", "TIME":1431101142.178265, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/img/instagram_logo.png"}
+{"TAG":"RESPD", "TIME":1431101142.179294, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/img/instagram_logo.png", "SIZE":2587}
+{"TAG":"REQ",   "TIME":1431101142.179553, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/img/social_logo_instagram.png"}
+{"TAG":"REQ",   "TIME":1431101142.183474, "DSTIP":"31.13.74.10    ", "URL":"https://scontent.cdninstagram.com"}
+{"TAG":"REQ",   "TIME":1431101142.184900, "DSTIP":"31.13.74.10    ", "URL":"https://scontent.cdninstagram.com"}
+{"TAG":"REQ",   "TIME":1431101142.185075, "DSTIP":"31.13.74.10    ", "URL":"https://scontent.cdninstagram.com"}
+{"TAG":"REQ",   "TIME":1431101142.185209, "DSTIP":"31.13.74.10    ", "URL":"https://scontent.cdninstagram.com"}
+{"TAG":"REQ",   "TIME":1431101142.185419, "DSTIP":"31.13.74.10    ", "URL":"https://scontent.cdninstagram.com"}
+{"TAG":"RESPB", "TIME":1431101142.190238, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/img/social_logo_instagram.png"}
+{"TAG":"RESPD", "TIME":1431101142.190282, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/img/social_logo_instagram.png", "SIZE":1587}
+{"TAG":"REQ",   "TIME":1431101142.192265, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/img/social_logo_facebook.png"}
+{"TAG":"RESPB", "TIME":1431101142.216513, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/img/social_logo_facebook.png"}
+{"TAG":"RESPD", "TIME":1431101142.216532, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/img/social_logo_facebook.png", "SIZE":1428}
+{"TAG":"REQ",   "TIME":1431101142.216879, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/img/social_logo_twitter.png"}
+{"TAG":"RESPB", "TIME":1431101142.238593, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/img/social_logo_twitter.png"}
+{"TAG":"RESPD", "TIME":1431101142.238627, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/img/social_logo_twitter.png", "SIZE":1559}
+{"TAG":"REQ",   "TIME":1431101142.238911, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/img/nav_wavy_line.png"}
+{"TAG":"RESPB", "TIME":1431101142.256040, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/img/nav_wavy_line.png"}
+{"TAG":"RESPD", "TIME":1431101142.256187, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/img/nav_wavy_line.png", "SIZE":2888}
+{"TAG":"REQ",   "TIME":1431101142.256501, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/css/slick/fonts/slick.woff"}
+{"TAG":"RESPB", "TIME":1431101142.275215, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/css/slick/fonts/slick.woff"}
+{"TAG":"RESPD", "TIME":1431101142.275245, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/css/slick/fonts/slick.woff", "SIZE":1380}
+{"TAG":"REQ",   "TIME":1431101142.275589, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/img/orange_bg.jpg"}
+{"TAG":"RESPB", "TIME":1431101142.283391, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/img/orange_bg.jpg"}
+{"TAG":"RESPD", "TIME":1431101142.284256, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/img/orange_bg.jpg", "SIZE":5136}
+{"TAG":"REQ",   "TIME":1431101142.284929, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/media/image/HomepageUpdate/315x320/18_1"}
+{"TAG":"RESPB", "TIME":1431101142.293353, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/media/image/HomepageUpdate/315x320/18_1"}
+{"TAG":"RESPD", "TIME":1431101142.301779, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/media/image/HomepageUpdate/315x320/18_1", "SIZE":59059}
+{"TAG":"REQ",   "TIME":1431101142.302274, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/img/gallery_arrow_left.png"}
+{"TAG":"RESPB", "TIME":1431101142.308843, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/img/gallery_arrow_left.png"}
+{"TAG":"RESPD", "TIME":1431101142.309089, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/img/gallery_arrow_left.png", "SIZE":2229}
+{"TAG":"REQ",   "TIME":1431101142.309561, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/img/gallery_arrow_right.png"}
+{"TAG":"RESPB", "TIME":1431101142.315547, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/img/gallery_arrow_right.png"}
+{"TAG":"RESPD", "TIME":1431101142.315742, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/img/gallery_arrow_right.png", "SIZE":2145}
+{"TAG":"REQ",   "TIME":1431101142.316461, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/css/slick/ajax-loader.gif"}
+{"TAG":"RESPB", "TIME":1431101142.322486, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/css/slick/ajax-loader.gif"}
+{"TAG":"RESPD", "TIME":1431101142.323081, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/css/slick/ajax-loader.gif", "SIZE":4178}
+{"TAG":"REQ",   "TIME":1431101142.323356, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/img/gallery_nav_btn.png"}
+{"TAG":"RESPB", "TIME":1431101142.329097, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/img/gallery_nav_btn.png"}
+{"TAG":"RESPD", "TIME":1431101142.329201, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/img/gallery_nav_btn.png", "SIZE":1498}
+{"TAG":"RESPB", "TIME":1431101142.939262, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/media/image/Gallery.GalleryItem/970x388/6_1"}
+{"TAG":"RESPB", "TIME":1431101142.940830, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/media/image/Gallery.GalleryItem/970x388/10_1"}
+{"TAG":"RESPB", "TIME":1431101142.941747, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/media/image/Gallery.GalleryItem/970x388/8_1"}
+{"TAG":"RESPB", "TIME":1431101142.942657, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/media/image/Gallery.GalleryItem/970x388/5_1"}
+{"TAG":"RESPD", "TIME":1431101142.987919, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/media/image/Gallery.GalleryItem/970x388/8_1", "SIZE":61381}
+{"TAG":"RESPD", "TIME":1431101142.988109, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/media/image/Gallery.GalleryItem/970x388/6_1", "SIZE":115136}
+{"TAG":"RESPD", "TIME":1431101142.994775, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/media/image/Gallery.GalleryItem/970x388/10_1", "SIZE":122606}
+{"TAG":"RESPD", "TIME":1431101143.012244, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/media/image/Gallery.GalleryItem/970x388/5_1", "SIZE":233234}
+{"TAG":"RESPB", "TIME":1431101143.020249, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/media/image/Gallery.GalleryItem/970x388/9_1"}
+{"TAG":"RESPD", "TIME":1431101143.063263, "DSTIP":"104.130.214.108", "URL":"http://www.blazepizza.com/media/image/Gallery.GalleryItem/970x388/9_1", "SIZE":189637}
+{"TAG":"CONNE", "TIME":1431101145.989298, "DSTIP":"173.194.46.105 ", "DSTPORT":443, "DURATION":0.003071, "SRCPORT":54898}
+{"TAG":"REQ",   "TIME":1431101146.003427, "DSTIP":"173.194.46.105 ", "URL":"https://safebrowsing.google.com"}
+{"TAG":"CONNE", "TIME":1431101146.005048, "DSTIP":"74.125.225.4   ", "DSTPORT":80, "DURATION":0.004099, "SRCPORT":54899}
+{"TAG":"REQ",   "TIME":1431101146.005183, "DSTIP":"74.125.225.4   ", "URL":"http://clients1.google.com/ocsp"}
+{"TAG":"RESPB", "TIME":1431101146.030325, "DSTIP":"74.125.225.4   ", "URL":"http://clients1.google.com/ocsp"}
+{"TAG":"RESPD", "TIME":1431101146.030325, "DSTIP":"74.125.225.4   ", "URL":"http://clients1.google.com/ocsp", "SIZE":463}
+{"TAG":"CONNE", "TIME":1431101146.133483, "DSTIP":"74.125.225.4   ", "DSTPORT":443, "DURATION":0.002859, "SRCPORT":54900}
+{"TAG":"REQ",   "TIME":1431101146.146314, "DSTIP":"74.125.225.4   ", "URL":"https://safebrowsing-cache.google.com"}
+{"TAG":"CONNE", "TIME":1431101146.178061, "DSTIP":"54.230.35.25   ", "DSTPORT":80, "DURATION":0.008019, "SRCPORT":54901}
+{"TAG":"CONNE", "TIME":1431101146.540511, "DSTIP":"54.230.35.25   ", "DSTPORT":443, "DURATION":0.012309, "SRCPORT":54902}
+{"TAG":"CONNE", "TIME":1431101146.564210, "DSTIP":"72.21.91.29    ", "DSTPORT":80, "DURATION":0.002832, "SRCPORT":54903}
+{"TAG":"REQ",   "TIME":1431101146.564446, "DSTIP":"72.21.91.29    ", "URL":"http://ocsp.digicert.com/"}
+{"TAG":"RESPB", "TIME":1431101146.568546, "DSTIP":"72.21.91.29    ", "URL":"http://ocsp.digicert.com/"}
+{"TAG":"RESPD", "TIME":1431101146.568546, "DSTIP":"72.21.91.29    ", "URL":"http://ocsp.digicert.com/", "SIZE":471}
+{"TAG":"REQ",   "TIME":1431101146.571183, "DSTIP":"54.230.35.25   ", "URL":"https://self-repair.mozilla.org"}
+{"TAG":"CONNE", "TIME":1431101148.044683, "DSTIP":"129.105.230.8  ", "DSTPORT":80, "DURATION":0.002871, "SRCPORT":54904}
+{"TAG":"REQ",   "TIME":1431101148.045056, "DSTIP":"129.105.230.8  ", "URL":"http://www.wsj.com/"}
+{"TAG":"RESPB", "TIME":1431101148.181047, "DSTIP":"129.105.230.8  ", "URL":"http://www.wsj.com/"}
+{"TAG":"CONNE", "TIME":1431101148.219914, "DSTIP":"129.105.230.7  ", "DSTPORT":80, "DURATION":0.004802, "SRCPORT":54905}
+{"TAG":"CONNE", "TIME":1431101148.220020, "DSTIP":"129.105.230.8  ", "DSTPORT":80, "DURATION":0.004470, "SRCPORT":54906}
+{"TAG":"RESPD", "TIME":1431101148.240310, "DSTIP":"129.105.230.8  ", "URL":"http://www.wsj.com/", "SIZE":829282}
+{"TAG":"CONNE", "TIME":1431101148.244514, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.003312, "SRCPORT":54908}
+{"TAG":"CONNE", "TIME":1431101148.244656, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.003641, "SRCPORT":54907}
+{"TAG":"CONNE", "TIME":1431101148.264377, "DSTIP":"129.105.230.8  ", "DSTPORT":80, "DURATION":0.002248, "SRCPORT":54909}
+{"TAG":"CONNE", "TIME":1431101148.435439, "DSTIP":"129.105.230.8  ", "DSTPORT":80, "DURATION":0.002218, "SRCPORT":54910}
+{"TAG":"CONNE", "TIME":1431101148.443451, "DSTIP":"129.105.230.8  ", "DSTPORT":80, "DURATION":0.002291, "SRCPORT":54911}
+{"TAG":"CONNE", "TIME":1431101148.443974, "DSTIP":"129.105.230.8  ", "DSTPORT":80, "DURATION":0.002734, "SRCPORT":54912}
+{"TAG":"CONNE", "TIME":1431101149.080712, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.002763, "SRCPORT":54913}
+{"TAG":"CONNE", "TIME":1431101149.085510, "DSTIP":"74.125.225.13  ", "DSTPORT":80, "DURATION":0.002603, "SRCPORT":54914}
+{"TAG":"REQ",   "TIME":1431101149.237611, "DSTIP":"129.105.230.9  ", "URL":"http://api.wsj.net/api/dylan/quotes/v2/comp/quoteByDialect?needed=Trading%7CBlueGrassChannels%7CMeta%7CTimeZoneInfo&id=343338&dialect=djid&maxInstrumentMatches=1&ckey=57494d5ed7&EntitlementToken=57494d5ed7ad44af85bc59a51dd87c90&accept=application%2Fjson"}
+{"TAG":"RESPB", "TIME":1431101149.247162, "DSTIP":"129.105.230.9  ", "URL":"http://api.wsj.net/api/dylan/quotes/v2/comp/quoteByDialect?needed=Trading%7CBlueGrassChannels%7CMeta%7CTimeZoneInfo&id=343338&dialect=djid&maxInstrumentMatches=1&ckey=57494d5ed7&EntitlementToken=57494d5ed7ad44af85bc59a51dd87c90&accept=application%2Fjson"}
+{"TAG":"RESPD", "TIME":1431101149.247249, "DSTIP":"129.105.230.9  ", "URL":"http://api.wsj.net/api/dylan/quotes/v2/comp/quoteByDialect?needed=Trading%7CBlueGrassChannels%7CMeta%7CTimeZoneInfo&id=343338&dialect=djid&maxInstrumentMatches=1&ckey=57494d5ed7&EntitlementToken=57494d5ed7ad44af85bc59a51dd87c90&accept=application%2Fjson", "SIZE":2746}
+{"TAG":"CONNE", "TIME":1431101149.402267, "DSTIP":"165.254.155.190", "DSTPORT":443, "DURATION":0.015205, "SRCPORT":54915}
+{"TAG":"REQ",   "TIME":1431101149.420932, "DSTIP":"165.254.155.190", "URL":"https://a248.e.akamai.net"}
+{"TAG":"REQ",   "TIME":1431101149.482461, "DSTIP":"129.105.230.9  ", "URL":"http://api.wsj.net/api/michelangelo/timeseries/history?hash=-422813976&ckey=57494d5ed7"}
+{"TAG":"CONNE", "TIME":1431101149.486647, "DSTIP":"74.125.225.13  ", "DSTPORT":80, "DURATION":0.003778, "SRCPORT":54917}
+{"TAG":"CONNE", "TIME":1431101149.486951, "DSTIP":"74.125.225.13  ", "DSTPORT":80, "DURATION":0.004009, "SRCPORT":54918}
+{"TAG":"CONNE", "TIME":1431101149.490029, "DSTIP":"74.125.225.10  ", "DSTPORT":80, "DURATION":0.006999, "SRCPORT":54919}
+{"TAG":"CONNE", "TIME":1431101149.506202, "DSTIP":"205.203.132.210", "DSTPORT":80, "DURATION":0.023359, "SRCPORT":54916}
+{"TAG":"REQ",   "TIME":1431101149.506413, "DSTIP":"205.203.132.210", "URL":"http://wsjstream.wsj.net/bg/api/connect.ashx?_=1431101149431"}
+{"TAG":"CONNE", "TIME":1431101149.510892, "DSTIP":"205.203.132.210", "DSTPORT":80, "DURATION":0.023499, "SRCPORT":54920}
+{"TAG":"RESPB", "TIME":1431101149.515018, "DSTIP":"129.105.230.9  ", "URL":"http://api.wsj.net/api/michelangelo/timeseries/history?hash=-422813976&ckey=57494d5ed7"}
+{"TAG":"RESPD", "TIME":1431101149.515018, "DSTIP":"129.105.230.9  ", "URL":"http://api.wsj.net/api/michelangelo/timeseries/history?hash=-422813976&ckey=57494d5ed7", "SIZE":0}
+{"TAG":"RESPB", "TIME":1431101149.549544, "DSTIP":"205.203.132.210", "URL":"http://wsjstream.wsj.net/bg/api/connect.ashx?_=1431101149431"}
+{"TAG":"RESPD", "TIME":1431101149.549544, "DSTIP":"205.203.132.210", "URL":"http://wsjstream.wsj.net/bg/api/connect.ashx?_=1431101149431", "SIZE":227}
+{"TAG":"CONNE", "TIME":1431101149.609381, "DSTIP":"74.125.225.26  ", "DSTPORT":443, "DURATION":0.003030, "SRCPORT":54921}
+{"TAG":"REQ",   "TIME":1431101149.618710, "DSTIP":"129.105.230.9  ", "URL":"http://api.wsj.net/api/michelangelo/timeseries/history?hash=-422813976&ckey=57494d5ed7"}
+{"TAG":"REQ",   "TIME":1431101149.621469, "DSTIP":"74.125.225.26  ", "URL":"https://securepubads.g.doubleclick.net"}
+{"TAG":"REQ",   "TIME":1431101149.629775, "DSTIP":"74.125.225.4   ", "URL":"http://clients1.google.com/ocsp"}
+{"TAG":"RESPB", "TIME":1431101149.654123, "DSTIP":"74.125.225.4   ", "URL":"http://clients1.google.com/ocsp"}
+{"TAG":"RESPD", "TIME":1431101149.654123, "DSTIP":"74.125.225.4   ", "URL":"http://clients1.google.com/ocsp", "SIZE":463}
+{"TAG":"RESPB", "TIME":1431101149.669809, "DSTIP":"129.105.230.9  ", "URL":"http://api.wsj.net/api/michelangelo/timeseries/history?hash=-422813976&ckey=57494d5ed7"}
+{"TAG":"RESPD", "TIME":1431101149.670319, "DSTIP":"129.105.230.9  ", "URL":"http://api.wsj.net/api/michelangelo/timeseries/history?hash=-422813976&ckey=57494d5ed7", "SIZE":10155}
+{"TAG":"CONNE", "TIME":1431101149.881386, "DSTIP":"74.125.225.10  ", "DSTPORT":443, "DURATION":0.002834, "SRCPORT":54922}
+{"TAG":"CONNE", "TIME":1431101149.885558, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.002170, "SRCPORT":54924}
+{"TAG":"REQ",   "TIME":1431101149.891033, "DSTIP":"205.203.132.210", "URL":"http://wsjstream.wsj.net/bg/api/Pickup.ashx?c={%22c%22:%22a50ae1f94aa541ff969e85a518b97936%22,%22s%22:%2210.241.40.120%22}&m=[{%22h%22:{%22t%22:%22/quotes/zigman/627449/realtime%22,%22a%22:%22subscribe%22},%22b%22:{%22sequence%22:%22%22,%22number%22:%220%22}},{%22h%22:{%22t%22:%22/quotes/zigman/12633936/realtime%22,%22a%22:%22subscribe%22},%22b%22:{%22sequence%22:%22%22,%22number%22:%220%22}},{%22h%22:{%22t%22:%22/quotes/zigman/15866666/realtime%22,%22a%22:%22subscribe%22},%22b%22:{%22sequence%22:%22%22,%22number%22:%220%22}},{%22h%22:{%22t%22:%22/quotes/zigman/2237091/delayed%22,%22a%22:%22subscribe%22},%22b%22:{%22sequence%22:%22%22,%22number%22:%220%22}},{%22h%22:{%22t%22:%22/quotes/zigman/16008136/realtime/sampled%22,%22a%22:%22subscribe%22},%22b%22:{%22sequence%22:%22%22,%22number%22:%220%22}}]&_=1431101149888"}
+{"TAG":"REQ",   "TIME":1431101149.894398, "DSTIP":"74.125.225.10  ", "URL":"https://tpc.googlesyndication.com"}
+{"TAG":"CONNE", "TIME":1431101149.916132, "DSTIP":"23.235.44.249  ", "DSTPORT":80, "DURATION":0.034733, "SRCPORT":54923}
+{"TAG":"RESPB", "TIME":1431101149.917938, "DSTIP":"205.203.132.210", "URL":"http://wsjstream.wsj.net/bg/api/Pickup.ashx?c={%22c%22:%22a50ae1f94aa541ff969e85a518b97936%22,%22s%22:%2210.241.40.120%22}&m=[{%22h%22:{%22t%22:%22/quotes/zigman/627449/realtime%22,%22a%22:%22subscribe%22},%22b%22:{%22sequence%22:%22%22,%22number%22:%220%22}},{%22h%22:{%22t%22:%22/quotes/zigman/12633936/realtime%22,%22a%22:%22subscribe%22},%22b%22:{%22sequence%22:%22%22,%22number%22:%220%22}},{%22h%22:{%22t%22:%22/quotes/zigman/15866666/realtime%22,%22a%22:%22subscribe%22},%22b%22:{%22sequence%22:%22%22,%22number%22:%220%22}},{%22h%22:{%22t%22:%22/quotes/zigman/2237091/delayed%22,%22a%22:%22subscribe%22},%22b%22:{%22sequence%22:%22%22,%22number%22:%220%22}},{%22h%22:{%22t%22:%22/quotes/zigman/16008136/realtime/sampled%22,%22a%22:%22subscribe%22},%22b%22:{%22sequence%22:%22%22,%22number%22:%220%22}}]&_=1431101149888"}
+{"TAG":"RESPD", "TIME":1431101149.917938, "DSTIP":"205.203.132.210", "URL":"http://wsjstream.wsj.net/bg/api/Pickup.ashx?c={%22c%22:%22a50ae1f94aa541ff969e85a518b97936%22,%22s%22:%2210.241.40.120%22}&m=[{%22h%22:{%22t%22:%22/quotes/zigman/627449/realtime%22,%22a%22:%22subscribe%22},%22b%22:{%22sequence%22:%22%22,%22number%22:%220%22}},{%22h%22:{%22t%22:%22/quotes/zigman/12633936/realtime%22,%22a%22:%22subscribe%22},%22b%22:{%22sequence%22:%22%22,%22number%22:%220%22}},{%22h%22:{%22t%22:%22/quotes/zigman/15866666/realtime%22,%22a%22:%22subscribe%22},%22b%22:{%22sequence%22:%22%22,%22number%22:%220%22}},{%22h%22:{%22t%22:%22/quotes/zigman/2237091/delayed%22,%22a%22:%22subscribe%22},%22b%22:{%22sequence%22:%22%22,%22number%22:%220%22}},{%22h%22:{%22t%22:%22/quotes/zigman/16008136/realtime/sampled%22,%22a%22:%22subscribe%22},%22b%22:{%22sequence%22:%22%22,%22number%22:%220%22}}]&_=1431101149888", "SIZE":736}
+{"TAG":"REQ",   "TIME":1431101149.922903, "DSTIP":"23.235.44.249  ", "URL":"http://static.chartbeat.com/js/campaign_tracker.js"}
+{"TAG":"REQ",   "TIME":1431101149.924083, "DSTIP":"74.125.225.13  ", "URL":"http://pagead2.googlesyndication.com/pagead/osd.js"}
+{"TAG":"REQ",   "TIME":1431101149.924289, "DSTIP":"74.125.225.4   ", "URL":"http://clients1.google.com/ocsp"}
+{"TAG":"RESPB", "TIME":1431101149.927748, "DSTIP":"74.125.225.13  ", "URL":"http://pagead2.googlesyndication.com/pagead/osd.js"}
+{"TAG":"RESPD", "TIME":1431101149.927748, "DSTIP":"74.125.225.13  ", "URL":"http://pagead2.googlesyndication.com/pagead/osd.js", "SIZE":0}
+{"TAG":"RESPB", "TIME":1431101149.951369, "DSTIP":"74.125.225.4   ", "URL":"http://clients1.google.com/ocsp"}
+{"TAG":"RESPD", "TIME":1431101149.951369, "DSTIP":"74.125.225.4   ", "URL":"http://clients1.google.com/ocsp", "SIZE":463}
+{"TAG":"RESPB", "TIME":1431101149.960984, "DSTIP":"23.235.44.249  ", "URL":"http://static.chartbeat.com/js/campaign_tracker.js"}
+{"TAG":"RESPD", "TIME":1431101149.961474, "DSTIP":"23.235.44.249  ", "URL":"http://static.chartbeat.com/js/campaign_tracker.js", "SIZE":6405}
+{"TAG":"CONNE", "TIME":1431101150.061453, "DSTIP":"50.16.223.71   ", "DSTPORT":443, "DURATION":0.023792, "SRCPORT":54925}
+{"TAG":"REQ",   "TIME":1431101150.113948, "DSTIP":"50.16.223.71   ", "URL":"https://ping.chartbeat.net"}
+{"TAG":"CONNE", "TIME":1431101150.118567, "DSTIP":"184.72.217.109 ", "DSTPORT":80, "DURATION":0.023142, "SRCPORT":54926}
+{"TAG":"REQ",   "TIME":1431101150.306163, "DSTIP":"184.72.217.109 ", "URL":"http://api.bizographics.com/v3/profile.json?api_key=7c982e9408904abda7958336742d6748&callback=MoatSuperV5.get_bizo"}
+{"TAG":"CONNE", "TIME":1431101150.332795, "DSTIP":"178.255.83.1   ", "DSTPORT":80, "DURATION":0.023172, "SRCPORT":54927}
+{"TAG":"REQ",   "TIME":1431101150.333047, "DSTIP":"178.255.83.1   ", "URL":"http://ocsp.netsolssl.com/"}
+{"TAG":"RESPB", "TIME":1431101150.341414, "DSTIP":"184.72.217.109 ", "URL":"http://api.bizographics.com/v3/profile.json?api_key=7c982e9408904abda7958336742d6748&callback=MoatSuperV5.get_bizo"}
+{"TAG":"RESPD", "TIME":1431101150.341563, "DSTIP":"184.72.217.109 ", "URL":"http://api.bizographics.com/v3/profile.json?api_key=7c982e9408904abda7958336742d6748&callback=MoatSuperV5.get_bizo", "SIZE":800}
+{"TAG":"RESPB", "TIME":1431101150.367619, "DSTIP":"178.255.83.1   ", "URL":"http://ocsp.netsolssl.com/"}
+{"TAG":"RESPD", "TIME":1431101150.367619, "DSTIP":"178.255.83.1   ", "URL":"http://ocsp.netsolssl.com/", "SIZE":472}
+{"TAG":"REQ",   "TIME":1431101150.529933, "DSTIP":"129.105.230.8  ", "URL":"http://www.wsj.com/fp/ads/frontpage"}
+{"TAG":"CONNE", "TIME":1431101150.540722, "DSTIP":"93.184.216.180 ", "DSTPORT":80, "DURATION":0.002815, "SRCPORT":54928}
+{"TAG":"REQ",   "TIME":1431101150.540853, "DSTIP":"93.184.216.180 ", "URL":"http://tags.tiqcdn.com/utag/wsjdn/wsjpages/prod/utag.js"}
+{"TAG":"RESPB", "TIME":1431101150.554070, "DSTIP":"93.184.216.180 ", "URL":"http://tags.tiqcdn.com/utag/wsjdn/wsjpages/prod/utag.js"}
+{"TAG":"RESPD", "TIME":1431101150.554993, "DSTIP":"93.184.216.180 ", "URL":"http://tags.tiqcdn.com/utag/wsjdn/wsjpages/prod/utag.js", "SIZE":44052}
+{"TAG":"RESPB", "TIME":1431101150.563071, "DSTIP":"129.105.230.8  ", "URL":"http://www.wsj.com/fp/ads/frontpage"}
+{"TAG":"RESPD", "TIME":1431101150.563071, "DSTIP":"129.105.230.8  ", "URL":"http://www.wsj.com/fp/ads/frontpage", "SIZE":5034}
+{"TAG":"REQ",   "TIME":1431101150.584817, "DSTIP":"93.184.216.180 ", "URL":"http://tags.tiqcdn.com/utag/wsjdn/wsjpages/prod/utag.2.js?utv=ut4.28.201505071757"}
+{"TAG":"CONNE", "TIME":1431101150.588169, "DSTIP":"93.184.216.180 ", "DSTPORT":80, "DURATION":0.003003, "SRCPORT":54929}
+{"TAG":"REQ",   "TIME":1431101150.588301, "DSTIP":"93.184.216.180 ", "URL":"http://tags.tiqcdn.com/utag/wsjdn/wsjpages/prod/utag.56.js?utv=ut4.28.201505071757"}
+{"TAG":"CONNE", "TIME":1431101150.588649, "DSTIP":"93.184.216.180 ", "DSTPORT":80, "DURATION":0.003025, "SRCPORT":54930}
+{"TAG":"REQ",   "TIME":1431101150.588759, "DSTIP":"93.184.216.180 ", "URL":"http://tags.tiqcdn.com/utag/wsjdn/wsjpages/prod/utag.5.js?utv=ut4.28.201505071757"}
+{"TAG":"CONNE", "TIME":1431101150.589615, "DSTIP":"93.184.216.180 ", "DSTPORT":80, "DURATION":0.003118, "SRCPORT":54931}
+{"TAG":"REQ",   "TIME":1431101150.589748, "DSTIP":"93.184.216.180 ", "URL":"http://tags.tiqcdn.com/utag/wsjdn/wsjpages/prod/utag.53.js?utv=ut4.28.201505071757"}
+{"TAG":"CONNE", "TIME":1431101150.590101, "DSTIP":"93.184.216.180 ", "DSTPORT":80, "DURATION":0.003398, "SRCPORT":54932}
+{"TAG":"REQ",   "TIME":1431101150.590219, "DSTIP":"93.184.216.180 ", "URL":"http://tags.tiqcdn.com/utag/wsjdn/wsjpages/prod/utag.55.js?utv=ut4.28.201505071757"}
+{"TAG":"CONNE", "TIME":1431101150.590274, "DSTIP":"93.184.216.180 ", "DSTPORT":80, "DURATION":0.002903, "SRCPORT":54933}
+{"TAG":"REQ",   "TIME":1431101150.590377, "DSTIP":"93.184.216.180 ", "URL":"http://tags.tiqcdn.com/utag/wsjdn/wsjpages/prod/utag.64.js?utv=ut4.28.201505071757"}
+{"TAG":"RESPB", "TIME":1431101150.597853, "DSTIP":"93.184.216.180 ", "URL":"http://tags.tiqcdn.com/utag/wsjdn/wsjpages/prod/utag.2.js?utv=ut4.28.201505071757"}
+{"TAG":"RESPD", "TIME":1431101150.599393, "DSTIP":"93.184.216.180 ", "URL":"http://tags.tiqcdn.com/utag/wsjdn/wsjpages/prod/utag.2.js?utv=ut4.28.201505071757", "SIZE":39866}
+{"TAG":"REQ",   "TIME":1431101150.599478, "DSTIP":"93.184.216.180 ", "URL":"http://tags.tiqcdn.com/utag/wsjdn/wsjpages/prod/utag.98.js?utv=ut4.28.201505071757"}
+{"TAG":"RESPB", "TIME":1431101150.604733, "DSTIP":"93.184.216.180 ", "URL":"http://tags.tiqcdn.com/utag/wsjdn/wsjpages/prod/utag.98.js?utv=ut4.28.201505071757"}
+{"TAG":"RESPD", "TIME":1431101150.604733, "DSTIP":"93.184.216.180 ", "URL":"http://tags.tiqcdn.com/utag/wsjdn/wsjpages/prod/utag.98.js?utv=ut4.28.201505071757", "SIZE":1543}
+{"TAG":"REQ",   "TIME":1431101150.604928, "DSTIP":"93.184.216.180 ", "URL":"http://tags.tiqcdn.com/utag/wsjdn/wsjpages/prod/utag.73.js?utv=ut4.28.201505071757"}
+{"TAG":"RESPB", "TIME":1431101150.610013, "DSTIP":"93.184.216.180 ", "URL":"http://tags.tiqcdn.com/utag/wsjdn/wsjpages/prod/utag.73.js?utv=ut4.28.201505071757"}
+{"TAG":"RESPD", "TIME":1431101150.610013, "DSTIP":"93.184.216.180 ", "URL":"http://tags.tiqcdn.com/utag/wsjdn/wsjpages/prod/utag.73.js?utv=ut4.28.201505071757", "SIZE":2026}
+{"TAG":"REQ",   "TIME":1431101150.610231, "DSTIP":"93.184.216.180 ", "URL":"http://tags.tiqcdn.com/utag/wsjdn/wsjpages/prod/utag.74.js?utv=ut4.28.201505071757"}
+{"TAG":"RESPB", "TIME":1431101150.616531, "DSTIP":"93.184.216.180 ", "URL":"http://tags.tiqcdn.com/utag/wsjdn/wsjpages/prod/utag.74.js?utv=ut4.28.201505071757"}
+{"TAG":"RESPD", "TIME":1431101150.616531, "DSTIP":"93.184.216.180 ", "URL":"http://tags.tiqcdn.com/utag/wsjdn/wsjpages/prod/utag.74.js?utv=ut4.28.201505071757", "SIZE":1988}
+{"TAG":"REQ",   "TIME":1431101150.665531, "DSTIP":"129.105.230.8  ", "URL":"http://s.wsj.net/static_html_files/cxense-candy.js"}
+{"TAG":"CONNE", "TIME":1431101150.670022, "DSTIP":"129.105.230.7  ", "DSTPORT":80, "DURATION":0.002369, "SRCPORT":54935}
+{"TAG":"REQ",   "TIME":1431101150.670310, "DSTIP":"129.105.230.7  ", "URL":"http://a.postrelease.com/serve/load.js"}
+{"TAG":"RESPB", "TIME":1431101150.670658, "DSTIP":"129.105.230.8  ", "URL":"http://s.wsj.net/static_html_files/cxense-candy.js"}
+{"TAG":"RESPD", "TIME":1431101150.671323, "DSTIP":"129.105.230.8  ", "URL":"http://s.wsj.net/static_html_files/cxense-candy.js", "SIZE":5879}
+{"TAG":"CONNE", "TIME":1431101150.675562, "DSTIP":"74.125.225.27  ", "DSTPORT":80, "DURATION":0.003001, "SRCPORT":54937}
+{"TAG":"REQ",   "TIME":1431101150.675689, "DSTIP":"74.125.225.27  ", "URL":"http://4191748.fls.doubleclick.net/activityi;src=4191748;type=wsjcy630;cat=wsjtr111;ord=9830436249981.232?"}
+{"TAG":"CONNE", "TIME":1431101150.676811, "DSTIP":"74.125.225.27  ", "DSTPORT":80, "DURATION":0.004213, "SRCPORT":54938}
+{"TAG":"CONNE", "TIME":1431101150.684729, "DSTIP":"66.235.141.144 ", "DSTPORT":80, "DURATION":0.022496, "SRCPORT":54934}
+{"TAG":"REQ",   "TIME":1431101150.684960, "DSTIP":"66.235.141.144 ", "URL":"http://om.dowjoneson.com/b/ss/djglobal,djwsj/1/H.24.4/s96289842352966?AQB=1&ndh=1&t=8%2F4%2F2015%2011%3A5%3A50%205%20300&vmt=44BD02B1&ce=UTF-8&ns=dowjones&pageName=WSJ_Home_US%20Home%20Page&g=http%3A%2F%2Fwww.wsj.com%2F&cc=USD&ch=Online%20Journal&server=online.wsj.com&events=event12%2Cevent17&c1=Home&c2=WSJ_US%20Home%20Page&c3=D%3DpageName&v4=D%3DpageName&c5=http%3A%2F%2Fwww.wsj.com%2F&c6=D%3Dc5&c8=WSJ%20Online_at12units&c9=free_Home&v11=D%3Dch&c19=home&c20=HomePage&c22=D%3DpageName&c24=Edition_North_America_USA&v25=D%3Dc2&v26=WSJ_free&c27=D%3Dv26&v29=D%3Dc2&v31=Friday&v32=11%3A00&v37=D%3DpageName&v38=D%3Dc19&c49=1&v52=D%3Dc1&v53=D%3Dc19&v54=D%3Dc2&v55=D%3Dc2&s=1440x900&c=24&j=1.7&v=Y&k=Y&bw=1080&bh=575&p=Aliedit%20Plug-In%3BCitrix%20Receiver%20Plug-in%3BDefault%20Browser%20Helper%3BJava%20Applet%20Plug-in%3BNPCleanHistory%20Plug-in%3BNPClientBinding%20Plug-in%3BNPSafeISubmit%20Plug-in%3BNPSafeInput%20Plug-in%3BQuickTime%20Plug-in%207.7.3%3BShockwave%20Flash%3BSilverlight%20Plug-In%3Bnpalicdo%20plugin%3B&AQE=1"}
+{"TAG":"RESPB", "TIME":1431101150.685935, "DSTIP":"129.105.230.7  ", "URL":"http://a.postrelease.com/serve/load.js"}
+{"TAG":"CONNE", "TIME":1431101150.694233, "DSTIP":"66.235.141.144 ", "DSTPORT":80, "DURATION":0.023536, "SRCPORT":54936}
+{"TAG":"RESPB", "TIME":1431101150.696950, "DSTIP":"74.125.225.27  ", "URL":"http://4191748.fls.doubleclick.net/activityi;src=4191748;type=wsjcy630;cat=wsjtr111;ord=9830436249981.232?"}
+{"TAG":"RESPD", "TIME":1431101150.696955, "DSTIP":"74.125.225.27  ", "URL":"http://4191748.fls.doubleclick.net/activityi;src=4191748;type=wsjcy630;cat=wsjtr111;ord=9830436249981.232?", "SIZE":2737}
+{"TAG":"RESPD", "TIME":1431101150.702710, "DSTIP":"129.105.230.7  ", "URL":"http://a.postrelease.com/serve/load.js", "SIZE":139571}
+{"TAG":"RESPB", "TIME":1431101150.712789, "DSTIP":"66.235.141.144 ", "URL":"http://om.dowjoneson.com/b/ss/djglobal,djwsj/1/H.24.4/s96289842352966?AQB=1&ndh=1&t=8%2F4%2F2015%2011%3A5%3A50%205%20300&vmt=44BD02B1&ce=UTF-8&ns=dowjones&pageName=WSJ_Home_US%20Home%20Page&g=http%3A%2F%2Fwww.wsj.com%2F&cc=USD&ch=Online%20Journal&server=online.wsj.com&events=event12%2Cevent17&c1=Home&c2=WSJ_US%20Home%20Page&c3=D%3DpageName&v4=D%3DpageName&c5=http%3A%2F%2Fwww.wsj.com%2F&c6=D%3Dc5&c8=WSJ%20Online_at12units&c9=free_Home&v11=D%3Dch&c19=home&c20=HomePage&c22=D%3DpageName&c24=Edition_North_America_USA&v25=D%3Dc2&v26=WSJ_free&c27=D%3Dv26&v29=D%3Dc2&v31=Friday&v32=11%3A00&v37=D%3DpageName&v38=D%3Dc19&c49=1&v52=D%3Dc1&v53=D%3Dc19&v54=D%3Dc2&v55=D%3Dc2&s=1440x900&c=24&j=1.7&v=Y&k=Y&bw=1080&bh=575&p=Aliedit%20Plug-In%3BCitrix%20Receiver%20Plug-in%3BDefault%20Browser%20Helper%3BJava%20Applet%20Plug-in%3BNPCleanHistory%20Plug-in%3BNPClientBinding%20Plug-in%3BNPSafeISubmit%20Plug-in%3BNPSafeInput%20Plug-in%3BQuickTime%20Plug-in%207.7.3%3BShockwave%20Flash%3BSilverlight%20Plug-In%3Bnpalicdo%20plugin%3B&AQE=1"}
+{"TAG":"RESPD", "TIME":1431101150.712932, "DSTIP":"66.235.141.144 ", "URL":"http://om.dowjoneson.com/b/ss/djglobal,djwsj/1/H.24.4/s96289842352966?AQB=1&ndh=1&t=8%2F4%2F2015%2011%3A5%3A50%205%20300&vmt=44BD02B1&ce=UTF-8&ns=dowjones&pageName=WSJ_Home_US%20Home%20Page&g=http%3A%2F%2Fwww.wsj.com%2F&cc=USD&ch=Online%20Journal&server=online.wsj.com&events=event12%2Cevent17&c1=Home&c2=WSJ_US%20Home%20Page&c3=D%3DpageName&v4=D%3DpageName&c5=http%3A%2F%2Fwww.wsj.com%2F&c6=D%3Dc5&c8=WSJ%20Online_at12units&c9=free_Home&v11=D%3Dch&c19=home&c20=HomePage&c22=D%3DpageName&c24=Edition_North_America_USA&v25=D%3Dc2&v26=WSJ_free&c27=D%3Dv26&v29=D%3Dc2&v31=Friday&v32=11%3A00&v37=D%3DpageName&v38=D%3Dc19&c49=1&v52=D%3Dc1&v53=D%3Dc19&v54=D%3Dc2&v55=D%3Dc2&s=1440x900&c=24&j=1.7&v=Y&k=Y&bw=1080&bh=575&p=Aliedit%20Plug-In%3BCitrix%20Receiver%20Plug-in%3BDefault%20Browser%20Helper%3BJava%20Applet%20Plug-in%3BNPCleanHistory%20Plug-in%3BNPClientBinding%20Plug-in%3BNPSafeISubmit%20Plug-in%3BNPSafeInput%20Plug-in%3BQuickTime%20Plug-in%207.7.3%3BShockwave%20Flash%3BSilverlight%20Plug-In%3Bnpalicdo%20plugin%3B&AQE=1", "SIZE":0}
+{"TAG":"CONNE", "TIME":1431101150.723453, "DSTIP":"63.241.108.124 ", "DSTPORT":80, "DURATION":0.025887, "SRCPORT":54940}
+{"TAG":"CONNE", "TIME":1431101150.723456, "DSTIP":"63.241.108.124 ", "DSTPORT":80, "DURATION":0.026024, "SRCPORT":54939}
+{"TAG":"REQ",   "TIME":1431101150.723702, "DSTIP":"63.241.108.124 ", "URL":"http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=rsb&c=28&pli=11958530&PluID=0&w=300&h=250&ncu=$$https://adclick.g.doubleclick.net/aclk?sa=L&ai=BTvd12d5MVfCFNIrJwQHIjYHgB-qX9dEGAAAAEAEgwoLSEjgAWJK1venDAWDJtoSI8KPsErIBC3d3dy53c2ouY29tugEJZ2ZwX2ltYWdlyAEJ2gETaHR0cDovL3d3dy53c2ouY29tL5gCoJkCwAIC4AIA6gIcLzIvaW50ZXJhY3RpdmUud3NqLmNvbS9mcm9udPgC-dEekAOkA5gD4AOoAwHgBAGQBgGgBhbYBwA&num=0&cid=5Giye60vOllg5h6Dx0yi-91j&sig=AOD64_2CMqf8PHRqNit3Ykff6jzTATO_eA&client=ca-pub-0466582109566532&adurl=$$&ord=1608029801&ifl=$$/static_html_files/addineyeV2.html$$&z=39"}
+{"TAG":"REQ",   "TIME":1431101150.733606, "DSTIP":"129.105.230.8  ", "URL":"http://s.wsj.net/static_html_files/md5.js"}
+{"TAG":"CONNE", "TIME":1431101150.736613, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.003145, "SRCPORT":54941}
+{"TAG":"REQ",   "TIME":1431101150.736768, "DSTIP":"129.105.230.9  ", "URL":"http://cdn.cxense.com/cx.js"}
+{"TAG":"RESPB", "TIME":1431101150.738646, "DSTIP":"129.105.230.8  ", "URL":"http://s.wsj.net/static_html_files/md5.js"}
+{"TAG":"RESPD", "TIME":1431101150.738993, "DSTIP":"129.105.230.8  ", "URL":"http://s.wsj.net/static_html_files/md5.js", "SIZE":6288}
+{"TAG":"RESPB", "TIME":1431101150.753313, "DSTIP":"63.241.108.124 ", "URL":"http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=rsb&c=28&pli=11958530&PluID=0&w=300&h=250&ncu=$$https://adclick.g.doubleclick.net/aclk?sa=L&ai=BTvd12d5MVfCFNIrJwQHIjYHgB-qX9dEGAAAAEAEgwoLSEjgAWJK1venDAWDJtoSI8KPsErIBC3d3dy53c2ouY29tugEJZ2ZwX2ltYWdlyAEJ2gETaHR0cDovL3d3dy53c2ouY29tL5gCoJkCwAIC4AIA6gIcLzIvaW50ZXJhY3RpdmUud3NqLmNvbS9mcm9udPgC-dEekAOkA5gD4AOoAwHgBAGQBgGgBhbYBwA&num=0&cid=5Giye60vOllg5h6Dx0yi-91j&sig=AOD64_2CMqf8PHRqNit3Ykff6jzTATO_eA&client=ca-pub-0466582109566532&adurl=$$&ord=1608029801&ifl=$$/static_html_files/addineyeV2.html$$&z=39"}
+{"TAG":"RESPB", "TIME":1431101150.757015, "DSTIP":"129.105.230.9  ", "URL":"http://cdn.cxense.com/cx.js"}
+{"TAG":"RESPD", "TIME":1431101150.758737, "DSTIP":"129.105.230.9  ", "URL":"http://cdn.cxense.com/cx.js", "SIZE":70834}
+{"TAG":"CONNE", "TIME":1431101150.763892, "DSTIP":"129.105.230.8  ", "DSTPORT":80, "DURATION":0.002519, "SRCPORT":54943}
+{"TAG":"RESPD", "TIME":1431101150.778718, "DSTIP":"63.241.108.124 ", "URL":"http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=rsb&c=28&pli=11958530&PluID=0&w=300&h=250&ncu=$$https://adclick.g.doubleclick.net/aclk?sa=L&ai=BTvd12d5MVfCFNIrJwQHIjYHgB-qX9dEGAAAAEAEgwoLSEjgAWJK1venDAWDJtoSI8KPsErIBC3d3dy53c2ouY29tugEJZ2ZwX2ltYWdlyAEJ2gETaHR0cDovL3d3dy53c2ouY29tL5gCoJkCwAIC4AIA6gIcLzIvaW50ZXJhY3RpdmUud3NqLmNvbS9mcm9udPgC-dEekAOkA5gD4AOoAwHgBAGQBgGgBhbYBwA&num=0&cid=5Giye60vOllg5h6Dx0yi-91j&sig=AOD64_2CMqf8PHRqNit3Ykff6jzTATO_eA&client=ca-pub-0466582109566532&adurl=$$&ord=1608029801&ifl=$$/static_html_files/addineyeV2.html$$&z=39", "SIZE":5950}
+{"TAG":"CONNE", "TIME":1431101150.780386, "DSTIP":"129.105.230.8  ", "DSTPORT":80, "DURATION":0.019115, "SRCPORT":54942}
+{"TAG":"CONNE", "TIME":1431101150.780626, "DSTIP":"129.105.230.8  ", "DSTPORT":80, "DURATION":0.019195, "SRCPORT":54944}
+{"TAG":"CONNE", "TIME":1431101150.784624, "DSTIP":"23.201.73.61   ", "DSTPORT":443, "DURATION":0.012131, "SRCPORT":54947}
+{"TAG":"CONNE", "TIME":1431101150.790321, "DSTIP":"54.192.33.220  ", "DSTPORT":443, "DURATION":0.018174, "SRCPORT":54945}
+{"TAG":"CONNE", "TIME":1431101150.795518, "DSTIP":"50.116.194.21  ", "DSTPORT":443, "DURATION":0.022457, "SRCPORT":54948}
+{"TAG":"CONNE", "TIME":1431101150.796627, "DSTIP":"208.52.173.198 ", "DSTPORT":443, "DURATION":0.024260, "SRCPORT":54946}
+{"TAG":"CONNE", "TIME":1431101150.797526, "DSTIP":"54.165.83.135  ", "DSTPORT":443, "DURATION":0.023283, "SRCPORT":54951}
+{"TAG":"CONNE", "TIME":1431101150.806639, "DSTIP":"54.165.22.225  ", "DSTPORT":443, "DURATION":0.033178, "SRCPORT":54949}
+{"TAG":"REQ",   "TIME":1431101150.815948, "DSTIP":"54.192.33.220  ", "URL":"https://ps.ns-cdn.com"}
+{"TAG":"CONNE", "TIME":1431101150.822984, "DSTIP":"152.163.50.2   ", "DSTPORT":443, "DURATION":0.049246, "SRCPORT":54950}
+{"TAG":"CONNE", "TIME":1431101150.838991, "DSTIP":"107.20.237.45  ", "DSTPORT":80, "DURATION":0.024205, "SRCPORT":54952}
+{"TAG":"RESPB", "TIME":1431101150.844231, "DSTIP":"93.184.216.180 ", "URL":"http://tags.tiqcdn.com/utag/wsjdn/wsjpages/prod/utag.5.js?utv=ut4.28.201505071757"}
+{"TAG":"RESPD", "TIME":1431101150.844231, "DSTIP":"93.184.216.180 ", "URL":"http://tags.tiqcdn.com/utag/wsjdn/wsjpages/prod/utag.5.js?utv=ut4.28.201505071757", "SIZE":1318}
+{"TAG":"RESPB", "TIME":1431101150.845778, "DSTIP":"93.184.216.180 ", "URL":"http://tags.tiqcdn.com/utag/wsjdn/wsjpages/prod/utag.55.js?utv=ut4.28.201505071757"}
+{"TAG":"RESPD", "TIME":1431101150.845778, "DSTIP":"93.184.216.180 ", "URL":"http://tags.tiqcdn.com/utag/wsjdn/wsjpages/prod/utag.55.js?utv=ut4.28.201505071757", "SIZE":1039}
+{"TAG":"RESPB", "TIME":1431101150.846980, "DSTIP":"93.184.216.180 ", "URL":"http://tags.tiqcdn.com/utag/wsjdn/wsjpages/prod/utag.56.js?utv=ut4.28.201505071757"}
+{"TAG":"RESPD", "TIME":1431101150.848127, "DSTIP":"93.184.216.180 ", "URL":"http://tags.tiqcdn.com/utag/wsjdn/wsjpages/prod/utag.56.js?utv=ut4.28.201505071757", "SIZE":28657}
+{"TAG":"REQ",   "TIME":1431101150.877629, "DSTIP":"107.20.237.45  ", "URL":"http://adserve.postrelease.com/serve/trigger/1431101150813.js?prx_url=http%3A%2F%2Fwww.wsj.com%2F"}
+{"TAG":"REQ",   "TIME":1431101150.877705, "DSTIP":"66.235.141.144 ", "URL":"http://om.dowjoneson.com/b/ss/djglobal,djwsj/1/H.24.4/s96289842352966?AQB=1&pccr=true&vidn=2AA66F6C851D1BCB-6000015100003CC0&&ndh=1&t=8%2F4%2F2015%2011%3A5%3A50%205%20300&vmt=44BD02B1&ce=UTF-8&ns=dowjones&pageName=WSJ_Home_US%20Home%20Page&g=http%3A%2F%2Fwww.wsj.com%2F&cc=USD&ch=Online%20Journal&server=online.wsj.com&events=event12%2Cevent17&c1=Home&c2=WSJ_US%20Home%20Page&c3=D%3DpageName&v4=D%3DpageName&c5=http%3A%2F%2Fwww.wsj.com%2F&c6=D%3Dc5&c8=WSJ%20Online_at12units&c9=free_Home&v11=D%3Dch&c19=home&c20=HomePage&c22=D%3DpageName&c24=Edition_North_America_USA&v25=D%3Dc2&v26=WSJ_free&c27=D%3Dv26&v29=D%3Dc2&v31=Friday&v32=11%3A00&v37=D%3DpageName&v38=D%3Dc19&c49=1&v52=D%3Dc1&v53=D%3Dc19&v54=D%3Dc2&v55=D%3Dc2&s=1440x900&c=24&j=1.7&v=Y&k=Y&bw=1080&bh=575&p=Aliedit%20Plug-In%3BCitrix%20Receiver%20Plug-in%3BDefault%20Browser%20Helper%3BJava%20Applet%20Plug-in%3BNPCleanHistory%20Plug-in%3BNPClientBinding%20Plug-in%3BNPSafeISubmit%20Plug-in%3BNPSafeInput%20Plug-in%3BQuickTime%20Plug-in%207.7.3%3BShockwave%20Flash%3BSilverlight%20Plug-In%3Bnpalicdo%20plugin%3B&AQE=1"}
+{"TAG":"CONNE", "TIME":1431101150.880543, "DSTIP":"129.105.230.8  ", "DSTPORT":80, "DURATION":0.002178, "SRCPORT":54953}
+{"TAG":"REQ",   "TIME":1431101150.880759, "DSTIP":"129.105.230.8  ", "URL":"http://ds.serving-sys.com/BurstingCachedScripts//Ad_2_45_3_0/ebStdBanner.js"}
+{"TAG":"CONNE", "TIME":1431101150.881022, "DSTIP":"129.105.230.8  ", "DSTPORT":80, "DURATION":0.002619, "SRCPORT":54954}
+{"TAG":"REQ",   "TIME":1431101150.895624, "DSTIP":"129.105.230.8  ", "URL":"http://rwidget.wsj.net/v1.4/images/ranch-logo1-300.jpg"}
+{"TAG":"REQ",   "TIME":1431101150.896476, "DSTIP":"54.165.83.135  ", "URL":"https://beacon.sojern.com"}
+{"TAG":"RESPB", "TIME":1431101150.897073, "DSTIP":"129.105.230.8  ", "URL":"http://ds.serving-sys.com/BurstingCachedScripts//Ad_2_45_3_0/ebStdBanner.js"}
+{"TAG":"REQ",   "TIME":1431101150.899507, "DSTIP":"50.116.194.21  ", "URL":"https://r.turn.com"}
+{"TAG":"REQ",   "TIME":1431101150.902144, "DSTIP":"54.165.22.225  ", "URL":"https://seg.sharethis.com"}
+{"TAG":"RESPB", "TIME":1431101150.905785, "DSTIP":"129.105.230.8  ", "URL":"http://rwidget.wsj.net/v1.4/images/ranch-logo1-300.jpg"}
+{"TAG":"RESPD", "TIME":1431101150.908491, "DSTIP":"129.105.230.8  ", "URL":"http://ds.serving-sys.com/BurstingCachedScripts//Ad_2_45_3_0/ebStdBanner.js", "SIZE":131967}
+{"TAG":"RESPB", "TIME":1431101150.908548, "DSTIP":"66.235.141.144 ", "URL":"http://om.dowjoneson.com/b/ss/djglobal,djwsj/1/H.24.4/s96289842352966?AQB=1&pccr=true&vidn=2AA66F6C851D1BCB-6000015100003CC0&&ndh=1&t=8%2F4%2F2015%2011%3A5%3A50%205%20300&vmt=44BD02B1&ce=UTF-8&ns=dowjones&pageName=WSJ_Home_US%20Home%20Page&g=http%3A%2F%2Fwww.wsj.com%2F&cc=USD&ch=Online%20Journal&server=online.wsj.com&events=event12%2Cevent17&c1=Home&c2=WSJ_US%20Home%20Page&c3=D%3DpageName&v4=D%3DpageName&c5=http%3A%2F%2Fwww.wsj.com%2F&c6=D%3Dc5&c8=WSJ%20Online_at12units&c9=free_Home&v11=D%3Dch&c19=home&c20=HomePage&c22=D%3DpageName&c24=Edition_North_America_USA&v25=D%3Dc2&v26=WSJ_free&c27=D%3Dv26&v29=D%3Dc2&v31=Friday&v32=11%3A00&v37=D%3DpageName&v38=D%3Dc19&c49=1&v52=D%3Dc1&v53=D%3Dc19&v54=D%3Dc2&v55=D%3Dc2&s=1440x900&c=24&j=1.7&v=Y&k=Y&bw=1080&bh=575&p=Aliedit%20Plug-In%3BCitrix%20Receiver%20Plug-in%3BDefault%20Browser%20Helper%3BJava%20Applet%20Plug-in%3BNPCleanHistory%20Plug-in%3BNPClientBinding%20Plug-in%3BNPSafeISubmit%20Plug-in%3BNPSafeInput%20Plug-in%3BQuickTime%20Plug-in%207.7.3%3BShockwave%20Flash%3BSilverlight%20Plug-In%3Bnpalicdo%20plugin%3B&AQE=1"}
+{"TAG":"RESPD", "TIME":1431101150.908548, "DSTIP":"66.235.141.144 ", "URL":"http://om.dowjoneson.com/b/ss/djglobal,djwsj/1/H.24.4/s96289842352966?AQB=1&pccr=true&vidn=2AA66F6C851D1BCB-6000015100003CC0&&ndh=1&t=8%2F4%2F2015%2011%3A5%3A50%205%20300&vmt=44BD02B1&ce=UTF-8&ns=dowjones&pageName=WSJ_Home_US%20Home%20Page&g=http%3A%2F%2Fwww.wsj.com%2F&cc=USD&ch=Online%20Journal&server=online.wsj.com&events=event12%2Cevent17&c1=Home&c2=WSJ_US%20Home%20Page&c3=D%3DpageName&v4=D%3DpageName&c5=http%3A%2F%2Fwww.wsj.com%2F&c6=D%3Dc5&c8=WSJ%20Online_at12units&c9=free_Home&v11=D%3Dch&c19=home&c20=HomePage&c22=D%3DpageName&c24=Edition_North_America_USA&v25=D%3Dc2&v26=WSJ_free&c27=D%3Dv26&v29=D%3Dc2&v31=Friday&v32=11%3A00&v37=D%3DpageName&v38=D%3Dc19&c49=1&v52=D%3Dc1&v53=D%3Dc19&v54=D%3Dc2&v55=D%3Dc2&s=1440x900&c=24&j=1.7&v=Y&k=Y&bw=1080&bh=575&p=Aliedit%20Plug-In%3BCitrix%20Receiver%20Plug-in%3BDefault%20Browser%20Helper%3BJava%20Applet%20Plug-in%3BNPCleanHistory%20Plug-in%3BNPClientBinding%20Plug-in%3BNPSafeISubmit%20Plug-in%3BNPSafeInput%20Plug-in%3BQuickTime%20Plug-in%207.7.3%3BShockwave%20Flash%3BSilverlight%20Plug-In%3Bnpalicdo%20plugin%3B&AQE=1", "SIZE":0}
+{"TAG":"RESPD", "TIME":1431101150.910709, "DSTIP":"129.105.230.8  ", "URL":"http://rwidget.wsj.net/v1.4/images/ranch-logo1-300.jpg", "SIZE":27718}
+{"TAG":"RESPB", "TIME":1431101150.911919, "DSTIP":"107.20.237.45  ", "URL":"http://adserve.postrelease.com/serve/trigger/1431101150813.js?prx_url=http%3A%2F%2Fwww.wsj.com%2F"}
+{"TAG":"RESPD", "TIME":1431101150.912268, "DSTIP":"107.20.237.45  ", "URL":"http://adserve.postrelease.com/serve/trigger/1431101150813.js?prx_url=http%3A%2F%2Fwww.wsj.com%2F", "SIZE":16843}
+{"TAG":"REQ",   "TIME":1431101150.917796, "DSTIP":"72.21.91.29    ", "URL":"http://ocsp.digicert.com/"}
+{"TAG":"CONNE", "TIME":1431101150.923732, "DSTIP":"54.192.33.220  ", "DSTPORT":80, "DURATION":0.011036, "SRCPORT":54956}
+{"TAG":"CONNE", "TIME":1431101150.923792, "DSTIP":"54.192.33.220  ", "DSTPORT":80, "DURATION":0.011843, "SRCPORT":54955}
+{"TAG":"RESPB", "TIME":1431101150.924080, "DSTIP":"72.21.91.29    ", "URL":"http://ocsp.digicert.com/"}
+{"TAG":"RESPD", "TIME":1431101150.924080, "DSTIP":"72.21.91.29    ", "URL":"http://ocsp.digicert.com/", "SIZE":471}
+{"TAG":"CONNE", "TIME":1431101150.924082, "DSTIP":"50.63.243.230  ", "DSTPORT":80, "DURATION":0.005040, "SRCPORT":54957}
+{"TAG":"CONNE", "TIME":1431101150.924083, "DSTIP":"50.63.243.230  ", "DSTPORT":80, "DURATION":0.004794, "SRCPORT":54958}
+{"TAG":"REQ",   "TIME":1431101150.924480, "DSTIP":"54.192.33.220  ", "URL":"http://ps.ns-cdn.com/dsatserving2/scripts/render.js"}
+{"TAG":"REQ",   "TIME":1431101150.924743, "DSTIP":"50.63.243.230  ", "URL":"http://ocsp.starfieldtech.com/"}
+{"TAG":"REQ",   "TIME":1431101150.924849, "DSTIP":"50.63.243.230  ", "URL":"http://ocsp.godaddy.com/"}
+{"TAG":"CONNE", "TIME":1431101150.928794, "DSTIP":"50.63.243.230  ", "DSTPORT":80, "DURATION":0.003625, "SRCPORT":54959}
+{"TAG":"CONNE", "TIME":1431101150.928798, "DSTIP":"50.63.243.230  ", "DSTPORT":80, "DURATION":0.003511, "SRCPORT":54960}
+{"TAG":"RESPB", "TIME":1431101150.929579, "DSTIP":"50.63.243.230  ", "URL":"http://ocsp.godaddy.com/"}
+{"TAG":"RESPD", "TIME":1431101150.929771, "DSTIP":"50.63.243.230  ", "URL":"http://ocsp.godaddy.com/", "SIZE":1786}
+{"TAG":"RESPB", "TIME":1431101150.930781, "DSTIP":"50.63.243.230  ", "URL":"http://ocsp.starfieldtech.com/"}
+{"TAG":"RESPD", "TIME":1431101150.930861, "DSTIP":"50.63.243.230  ", "URL":"http://ocsp.starfieldtech.com/", "SIZE":1854}
+{"TAG":"RESPB", "TIME":1431101150.940711, "DSTIP":"54.192.33.220  ", "URL":"http://ps.ns-cdn.com/dsatserving2/scripts/render.js"}
+{"TAG":"REQ",   "TIME":1431101150.950753, "DSTIP":"129.105.230.8  ", "URL":"http://ds.serving-sys.com/BurstingRes/Site-281/Type-2/05419e5c-8b60-4734-b2ef-c28bb24af5aa.swf"}
+{"TAG":"REQ",   "TIME":1431101150.959185, "DSTIP":"152.163.50.2   ", "URL":"https://secure.leadback.advertising.com"}
+{"TAG":"RESPD", "TIME":1431101150.969224, "DSTIP":"54.192.33.220  ", "URL":"http://ps.ns-cdn.com/dsatserving2/scripts/render.js", "SIZE":38247}
+{"TAG":"RESPB", "TIME":1431101150.969915, "DSTIP":"129.105.230.8  ", "URL":"http://ds.serving-sys.com/BurstingRes/Site-281/Type-2/05419e5c-8b60-4734-b2ef-c28bb24af5aa.swf"}
+{"TAG":"REQ",   "TIME":1431101150.972750, "DSTIP":"23.235.44.249  ", "URL":"http://static.chartbeat.com/js/chartbeat_pub.js"}
+{"TAG":"RESPD", "TIME":1431101150.978981, "DSTIP":"129.105.230.8  ", "URL":"http://ds.serving-sys.com/BurstingRes/Site-281/Type-2/05419e5c-8b60-4734-b2ef-c28bb24af5aa.swf", "SIZE":49081}
+{"TAG":"CONNE", "TIME":1431101150.980363, "DSTIP":"72.5.205.62    ", "DSTPORT":80, "DURATION":0.024574, "SRCPORT":54961}
+{"TAG":"REQ",   "TIME":1431101150.980847, "DSTIP":"72.5.205.62    ", "URL":"http://edge.quantserve.com/quant.js"}
+{"TAG":"REQ",   "TIME":1431101150.983394, "DSTIP":"129.105.230.9  ", "URL":"http://cdn.cxense.com/p1.html"}
+{"TAG":"RESPB", "TIME":1431101150.986668, "DSTIP":"129.105.230.9  ", "URL":"http://cdn.cxense.com/p1.html"}
+{"TAG":"RESPD", "TIME":1431101150.986668, "DSTIP":"129.105.230.9  ", "URL":"http://cdn.cxense.com/p1.html", "SIZE":324}
+{"TAG":"REQ",   "TIME":1431101150.991792, "DSTIP":"107.20.237.45  ", "URL":"http://adserve.postrelease.com/serve/trigger/1431101150991.js?prx_url=http%3A%2F%2Fwww.wsj.com%2F&ntv_ptd=760894,761208"}
+{"TAG":"CONNE", "TIME":1431101150.994961, "DSTIP":"72.5.205.62    ", "DSTPORT":80, "DURATION":0.025299, "SRCPORT":54962}
+{"TAG":"CONNE", "TIME":1431101150.996436, "DSTIP":"184.50.238.152 ", "DSTPORT":80, "DURATION":0.003827, "SRCPORT":54969}
+{"TAG":"REQ",   "TIME":1431101150.996622, "DSTIP":"184.50.238.152 ", "URL":"http://cdn.cxpublic.com/wsj-candybar-hp.html"}
+{"TAG":"CONNE", "TIME":1431101150.997545, "DSTIP":"23.201.46.62   ", "DSTPORT":80, "DURATION":0.003104, "SRCPORT":54970}
+{"TAG":"CONNE", "TIME":1431101150.998541, "DSTIP":"173.222.2.112  ", "DSTPORT":80, "DURATION":0.010367, "SRCPORT":54967}
+{"TAG":"CONNE", "TIME":1431101150.998730, "DSTIP":"108.168.240.194", "DSTPORT":80, "DURATION":0.023688, "SRCPORT":54963}
+{"TAG":"CONNE", "TIME":1431101150.999126, "DSTIP":"173.222.2.112  ", "DSTPORT":80, "DURATION":0.010766, "SRCPORT":54968}
+{"TAG":"CONNE", "TIME":1431101151.002571, "DSTIP":"108.168.240.194", "DSTPORT":80, "DURATION":0.022973, "SRCPORT":54965}
+{"TAG":"RESPB", "TIME":1431101151.005645, "DSTIP":"72.5.205.62    ", "URL":"http://edge.quantserve.com/quant.js"}
+{"TAG":"RESPD", "TIME":1431101151.006117, "DSTIP":"72.5.205.62    ", "URL":"http://edge.quantserve.com/quant.js", "SIZE":7874}
+{"TAG":"RESPB", "TIME":1431101151.007055, "DSTIP":"184.50.238.152 ", "URL":"http://cdn.cxpublic.com/wsj-candybar-hp.html"}
+{"TAG":"RESPD", "TIME":1431101151.008072, "DSTIP":"184.50.238.152 ", "URL":"http://cdn.cxpublic.com/wsj-candybar-hp.html", "SIZE":19100}
+{"TAG":"RESPB", "TIME":1431101151.018650, "DSTIP":"23.235.44.249  ", "URL":"http://static.chartbeat.com/js/chartbeat_pub.js"}
+{"TAG":"RESPB", "TIME":1431101151.026156, "DSTIP":"107.20.237.45  ", "URL":"http://adserve.postrelease.com/serve/trigger/1431101150991.js?prx_url=http%3A%2F%2Fwww.wsj.com%2F&ntv_ptd=760894,761208"}
+{"TAG":"RESPD", "TIME":1431101151.026404, "DSTIP":"107.20.237.45  ", "URL":"http://adserve.postrelease.com/serve/trigger/1431101150991.js?prx_url=http%3A%2F%2Fwww.wsj.com%2F&ntv_ptd=760894,761208", "SIZE":14077}
+{"TAG":"RESPD", "TIME":1431101151.055083, "DSTIP":"23.235.44.249  ", "URL":"http://static.chartbeat.com/js/chartbeat_pub.js", "SIZE":39331}
+{"TAG":"CONNE", "TIME":1431101151.198257, "DSTIP":"119.9.86.202   ", "DSTPORT":80, "DURATION":0.222942, "SRCPORT":54964}
+{"TAG":"CONNE", "TIME":1431101151.202967, "DSTIP":"119.9.86.202   ", "DSTPORT":80, "DURATION":0.223120, "SRCPORT":54966}
+{"TAG":"REQ",   "TIME":1431101151.204675, "DSTIP":"23.201.46.62   ", "URL":"http://ocsp.entrust.net/"}
+{"TAG":"RESPB", "TIME":1431101151.209699, "DSTIP":"23.201.46.62   ", "URL":"http://ocsp.entrust.net/"}
+{"TAG":"RESPD", "TIME":1431101151.209879, "DSTIP":"23.201.46.62   ", "URL":"http://ocsp.entrust.net/", "SIZE":1939}
+{"TAG":"REQ",   "TIME":1431101151.253037, "DSTIP":"208.52.173.198 ", "URL":"https://wsj.netmng.com"}
+{"TAG":"REQ",   "TIME":1431101151.262664, "DSTIP":"173.222.2.112  ", "URL":"http://js-us.fout.jp/segmentation-us.js"}
+{"TAG":"REQ",   "TIME":1431101151.263001, "DSTIP":"108.168.240.194", "URL":"http://tags.bluekai.com/site/4454?ret=html&phint=serverDomain%3Donline.wsj.com&phint=primaryProduct%3DOnline%20Journal&phint=pageName%3DWSJ_Home_US%20Home%20Page&phint=section%3DWSJ_US%20Home%20Page&phint=articleType%3DWSJ_Home_US%20Home%20Page&phint=contentType%3DHome&phint=contentChannel%3DUS%20Home%20Page&phint=edition%3DEdition_North_America_USA&phint=__bk_t%3DThe%20Wall%20Street%20Journal%20%26%20Breaking%20News%2C%20Business%2C%20Financial%20and%20Economic%20News%2C%20World%20News%20and%20Video&phint=__bk_k%3DNews%2C%20breaking%20news%2C%20latest%20news%2C%20US%20news%2C%20headlines%2C%20world%20news%2C%20business%2C%20finances%2C%20politics%2C%20WSJ%2C%20WSJ%20news%2C%20WSJ.com%2C%20Wall%20Street%20Journal&phint=__bk_l%3Dhttp%3A%2F%2Fwww.wsj.com%2F&limit=10&r=30980645"}
+{"TAG":"REQ",   "TIME":1431101151.263034, "DSTIP":"119.9.86.202   ", "URL":"http://content.dl-rms.com/rms/mother/6782/nodetag.js"}
+{"TAG":"RESPB", "TIME":1431101151.273577, "DSTIP":"173.222.2.112  ", "URL":"http://js-us.fout.jp/segmentation-us.js"}
+{"TAG":"RESPD", "TIME":1431101151.273577, "DSTIP":"173.222.2.112  ", "URL":"http://js-us.fout.jp/segmentation-us.js", "SIZE":0}
+{"TAG":"RESPB", "TIME":1431101151.291769, "DSTIP":"108.168.240.194", "URL":"http://tags.bluekai.com/site/4454?ret=html&phint=serverDomain%3Donline.wsj.com&phint=primaryProduct%3DOnline%20Journal&phint=pageName%3DWSJ_Home_US%20Home%20Page&phint=section%3DWSJ_US%20Home%20Page&phint=articleType%3DWSJ_Home_US%20Home%20Page&phint=contentType%3DHome&phint=contentChannel%3DUS%20Home%20Page&phint=edition%3DEdition_North_America_USA&phint=__bk_t%3DThe%20Wall%20Street%20Journal%20%26%20Breaking%20News%2C%20Business%2C%20Financial%20and%20Economic%20News%2C%20World%20News%20and%20Video&phint=__bk_k%3DNews%2C%20breaking%20news%2C%20latest%20news%2C%20US%20news%2C%20headlines%2C%20world%20news%2C%20business%2C%20finances%2C%20politics%2C%20WSJ%2C%20WSJ%20news%2C%20WSJ.com%2C%20Wall%20Street%20Journal&phint=__bk_l%3Dhttp%3A%2F%2Fwww.wsj.com%2F&limit=10&r=30980645"}
+{"TAG":"RESPD", "TIME":1431101151.291769, "DSTIP":"108.168.240.194", "URL":"http://tags.bluekai.com/site/4454?ret=html&phint=serverDomain%3Donline.wsj.com&phint=primaryProduct%3DOnline%20Journal&phint=pageName%3DWSJ_Home_US%20Home%20Page&phint=section%3DWSJ_US%20Home%20Page&phint=articleType%3DWSJ_Home_US%20Home%20Page&phint=contentType%3DHome&phint=contentChannel%3DUS%20Home%20Page&phint=edition%3DEdition_North_America_USA&phint=__bk_t%3DThe%20Wall%20Street%20Journal%20%26%20Breaking%20News%2C%20Business%2C%20Financial%20and%20Economic%20News%2C%20World%20News%20and%20Video&phint=__bk_k%3DNews%2C%20breaking%20news%2C%20latest%20news%2C%20US%20news%2C%20headlines%2C%20world%20news%2C%20business%2C%20finances%2C%20politics%2C%20WSJ%2C%20WSJ%20news%2C%20WSJ.com%2C%20Wall%20Street%20Journal&phint=__bk_l%3Dhttp%3A%2F%2Fwww.wsj.com%2F&limit=10&r=30980645", "SIZE":0}
+{"TAG":"REQ",   "TIME":1431101151.398222, "DSTIP":"23.201.73.61   ", "URL":"https://pixel.mathtag.com"}

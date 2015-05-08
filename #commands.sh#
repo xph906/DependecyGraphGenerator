@@ -1,0 +1,20 @@
+#!/bin/bash
+# $1 http://www.wsj.com $2 WSJ
+clear
+sudo python firefox-driver.py -f proxyvisit -fu "$1" -t 5 -c air_configure -p "$2" 
+echo "running firefox finished"
+python LogAnalysis.py -f getcommonurl -d logs -p "$2" -ho testHost 
+python LogAnalysis.py -f generategraph -p "$2" -d ./logs/ -fu "$1" -go testGraph -lu "$3" -c testHost
+
+echo "generating graph finished"
+cd broscript
+echo "please enter your sudo password"
+
+sudo /opt/bro/bin/bro -i en0 -C httpinfo.bro > testBro &
+
+#sleep 10
+
+python firefox-driver.py -f normalvisit -fu "$1" -t 15 -c air_configure -p "$2"
+cd ..
+python LogAnalysis.py -f analyzebrolog -fu "$1" -lu "$3" -gi testGraph -c testHost -b broscript/testBro
+

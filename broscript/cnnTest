@@ -1,0 +1,179 @@
+{"TAG":"CONNE", "TIME":1430944626.778455, "DSTIP":"157.166.226.26 ", "DSTPORT":80, "DURATION":0.023267, "SRCPORT":55365}
+{"TAG":"REQ",   "TIME":1430944627.092687, "DSTIP":"157.166.226.26 ", "URL":"http://cnn.com/"}
+{"TAG":"RESPB", "TIME":1430944627.116445, "DSTIP":"157.166.226.26 ", "URL":"http://cnn.com/"}
+{"TAG":"RESPD", "TIME":1430944627.116445, "DSTIP":"157.166.226.26 ", "URL":"http://cnn.com/", "SIZE":178}
+{"TAG":"CONNE", "TIME":1430944627.525068, "DSTIP":"129.105.230.7  ", "DSTPORT":80, "DURATION":0.002492, "SRCPORT":55366}
+{"TAG":"CONNE", "TIME":1430944628.334094, "DSTIP":"23.235.40.73   ", "DSTPORT":80, "DURATION":0.003550, "SRCPORT":55368}
+{"TAG":"CONNE", "TIME":1430944628.341528, "DSTIP":"12.130.132.30  ", "DSTPORT":80, "DURATION":0.070061, "SRCPORT":55367}
+{"TAG":"REQ",   "TIME":1430944628.348773, "DSTIP":"23.235.40.73   ", "URL":"http://www.cnn.com/"}
+{"TAG":"RESPB", "TIME":1430944628.362712, "DSTIP":"23.235.40.73   ", "URL":"http://www.cnn.com/"}
+{"TAG":"RESPD", "TIME":1430944628.415412, "DSTIP":"23.235.40.73   ", "URL":"http://www.cnn.com/", "SIZE":75360}
+{"TAG":"CONNE", "TIME":1430944628.418327, "DSTIP":"23.235.40.73   ", "DSTPORT":80, "DURATION":0.005543, "SRCPORT":55369}
+{"TAG":"CONNE", "TIME":1430944628.422574, "DSTIP":"23.235.40.73   ", "DSTPORT":80, "DURATION":0.005309, "SRCPORT":55370}
+{"TAG":"CONNE", "TIME":1430944628.422753, "DSTIP":"23.235.40.73   ", "DSTPORT":80, "DURATION":0.005487, "SRCPORT":55371}
+{"TAG":"CONNE", "TIME":1430944628.441728, "DSTIP":"23.235.40.73   ", "DSTPORT":80, "DURATION":0.003512, "SRCPORT":55372}
+{"TAG":"CONNE", "TIME":1430944628.446772, "DSTIP":"23.235.40.73   ", "DSTPORT":80, "DURATION":0.004118, "SRCPORT":55373}
+{"TAG":"CONNE", "TIME":1430944628.447590, "DSTIP":"174.35.56.219  ", "DSTPORT":80, "DURATION":0.002764, "SRCPORT":55375}
+{"TAG":"CONNE", "TIME":1430944628.448330, "DSTIP":"72.21.91.8     ", "DSTPORT":80, "DURATION":0.003503, "SRCPORT":55376}
+{"TAG":"CONNE", "TIME":1430944628.449793, "DSTIP":"23.235.40.73   ", "DSTPORT":80, "DURATION":0.006131, "SRCPORT":55374}
+{"TAG":"REQ",   "TIME":1430944628.599837, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/css/global.css"}
+{"TAG":"CONNE", "TIME":1430944628.603056, "DSTIP":"174.35.56.219  ", "DSTPORT":80, "DURATION":0.003218, "SRCPORT":55377}
+{"TAG":"CONNE", "TIME":1430944628.603262, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.002419, "SRCPORT":55378}
+{"TAG":"REQ",   "TIME":1430944628.612085, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/css/pages/page-blessed1.css"}
+{"TAG":"RESPB", "TIME":1430944628.619333, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/css/global.css"}
+{"TAG":"REQ",   "TIME":1430944628.622110, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/css/pages/page.css"}
+{"TAG":"RESPB", "TIME":1430944628.627429, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/css/pages/page-blessed1.css"}
+{"TAG":"REQ",   "TIME":1430944628.633073, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/js/vendor/jquery.min.js"}
+{"TAG":"RESPB", "TIME":1430944628.644700, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/css/pages/page.css"}
+{"TAG":"REQ",   "TIME":1430944628.645347, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/js/cnn-base-header-lib.min.js"}
+{"TAG":"RESPB", "TIME":1430944628.646183, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/js/vendor/jquery.min.js"}
+{"TAG":"REQ",   "TIME":1430944628.650907, "DSTIP":"174.35.56.219  ", "URL":"http://cdn.clicktale.net/www04/phc/342da402-a44b-4b59-aba4-8fc2310e4478.js"}
+{"TAG":"RESPB", "TIME":1430944628.651873, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/js/cnn-base-header-lib.min.js"}
+{"TAG":"RESPD", "TIME":1430944628.651950, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/js/cnn-base-header-lib.min.js", "SIZE":3756}
+{"TAG":"REQ",   "TIME":1430944628.654376, "DSTIP":"72.21.91.8     ", "URL":"http://cdn.optimizely.com/js/131788053.js"}
+{"TAG":"RESPB", "TIME":1430944628.656968, "DSTIP":"174.35.56.219  ", "URL":"http://cdn.clicktale.net/www04/phc/342da402-a44b-4b59-aba4-8fc2310e4478.js"}
+{"TAG":"RESPD", "TIME":1430944628.657184, "DSTIP":"174.35.56.219  ", "URL":"http://cdn.clicktale.net/www04/phc/342da402-a44b-4b59-aba4-8fc2310e4478.js", "SIZE":4576}
+{"TAG":"REQ",   "TIME":1430944628.664504, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/js/cnn-vendor-header-lib.min.js"}
+{"TAG":"RESPB", "TIME":1430944628.677450, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/js/cnn-vendor-header-lib.min.js"}
+{"TAG":"RESPD", "TIME":1430944628.678173, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/js/cnn-vendor-header-lib.min.js", "SIZE":17705}
+{"TAG":"REQ",   "TIME":1430944628.699229, "DSTIP":"174.35.56.219  ", "URL":"http://cdn.clicktale.net/www04/ptc/342da402-a44b-4b59-aba4-8fc2310e4478.js"}
+{"TAG":"REQ",   "TIME":1430944628.704685, "DSTIP":"129.105.230.9  ", "URL":"http://a.postrelease.com/serve/load.js?async=true"}
+{"TAG":"RESPB", "TIME":1430944628.710486, "DSTIP":"174.35.56.219  ", "URL":"http://cdn.clicktale.net/www04/ptc/342da402-a44b-4b59-aba4-8fc2310e4478.js"}
+{"TAG":"RESPD", "TIME":1430944628.710975, "DSTIP":"174.35.56.219  ", "URL":"http://cdn.clicktale.net/www04/ptc/342da402-a44b-4b59-aba4-8fc2310e4478.js", "SIZE":27580}
+{"TAG":"RESPB", "TIME":1430944628.720355, "DSTIP":"129.105.230.9  ", "URL":"http://a.postrelease.com/serve/load.js?async=true"}
+{"TAG":"RESPB", "TIME":1430944628.722988, "DSTIP":"72.21.91.8     ", "URL":"http://cdn.optimizely.com/js/131788053.js"}
+{"TAG":"RESPD", "TIME":1430944628.977590, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/css/global.css", "SIZE":109660}
+{"TAG":"REQ",   "TIME":1430944629.588222, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/js/cnn-video-api.min.js?version=latest&client=expansion"}
+{"TAG":"RESPB", "TIME":1430944629.596443, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/js/cnn-video-api.min.js?version=latest&client=expansion"}
+{"TAG":"RESPD", "TIME":1430944629.596641, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/js/cnn-video-api.min.js?version=latest&client=expansion", "SIZE":4347}
+{"TAG":"RESPD", "TIME":1430944629.706304, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/css/pages/page-blessed1.css", "SIZE":360019}
+{"TAG":"REQ",   "TIME":1430944630.075907, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/js/cnn-header-lib.min.js"}
+{"TAG":"RESPB", "TIME":1430944630.089051, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/js/cnn-header-lib.min.js"}
+{"TAG":"RESPD", "TIME":1430944630.089757, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/js/cnn-header-lib.min.js", "SIZE":17365}
+{"TAG":"REQ",   "TIME":1430944630.090157, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/js/cnn-vendor-footer-lib.min.js"}
+{"TAG":"RESPB", "TIME":1430944630.099901, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/js/cnn-vendor-footer-lib.min.js"}
+{"TAG":"REQ",   "TIME":1430944630.586828, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/js/cnn-footer-lib.min.js"}
+{"TAG":"RESPB", "TIME":1430944630.605496, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/js/cnn-footer-lib.min.js"}
+{"TAG":"RESPD", "TIME":1430944630.733849, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/css/pages/page.css", "SIZE":141217}
+{"TAG":"REQ",   "TIME":1430944630.801614, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/js/gigya-sharebar.min.js"}
+{"TAG":"RESPB", "TIME":1430944630.818858, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/js/gigya-sharebar.min.js"}
+{"TAG":"RESPD", "TIME":1430944630.819059, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/js/gigya-sharebar.min.js", "SIZE":3801}
+{"TAG":"RESPD", "TIME":1430944630.856150, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/js/vendor/jquery.min.js", "SIZE":96661}
+{"TAG":"RESPD", "TIME":1430944631.131590, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/js/cnn-footer-lib.min.js", "SIZE":154374}
+{"TAG":"RESPD", "TIME":1430944631.253445, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/js/cnn-vendor-footer-lib.min.js", "SIZE":130531}
+{"TAG":"REQ",   "TIME":1430944631.372070, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/js/vendor/usabilla.min.js"}
+{"TAG":"RESPB", "TIME":1430944631.379425, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/js/vendor/usabilla.min.js"}
+{"TAG":"RESPD", "TIME":1430944631.379510, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/js/vendor/usabilla.min.js", "SIZE":1992}
+{"TAG":"REQ",   "TIME":1430944631.410253, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/js/cnn-analytics.min.js"}
+{"TAG":"RESPB", "TIME":1430944631.419006, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/js/cnn-analytics.min.js"}
+{"TAG":"RESPD", "TIME":1430944631.419799, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/js/cnn-analytics.min.js", "SIZE":17961}
+{"TAG":"CONNE", "TIME":1430944632.387709, "DSTIP":"23.235.44.175  ", "DSTPORT":80, "DURATION":0.034836, "SRCPORT":55379}
+{"TAG":"CONNE", "TIME":1430944632.511887, "DSTIP":"23.235.44.175  ", "DSTPORT":80, "DURATION":0.034807, "SRCPORT":55380}
+{"TAG":"RESPD", "TIME":1430944632.599791, "DSTIP":"72.21.91.8     ", "URL":"http://cdn.optimizely.com/js/131788053.js", "SIZE":236138}
+{"TAG":"CONNE", "TIME":1430944632.616879, "DSTIP":"64.233.168.147 ", "DSTPORT":443, "DURATION":0.017722, "SRCPORT":55381}
+{"TAG":"CONNE", "TIME":1430944632.736139, "DSTIP":"23.235.40.175  ", "DSTPORT":80, "DURATION":0.005343, "SRCPORT":55382}
+{"TAG":"REQ",   "TIME":1430944632.804841, "DSTIP":"23.235.44.175  ", "URL":"http://cdn.krxd.net/controltag?confid=ITb_4eqO"}
+{"TAG":"RESPB", "TIME":1430944632.847867, "DSTIP":"23.235.44.175  ", "URL":"http://cdn.krxd.net/controltag?confid=ITb_4eqO"}
+{"TAG":"RESPD", "TIME":1430944632.848907, "DSTIP":"23.235.44.175  ", "URL":"http://cdn.krxd.net/controltag?confid=ITb_4eqO", "SIZE":36748}
+{"TAG":"CONNE", "TIME":1430944632.867437, "DSTIP":"64.233.168.99  ", "DSTPORT":443, "DURATION":0.017829, "SRCPORT":55383}
+{"TAG":"REQ",   "TIME":1430944633.274337, "DSTIP":"23.235.44.175  ", "URL":"http://cdn.krxd.net/ctjs/controltag.js.cf94643484cc8654373adf5516beca11"}
+{"TAG":"RESPB", "TIME":1430944633.318336, "DSTIP":"23.235.44.175  ", "URL":"http://cdn.krxd.net/ctjs/controltag.js.cf94643484cc8654373adf5516beca11"}
+{"TAG":"REQ",   "TIME":1430944633.389903, "DSTIP":"64.233.168.147 ", "URL":"https://www.google.com"}
+{"TAG":"RESPD", "TIME":1430944633.458264, "DSTIP":"129.105.230.9  ", "URL":"http://a.postrelease.com/serve/load.js?async=true", "SIZE":139571}
+{"TAG":"CONNE", "TIME":1430944633.654461, "DSTIP":"216.58.216.206 ", "DSTPORT":80, "DURATION":0.003025, "SRCPORT":55384}
+{"TAG":"CONNE", "TIME":1430944633.655591, "DSTIP":"216.58.216.206 ", "DSTPORT":80, "DURATION":0.003063, "SRCPORT":55385}
+{"TAG":"RESPD", "TIME":1430944633.861741, "DSTIP":"23.235.44.175  ", "URL":"http://cdn.krxd.net/ctjs/controltag.js.cf94643484cc8654373adf5516beca11", "SIZE":117767}
+{"TAG":"REQ",   "TIME":1430944633.954914, "DSTIP":"216.58.216.206 ", "URL":"http://clients1.google.com/ocsp"}
+{"TAG":"CONNE", "TIME":1430944633.968286, "DSTIP":"216.58.216.206 ", "DSTPORT":80, "DURATION":0.065993, "SRCPORT":55386}
+{"TAG":"RESPB", "TIME":1430944633.992309, "DSTIP":"216.58.216.206 ", "URL":"http://clients1.google.com/ocsp"}
+{"TAG":"RESPD", "TIME":1430944633.992309, "DSTIP":"216.58.216.206 ", "URL":"http://clients1.google.com/ocsp", "SIZE":463}
+{"TAG":"REQ",   "TIME":1430944634.216134, "DSTIP":"23.235.40.73   ", "URL":"http://www.cnn.com/data/ocs/section/index.html:homepage2-zone-1/views/zones/common/zone-manager.html"}
+{"TAG":"CONNE", "TIME":1430944634.220219, "DSTIP":"23.235.40.73   ", "DSTPORT":80, "DURATION":0.003006, "SRCPORT":55387}
+{"TAG":"CONNE", "TIME":1430944634.222502, "DSTIP":"23.235.40.73   ", "DSTPORT":80, "DURATION":0.003066, "SRCPORT":55390}
+{"TAG":"CONNE", "TIME":1430944634.223506, "DSTIP":"23.235.40.73   ", "DSTPORT":80, "DURATION":0.005168, "SRCPORT":55388}
+{"TAG":"CONNE", "TIME":1430944634.223849, "DSTIP":"23.235.40.73   ", "DSTPORT":80, "DURATION":0.005510, "SRCPORT":55389}
+{"TAG":"CONNE", "TIME":1430944634.225545, "DSTIP":"23.235.40.73   ", "DSTPORT":80, "DURATION":0.004975, "SRCPORT":55391}
+{"TAG":"RESPB", "TIME":1430944634.227609, "DSTIP":"23.235.40.73   ", "URL":"http://www.cnn.com/data/ocs/section/index.html:homepage2-zone-1/views/zones/common/zone-manager.html"}
+{"TAG":"RESPD", "TIME":1430944634.228321, "DSTIP":"23.235.40.73   ", "URL":"http://www.cnn.com/data/ocs/section/index.html:homepage2-zone-1/views/zones/common/zone-manager.html", "SIZE":32909}
+{"TAG":"REQ",   "TIME":1430944634.232871, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/assets/logo_cnn_badge_3up.png"}
+{"TAG":"RESPB", "TIME":1430944634.237470, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/assets/logo_cnn_badge_3up.png"}
+{"TAG":"RESPD", "TIME":1430944634.237673, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/assets/logo_cnn_badge_3up.png", "SIZE":960}
+{"TAG":"REQ",   "TIME":1430944634.246225, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/assets/sprite-s1dced3ff2b.png"}
+{"TAG":"CONNE", "TIME":1430944634.250402, "DSTIP":"23.235.40.73   ", "DSTPORT":80, "DURATION":0.003097, "SRCPORT":55392}
+{"TAG":"RESPB", "TIME":1430944634.253043, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/assets/sprite-s1dced3ff2b.png"}
+{"TAG":"RESPD", "TIME":1430944634.253830, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/assets/sprite-s1dced3ff2b.png", "SIZE":3606}
+{"TAG":"CONNE", "TIME":1430944634.259290, "DSTIP":"129.105.230.7  ", "DSTPORT":80, "DURATION":0.005448, "SRCPORT":55393}
+{"TAG":"REQ",   "TIME":1430944634.274813, "DSTIP":"174.35.56.219  ", "URL":"http://cdn.clicktale.net/www04/pcc/342da402-a44b-4b59-aba4-8fc2310e4478.js?DeploymentConfigName=Release_21042015&Version=20"}
+{"TAG":"REQ",   "TIME":1430944634.279290, "DSTIP":"174.35.56.219  ", "URL":"http://cdn.clicktale.net/www/tc/WRe21.js"}
+{"TAG":"RESPB", "TIME":1430944634.281343, "DSTIP":"174.35.56.219  ", "URL":"http://cdn.clicktale.net/www04/pcc/342da402-a44b-4b59-aba4-8fc2310e4478.js?DeploymentConfigName=Release_21042015&Version=20"}
+{"TAG":"RESPD", "TIME":1430944634.281970, "DSTIP":"174.35.56.219  ", "URL":"http://cdn.clicktale.net/www04/pcc/342da402-a44b-4b59-aba4-8fc2310e4478.js?DeploymentConfigName=Release_21042015&Version=20", "SIZE":8391}
+{"TAG":"RESPB", "TIME":1430944634.290091, "DSTIP":"174.35.56.219  ", "URL":"http://cdn.clicktale.net/www/tc/WRe21.js"}
+{"TAG":"RESPD", "TIME":1430944634.291050, "DSTIP":"174.35.56.219  ", "URL":"http://cdn.clicktale.net/www/tc/WRe21.js", "SIZE":28108}
+{"TAG":"CONNE", "TIME":1430944634.361993, "DSTIP":"107.20.188.100 ", "DSTPORT":80, "DURATION":0.023148, "SRCPORT":55394}
+{"TAG":"CONNE", "TIME":1430944634.379915, "DSTIP":"157.166.239.38 ", "DSTPORT":80, "DURATION":0.022216, "SRCPORT":55395}
+{"TAG":"CONNE", "TIME":1430944634.432850, "DSTIP":"138.108.7.20   ", "DSTPORT":80, "DURATION":0.012080, "SRCPORT":55396}
+{"TAG":"CONNE", "TIME":1430944634.446142, "DSTIP":"66.235.153.37  ", "DSTPORT":80, "DURATION":0.023324, "SRCPORT":55397}
+{"TAG":"CONNE", "TIME":1430944634.507404, "DSTIP":"129.105.230.7  ", "DSTPORT":80, "DURATION":0.002410, "SRCPORT":55398}
+{"TAG":"CONNE", "TIME":1430944634.613309, "DSTIP":"54.243.176.101 ", "DSTPORT":80, "DURATION":0.023292, "SRCPORT":55399}
+{"TAG":"CONNE", "TIME":1430944634.629755, "DSTIP":"157.166.249.67 ", "DSTPORT":80, "DURATION":0.020893, "SRCPORT":55400}
+{"TAG":"CONNE", "TIME":1430944634.677779, "DSTIP":"138.108.7.20   ", "DSTPORT":80, "DURATION":0.011062, "SRCPORT":55401}
+{"TAG":"CONNE", "TIME":1430944634.698440, "DSTIP":"63.140.35.160  ", "DSTPORT":80, "DURATION":0.022797, "SRCPORT":55402}
+{"TAG":"REQ",   "TIME":1430944634.723481, "DSTIP":"23.235.40.73   ", "URL":"http://www.cnn.com/data/ocs/section/index.html:homepage3-zone-1/views/zones/common/zone-manager.html"}
+{"TAG":"RESPB", "TIME":1430944634.733285, "DSTIP":"23.235.40.73   ", "URL":"http://www.cnn.com/data/ocs/section/index.html:homepage3-zone-1/views/zones/common/zone-manager.html"}
+{"TAG":"RESPD", "TIME":1430944634.733799, "DSTIP":"23.235.40.73   ", "URL":"http://www.cnn.com/data/ocs/section/index.html:homepage3-zone-1/views/zones/common/zone-manager.html", "SIZE":24384}
+{"TAG":"REQ",   "TIME":1430944634.739020, "DSTIP":"23.235.40.73   ", "URL":"http://www.cnn.com/data/ocs/section/index.html:homepage4-zone-1/views/zones/common/zone-manager.html"}
+{"TAG":"RESPB", "TIME":1430944634.747874, "DSTIP":"23.235.40.73   ", "URL":"http://www.cnn.com/data/ocs/section/index.html:homepage4-zone-1/views/zones/common/zone-manager.html"}
+{"TAG":"RESPD", "TIME":1430944634.748494, "DSTIP":"23.235.40.73   ", "URL":"http://www.cnn.com/data/ocs/section/index.html:homepage4-zone-1/views/zones/common/zone-manager.html", "SIZE":20520}
+{"TAG":"REQ",   "TIME":1430944634.756810, "DSTIP":"23.235.40.73   ", "URL":"http://www.cnn.com/data/ocs/section/index.html:homepage4-zone-2/views/zones/common/zone-manager.html"}
+{"TAG":"RESPB", "TIME":1430944634.763343, "DSTIP":"23.235.40.73   ", "URL":"http://www.cnn.com/data/ocs/section/index.html:homepage4-zone-2/views/zones/common/zone-manager.html"}
+{"TAG":"RESPD", "TIME":1430944634.763343, "DSTIP":"23.235.40.73   ", "URL":"http://www.cnn.com/data/ocs/section/index.html:homepage4-zone-2/views/zones/common/zone-manager.html", "SIZE":0}
+{"TAG":"REQ",   "TIME":1430944634.773585, "DSTIP":"23.235.40.73   ", "URL":"http://www.cnn.com/data/ocs/section/index.html:homepage4-zone-3/views/zones/common/zone-manager.html"}
+{"TAG":"RESPB", "TIME":1430944634.785539, "DSTIP":"23.235.40.73   ", "URL":"http://www.cnn.com/data/ocs/section/index.html:homepage4-zone-3/views/zones/common/zone-manager.html"}
+{"TAG":"RESPD", "TIME":1430944634.786084, "DSTIP":"23.235.40.73   ", "URL":"http://www.cnn.com/data/ocs/section/index.html:homepage4-zone-3/views/zones/common/zone-manager.html", "SIZE":25152}
+{"TAG":"REQ",   "TIME":1430944634.789435, "DSTIP":"23.235.40.73   ", "URL":"http://www.cnn.com/data/ocs/section/index.html:homepage4-zone-4/views/zones/common/zone-manager.html"}
+{"TAG":"CONNE", "TIME":1430944634.795736, "DSTIP":"23.235.40.73   ", "DSTPORT":80, "DURATION":0.005311, "SRCPORT":55403}
+{"TAG":"REQ",   "TIME":1430944634.807092, "DSTIP":"23.235.40.73   ", "URL":"http://www.cnn.com/data/ocs/section/index.html:homepage4-zone-5/views/zones/common/zone-manager.html"}
+{"TAG":"RESPB", "TIME":1430944634.816209, "DSTIP":"23.235.40.73   ", "URL":"http://www.cnn.com/data/ocs/section/index.html:homepage4-zone-5/views/zones/common/zone-manager.html"}
+{"TAG":"RESPD", "TIME":1430944634.816508, "DSTIP":"23.235.40.73   ", "URL":"http://www.cnn.com/data/ocs/section/index.html:homepage4-zone-5/views/zones/common/zone-manager.html", "SIZE":11165}
+{"TAG":"RESPB", "TIME":1430944634.817629, "DSTIP":"23.235.40.73   ", "URL":"http://www.cnn.com/data/ocs/section/index.html:homepage4-zone-4/views/zones/common/zone-manager.html"}
+{"TAG":"RESPD", "TIME":1430944634.818292, "DSTIP":"23.235.40.73   ", "URL":"http://www.cnn.com/data/ocs/section/index.html:homepage4-zone-4/views/zones/common/zone-manager.html", "SIZE":24176}
+{"TAG":"REQ",   "TIME":1430944634.820249, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/js/muted-player-optimize.min.js?_=1430944631462"}
+{"TAG":"RESPB", "TIME":1430944634.825940, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/js/muted-player-optimize.min.js?_=1430944631462"}
+{"TAG":"RESPD", "TIME":1430944634.826116, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/js/muted-player-optimize.min.js?_=1430944631462", "SIZE":2337}
+{"TAG":"REQ",   "TIME":1430944634.833510, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/js/cnn-muted-player.min.js?_=1430944631463"}
+{"TAG":"RESPB", "TIME":1430944634.839907, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/js/cnn-muted-player.min.js?_=1430944631463"}
+{"TAG":"RESPD", "TIME":1430944634.839952, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/1.125.0/js/cnn-muted-player.min.js?_=1430944631463", "SIZE":4349}
+{"TAG":"REQ",   "TIME":1430944634.858130, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/fonts/cnn/1.1.1/14ff6081-326d-4dae-b778-d7afa66166fc.woff"}
+{"TAG":"RESPB", "TIME":1430944634.863011, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/fonts/cnn/1.1.1/14ff6081-326d-4dae-b778-d7afa66166fc.woff"}
+{"TAG":"REQ",   "TIME":1430944634.863624, "DSTIP":"129.105.230.7  ", "URL":"http://i2.cdn.turner.com/cnnnext/dam/assets/150506132839-deflategate-file-exlarge-169.jpg"}
+{"TAG":"RESPB", "TIME":1430944634.873613, "DSTIP":"129.105.230.7  ", "URL":"http://i2.cdn.turner.com/cnnnext/dam/assets/150506132839-deflategate-file-exlarge-169.jpg"}
+{"TAG":"REQ",   "TIME":1430944634.894826, "DSTIP":"157.166.239.38 ", "URL":"http://data.cnn.com/jsonp/breaking_news/domestic.json?callback=jQuery1112015242908551552914_1430944631460&_=1430944631461"}
+{"TAG":"REQ",   "TIME":1430944634.901352, "DSTIP":"138.108.7.20   ", "URL":"http://secure-us.imrworldwide.com/cgi-bin/m?ci=us-204044h&cg=0&cc=1&si=http%3A//www.cnn.com/&rp=&ts=compact&rnd=1430944634413"}
+{"TAG":"REQ",   "TIME":1430944634.916802, "DSTIP":"66.235.153.37  ", "URL":"http://metrics.cnn.com/b/ss/cnn-adbp-domestic/1/H.26.1/s4694512791508?AQB=1&ndh=1&t=6%2F4%2F2015%2015%3A37%3A14%203%20300&fid=2C275F1F3DB5CD74-1747E6BCF02E49F3&ce=UTF-8&ns=cnn&pageName=cnn%3Ain%3A%2F&g=http%3A%2F%2Fwww.cnn.com%2F&cc=USD&ch=cnn%20homepage&server=cnn.com&events=event24%2Cevent26&c8=repeat%3A%208&v8=D%3Dc8&c13=section&v13=D%3Dc13&c14=co%3Acnn-money-markets&v14=D%3Dc14&c17=anonymous&v17=D%3Dc17&c20=17&v20=D%3Dc20&v22=0&c26=www.cnn.com%2F&v26=D%3DpageName&v27=D%3Dch&c28=cnn%20homepage%3Anvs&v28=D%3Dc28&v29=cnn.com&c30=cnn%20domestic&v30=D%3Dc30&c32=adbp%3Aindex&v32=D%3Dc32&c33=adbp%3Anone&v33=D%3Dc33&c35=cnnexpan.88.3710.20150504%3A0&v35=D%3Dc35&c37=12col&v37=D%3Dc37&c46=14309446321185405490971757&v46=D%3Dc46&c47=5540231f04e1320a3c73ae44f8009a92&v47=D%3Dc47&c56=landscape&v56=D%3Dc56&c62=cnn%20homepage%3Anvs%3A%3A%3A&v62=D%3Dc62&c64=cnn%20news&v64=D%3Dc64&c73=1080%20X%20575&v73=D%3Dc73&h1=news%7Ccnn%7Ccnn%20domestic%7Ccnn.com%7Ccnn%20homepage%7Ccnn%20homepage%3Anvs&s=1440x900&c=24&j=1.8.5&v=Y&k=Y&bw=1080&bh=575&AQE=1"}
+{"TAG":"RESPB", "TIME":1430944634.924191, "DSTIP":"157.166.239.38 ", "URL":"http://data.cnn.com/jsonp/breaking_news/domestic.json?callback=jQuery1112015242908551552914_1430944631460&_=1430944631461"}
+{"TAG":"RESPD", "TIME":1430944634.924191, "DSTIP":"157.166.239.38 ", "URL":"http://data.cnn.com/jsonp/breaking_news/domestic.json?callback=jQuery1112015242908551552914_1430944631460&_=1430944631461", "SIZE":478}
+{"TAG":"CONNE", "TIME":1430944634.950707, "DSTIP":"69.25.24.26    ", "DSTPORT":80, "DURATION":0.022742, "SRCPORT":55404}
+{"TAG":"RESPB", "TIME":1430944634.955016, "DSTIP":"138.108.7.20   ", "URL":"http://secure-us.imrworldwide.com/cgi-bin/m?ci=us-204044h&cg=0&cc=1&si=http%3A//www.cnn.com/&rp=&ts=compact&rnd=1430944634413"}
+{"TAG":"RESPD", "TIME":1430944634.955016, "DSTIP":"138.108.7.20   ", "URL":"http://secure-us.imrworldwide.com/cgi-bin/m?ci=us-204044h&cg=0&cc=1&si=http%3A//www.cnn.com/&rp=&ts=compact&rnd=1430944634413", "SIZE":44}
+{"TAG":"RESPB", "TIME":1430944634.956448, "DSTIP":"66.235.153.37  ", "URL":"http://metrics.cnn.com/b/ss/cnn-adbp-domestic/1/H.26.1/s4694512791508?AQB=1&ndh=1&t=6%2F4%2F2015%2015%3A37%3A14%203%20300&fid=2C275F1F3DB5CD74-1747E6BCF02E49F3&ce=UTF-8&ns=cnn&pageName=cnn%3Ain%3A%2F&g=http%3A%2F%2Fwww.cnn.com%2F&cc=USD&ch=cnn%20homepage&server=cnn.com&events=event24%2Cevent26&c8=repeat%3A%208&v8=D%3Dc8&c13=section&v13=D%3Dc13&c14=co%3Acnn-money-markets&v14=D%3Dc14&c17=anonymous&v17=D%3Dc17&c20=17&v20=D%3Dc20&v22=0&c26=www.cnn.com%2F&v26=D%3DpageName&v27=D%3Dch&c28=cnn%20homepage%3Anvs&v28=D%3Dc28&v29=cnn.com&c30=cnn%20domestic&v30=D%3Dc30&c32=adbp%3Aindex&v32=D%3Dc32&c33=adbp%3Anone&v33=D%3Dc33&c35=cnnexpan.88.3710.20150504%3A0&v35=D%3Dc35&c37=12col&v37=D%3Dc37&c46=14309446321185405490971757&v46=D%3Dc46&c47=5540231f04e1320a3c73ae44f8009a92&v47=D%3Dc47&c56=landscape&v56=D%3Dc56&c62=cnn%20homepage%3Anvs%3A%3A%3A&v62=D%3Dc62&c64=cnn%20news&v64=D%3Dc64&c73=1080%20X%20575&v73=D%3Dc73&h1=news%7Ccnn%7Ccnn%20domestic%7Ccnn.com%7Ccnn%20homepage%7Ccnn%20homepage%3Anvs&s=1440x900&c=24&j=1.8.5&v=Y&k=Y&bw=1080&bh=575&AQE=1"}
+{"TAG":"RESPD", "TIME":1430944634.956448, "DSTIP":"66.235.153.37  ", "URL":"http://metrics.cnn.com/b/ss/cnn-adbp-domestic/1/H.26.1/s4694512791508?AQB=1&ndh=1&t=6%2F4%2F2015%2015%3A37%3A14%203%20300&fid=2C275F1F3DB5CD74-1747E6BCF02E49F3&ce=UTF-8&ns=cnn&pageName=cnn%3Ain%3A%2F&g=http%3A%2F%2Fwww.cnn.com%2F&cc=USD&ch=cnn%20homepage&server=cnn.com&events=event24%2Cevent26&c8=repeat%3A%208&v8=D%3Dc8&c13=section&v13=D%3Dc13&c14=co%3Acnn-money-markets&v14=D%3Dc14&c17=anonymous&v17=D%3Dc17&c20=17&v20=D%3Dc20&v22=0&c26=www.cnn.com%2F&v26=D%3DpageName&v27=D%3Dch&c28=cnn%20homepage%3Anvs&v28=D%3Dc28&v29=cnn.com&c30=cnn%20domestic&v30=D%3Dc30&c32=adbp%3Aindex&v32=D%3Dc32&c33=adbp%3Anone&v33=D%3Dc33&c35=cnnexpan.88.3710.20150504%3A0&v35=D%3Dc35&c37=12col&v37=D%3Dc37&c46=14309446321185405490971757&v46=D%3Dc46&c47=5540231f04e1320a3c73ae44f8009a92&v47=D%3Dc47&c56=landscape&v56=D%3Dc56&c62=cnn%20homepage%3Anvs%3A%3A%3A&v62=D%3Dc62&c64=cnn%20news&v64=D%3Dc64&c73=1080%20X%20575&v73=D%3Dc73&h1=news%7Ccnn%7Ccnn%20domestic%7Ccnn.com%7Ccnn%20homepage%7Ccnn%20homepage%3Anvs&s=1440x900&c=24&j=1.8.5&v=Y&k=Y&bw=1080&bh=575&AQE=1", "SIZE":0}
+{"TAG":"CONNE", "TIME":1430944634.962952, "DSTIP":"23.235.40.73   ", "DSTPORT":80, "DURATION":0.005156, "SRCPORT":55405}
+{"TAG":"REQ",   "TIME":1430944635.140757, "DSTIP":"23.235.40.73   ", "URL":"http://www.cnn.com/.element/widget/video/videoapi/api/latest/js/CNNVideoBootstrapper.js"}
+{"TAG":"RESPB", "TIME":1430944635.151169, "DSTIP":"23.235.40.73   ", "URL":"http://www.cnn.com/.element/widget/video/videoapi/api/latest/js/CNNVideoBootstrapper.js"}
+{"TAG":"RESPD", "TIME":1430944635.151929, "DSTIP":"23.235.40.73   ", "URL":"http://www.cnn.com/.element/widget/video/videoapi/api/latest/js/CNNVideoBootstrapper.js", "SIZE":22966}
+{"TAG":"CONNE", "TIME":1430944635.188501, "DSTIP":"69.25.24.26    ", "DSTPORT":80, "DURATION":0.022078, "SRCPORT":55406}
+{"TAG":"REQ",   "TIME":1430944635.201045, "DSTIP":"23.235.40.73   ", "URL":"http://www.cnn.com/weather/getForecast/json/10001/false/USNY9472"}
+{"TAG":"RESPB", "TIME":1430944635.211413, "DSTIP":"23.235.40.73   ", "URL":"http://www.cnn.com/weather/getForecast/json/10001/false/USNY9472"}
+{"TAG":"RESPD", "TIME":1430944635.211670, "DSTIP":"23.235.40.73   ", "URL":"http://www.cnn.com/weather/getForecast/json/10001/false/USNY9472", "SIZE":16428}
+{"TAG":"REQ",   "TIME":1430944635.343931, "DSTIP":"69.25.24.26    ", "URL":"http://tap.rubiconproject.com/oz/feeds/krux/tokens?afu=JyN2NTLv"}
+{"TAG":"RESPB", "TIME":1430944635.375454, "DSTIP":"69.25.24.26    ", "URL":"http://tap.rubiconproject.com/oz/feeds/krux/tokens?afu=JyN2NTLv"}
+{"TAG":"RESPD", "TIME":1430944635.375454, "DSTIP":"69.25.24.26    ", "URL":"http://tap.rubiconproject.com/oz/feeds/krux/tokens?afu=JyN2NTLv", "SIZE":0}
+{"TAG":"REQ",   "TIME":1430944635.548202, "DSTIP":"23.235.40.73   ", "URL":"http://www.cnn.com/.element/widget/video/videoapi/api/latest/config/apimapping.json?callback=callbackObj"}
+{"TAG":"RESPB", "TIME":1430944635.554272, "DSTIP":"23.235.40.73   ", "URL":"http://www.cnn.com/.element/widget/video/videoapi/api/latest/config/apimapping.json?callback=callbackObj"}
+{"TAG":"RESPD", "TIME":1430944635.554272, "DSTIP":"23.235.40.73   ", "URL":"http://www.cnn.com/.element/widget/video/videoapi/api/latest/config/apimapping.json?callback=callbackObj", "SIZE":4129}
+{"TAG":"CONNE", "TIME":1430944636.058998, "DSTIP":"129.105.230.7  ", "DSTPORT":80, "DURATION":0.002767, "SRCPORT":55407}
+{"TAG":"CONNE", "TIME":1430944636.154913, "DSTIP":"129.105.230.7  ", "DSTPORT":80, "DURATION":0.002419, "SRCPORT":55408}
+{"TAG":"CONNE", "TIME":1430944636.409731, "DSTIP":"129.105.230.7  ", "DSTPORT":80, "DURATION":0.005237, "SRCPORT":55409}
+{"TAG":"RESPD", "TIME":1430944637.079697, "DSTIP":"129.105.230.7  ", "URL":"http://i2.cdn.turner.com/cnnnext/dam/assets/150506132839-deflategate-file-exlarge-169.jpg", "SIZE":34125}
+{"TAG":"REQ",   "TIME":1430944637.079697, "DSTIP":"64.233.168.99  ", "URL":"https://www.google.com"}
+{"TAG":"RESPD", "TIME":1430944637.079697, "DSTIP":"23.235.40.73   ", "URL":"http://www.i.cdn.cnn.com/.a/fonts/cnn/1.1.1/14ff6081-326d-4dae-b778-d7afa66166fc.woff", "SIZE":26970}

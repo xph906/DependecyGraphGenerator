@@ -1,0 +1,236 @@
+{"TAG":"CONNE", "TIME":1430494865.226718, "DSTIP":"23.21.122.142  ", "DSTPORT":80, "DURATION":0.097826, "SRCPORT":58988}
+{"TAG":"CONNE", "TIME":1430494865.226961, "DSTIP":"23.21.122.142  ", "DSTPORT":443, "DURATION":0.104838, "SRCPORT":58987}
+{"TAG":"CONNE", "TIME":1430494865.614342, "DSTIP":"54.201.3.250   ", "DSTPORT":443, "DURATION":0.058511, "SRCPORT":58989}
+{"TAG":"CONNE", "TIME":1430494865.616217, "DSTIP":"54.201.3.250   ", "DSTPORT":443, "DURATION":0.060385, "SRCPORT":58990}
+{"TAG":"CONNE", "TIME":1430494865.830350, "DSTIP":"93.184.215.191 ", "DSTPORT":443, "DURATION":0.003052, "SRCPORT":58992}
+{"TAG":"CONNE", "TIME":1430494865.830723, "DSTIP":"93.184.215.191 ", "DSTPORT":443, "DURATION":0.003425, "SRCPORT":58993}
+{"TAG":"CONNE", "TIME":1430494865.830756, "DSTIP":"93.184.215.191 ", "DSTPORT":443, "DURATION":0.003458, "SRCPORT":58994}
+{"TAG":"CONNE", "TIME":1430494865.831389, "DSTIP":"93.184.215.191 ", "DSTPORT":443, "DURATION":0.002929, "SRCPORT":58995}
+{"TAG":"CONNE", "TIME":1430494865.831675, "DSTIP":"93.184.215.191 ", "DSTPORT":443, "DURATION":0.003215, "SRCPORT":58996}
+{"TAG":"CONNE", "TIME":1430494865.863711, "DSTIP":"54.213.42.212  ", "DSTPORT":443, "DURATION":0.057195, "SRCPORT":58991}
+{"TAG":"CONNE", "TIME":1430494866.088147, "DSTIP":"93.184.215.191 ", "DSTPORT":443, "DURATION":0.010994, "SRCPORT":58998}
+{"TAG":"REQ",   "TIME":1430494866.234132, "DSTIP":"23.21.122.142  ", "URL":"http://ping.chartbeat.net/ping?h=online.wsj.com&p=%2F&u=-0DlRD74mtTBBqeug&d=wsj.com&g=8900&g0=WSJ_US%20Home%20Page&n=0&f=20005&c=3&x=0&m=0&y=9649&o=1080&w=575&j=30&R=1&W=0&I=0&E=6&e=1&t=BByB8oclCyKBBopPDBlCzZnCrrVHe&V=58&tz=300&sn=6&eM=0002&_"}
+{"TAG":"CONNE", "TIME":1430494866.854605, "DSTIP":"93.184.215.191 ", "DSTPORT":443, "DURATION":0.003347, "SRCPORT":58997}
+{"TAG":"CONNE", "TIME":1430494867.100016, "DSTIP":"129.105.230.7  ", "DSTPORT":80, "DURATION":0.005004, "SRCPORT":58999}
+{"TAG":"CONNE", "TIME":1430494867.249175, "DSTIP":"184.73.191.34  ", "DSTPORT":443, "DURATION":0.025759, "SRCPORT":59000}
+{"TAG":"CONNE", "TIME":1430494867.249407, "DSTIP":"184.73.191.34  ", "DSTPORT":80, "DURATION":0.024998, "SRCPORT":59001}
+{"TAG":"REQ",   "TIME":1430494867.334446, "DSTIP":"23.21.122.142  ", "URL":"https://ping.chartbeat.net"}
+{"TAG":"CONNE", "TIME":1430494867.345678, "DSTIP":"129.105.230.7  ", "DSTPORT":80, "DURATION":0.002719, "SRCPORT":59002}
+{"TAG":"REQ",   "TIME":1430494867.906312, "DSTIP":"93.184.215.191 ", "URL":"https://tiles.cdn.mozilla.net"}
+{"TAG":"REQ",   "TIME":1430494867.940521, "DSTIP":"93.184.215.191 ", "URL":"https://tiles.cdn.mozilla.net"}
+{"TAG":"REQ",   "TIME":1430494867.973730, "DSTIP":"93.184.215.191 ", "URL":"https://tiles.cdn.mozilla.net"}
+{"TAG":"REQ",   "TIME":1430494868.007241, "DSTIP":"93.184.215.191 ", "URL":"https://tiles.cdn.mozilla.net"}
+{"TAG":"REQ",   "TIME":1430494868.085734, "DSTIP":"54.213.42.212  ", "URL":"https://tiles.services.mozilla.com"}
+{"TAG":"REQ",   "TIME":1430494868.113775, "DSTIP":"129.105.230.7  ", "URL":"http://www.wsj.com/"}
+{"TAG":"REQ",   "TIME":1430494868.142159, "DSTIP":"93.184.215.191 ", "URL":"https://tiles.cdn.mozilla.net"}
+{"TAG":"CONNE", "TIME":1430494868.550541, "DSTIP":"54.88.205.50   ", "DSTPORT":80, "DURATION":0.025466, "SRCPORT":59003}
+{"TAG":"REQ",   "TIME":1430494868.768498, "DSTIP":"54.201.3.250   ", "URL":"https://tiles.services.mozilla.com"}
+{"TAG":"REQ",   "TIME":1430494869.444234, "DSTIP":"184.73.191.34  ", "URL":"https://ping.chartbeat.net"}
+{"TAG":"REQ",   "TIME":1430494872.106363, "DSTIP":"54.201.3.250   ", "URL":"https://tiles.services.mozilla.com"}
+{"TAG":"RESPB", "TIME":1430494872.779807, "DSTIP":"129.105.230.7  ", "URL":"http://www.wsj.com/"}
+{"TAG":"REQ",   "TIME":1430494873.482190, "DSTIP":"93.184.215.191 ", "URL":"https://tiles.cdn.mozilla.net"}
+{"TAG":"CONNE", "TIME":1430494874.814483, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.002292, "SRCPORT":59004}
+{"TAG":"CONNE", "TIME":1430494874.819099, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.002411, "SRCPORT":59006}
+{"TAG":"CONNE", "TIME":1430494874.820093, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.002317, "SRCPORT":59007}
+{"TAG":"REQ",   "TIME":1430494875.819402, "DSTIP":"129.105.230.9  ", "URL":"http://fonts.wsj.net/fonts/wsj-fonts.css"}
+{"TAG":"CONNE", "TIME":1430494875.822820, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.003417, "SRCPORT":59009}
+{"TAG":"CONNE", "TIME":1430494875.823352, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.002877, "SRCPORT":59010}
+{"TAG":"REQ",   "TIME":1430494875.824959, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/app-d29f29ab.css"}
+{"TAG":"RESPB", "TIME":1430494875.827686, "DSTIP":"129.105.230.9  ", "URL":"http://fonts.wsj.net/fonts/wsj-fonts.css"}
+{"TAG":"REQ",   "TIME":1430494875.828280, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/tesla-b6281bef.css"}
+{"TAG":"CONNE", "TIME":1430494875.835759, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.003001, "SRCPORT":59005}
+{"TAG":"RESPB", "TIME":1430494875.837994, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/app-d29f29ab.css"}
+{"TAG":"RESPD", "TIME":1430494875.838837, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/app-d29f29ab.css", "SIZE":47357}
+{"TAG":"RESPB", "TIME":1430494875.839541, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/tesla-b6281bef.css"}
+{"TAG":"CONNE", "TIME":1430494875.908784, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.002879, "SRCPORT":59011}
+{"TAG":"CONNE", "TIME":1430494875.909791, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.002798, "SRCPORT":59012}
+{"TAG":"RESPD", "TIME":1430494875.953551, "DSTIP":"129.105.230.7  ", "URL":"http://www.wsj.com/", "SIZE":771959}
+{"TAG":"CONNE", "TIME":1430494876.036547, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.004939, "SRCPORT":59013}
+{"TAG":"CONNE", "TIME":1430494876.089135, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.020103, "SRCPORT":59015}
+{"TAG":"CONNE", "TIME":1430494876.165127, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.004291, "SRCPORT":59019}
+{"TAG":"CONNE", "TIME":1430494876.165678, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.005958, "SRCPORT":59018}
+{"TAG":"REQ",   "TIME":1430494876.828427, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/app-86bc427f.js"}
+{"TAG":"CONNE", "TIME":1430494876.840173, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.002674, "SRCPORT":59008}
+{"TAG":"RESPB", "TIME":1430494876.849422, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/app-86bc427f.js"}
+{"TAG":"REQ",   "TIME":1430494877.023348, "DSTIP":"129.105.230.9  ", "URL":"http://video-api.wsj.com/api-video/player/v2/css/wsjvideo.min.css"}
+{"TAG":"RESPB", "TIME":1430494877.029245, "DSTIP":"129.105.230.9  ", "URL":"http://video-api.wsj.com/api-video/player/v2/css/wsjvideo.min.css"}
+{"TAG":"RESPD", "TIME":1430494877.029416, "DSTIP":"129.105.230.9  ", "URL":"http://video-api.wsj.com/api-video/player/v2/css/wsjvideo.min.css", "SIZE":7667}
+{"TAG":"CONNE", "TIME":1430494877.052288, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.002972, "SRCPORT":59014}
+{"TAG":"CONNE", "TIME":1430494877.093278, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.005388, "SRCPORT":59017}
+{"TAG":"CONNE", "TIME":1430494877.093282, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.005391, "SRCPORT":59016}
+{"TAG":"REQ",   "TIME":1430494877.236761, "DSTIP":"93.184.215.191 ", "URL":"https://tiles.cdn.mozilla.net"}
+{"TAG":"RESPD", "TIME":1430494880.330771, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/app-86bc427f.js", "SIZE":563437}
+{"TAG":"RESPD", "TIME":1430494882.130142, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/tesla-b6281bef.css", "SIZE":324392}
+{"TAG":"REQ",   "TIME":1430494884.094933, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/tesla-2f3cbc1e.js"}
+{"TAG":"RESPB", "TIME":1430494884.112545, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/tesla-2f3cbc1e.js"}
+{"TAG":"RESPD", "TIME":1430494891.502503, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/tesla-2f3cbc1e.js", "SIZE":1020701}
+{"TAG":"RESPD", "TIME":1430494891.699558, "DSTIP":"129.105.230.9  ", "URL":"http://fonts.wsj.net/fonts/wsj-fonts.css", "SIZE":968418}
+{"TAG":"CONNE", "TIME":1430494893.898753, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.002254, "SRCPORT":59020}
+{"TAG":"CONNE", "TIME":1430494893.899163, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.002664, "SRCPORT":59021}
+{"TAG":"CONNE", "TIME":1430494893.900398, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.002769, "SRCPORT":59022}
+{"TAG":"CONNE", "TIME":1430494893.900894, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.003265, "SRCPORT":59023}
+{"TAG":"CONNE", "TIME":1430494893.901169, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.002497, "SRCPORT":59024}
+{"TAG":"CONNE", "TIME":1430494893.901422, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.002750, "SRCPORT":59025}
+{"TAG":"CONNE", "TIME":1430494893.902162, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.002333, "SRCPORT":59026}
+{"TAG":"CONNE", "TIME":1430494893.902535, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.002706, "SRCPORT":59027}
+{"TAG":"REQ",   "TIME":1430494893.915261, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/border-v-fff.png"}
+{"TAG":"RESPB", "TIME":1430494893.918048, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/border-v-fff.png"}
+{"TAG":"RESPD", "TIME":1430494893.918048, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/border-v-fff.png", "SIZE":82}
+{"TAG":"REQ",   "TIME":1430494893.918566, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/border-ccc.png"}
+{"TAG":"RESPB", "TIME":1430494893.921344, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/border-ccc.png"}
+{"TAG":"RESPD", "TIME":1430494893.921344, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/border-ccc.png", "SIZE":67}
+{"TAG":"REQ",   "TIME":1430494893.921937, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/rich-textIcons/comment26.png"}
+{"TAG":"RESPB", "TIME":1430494893.924809, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/rich-textIcons/comment26.png"}
+{"TAG":"RESPD", "TIME":1430494893.924809, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/rich-textIcons/comment26.png", "SIZE":306}
+{"TAG":"CONNE", "TIME":1430494893.925242, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.002203, "SRCPORT":59028}
+{"TAG":"CONNE", "TIME":1430494893.925831, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.002792, "SRCPORT":59029}
+{"TAG":"REQ",   "TIME":1430494893.933086, "DSTIP":"129.105.230.9  ", "URL":"http://video-api.wsj.com/api-video/player/v2/css/play_btn_80.png"}
+{"TAG":"RESPB", "TIME":1430494893.937229, "DSTIP":"129.105.230.9  ", "URL":"http://video-api.wsj.com/api-video/player/v2/css/play_btn_80.png"}
+{"TAG":"RESPD", "TIME":1430494893.937437, "DSTIP":"129.105.230.9  ", "URL":"http://video-api.wsj.com/api-video/player/v2/css/play_btn_80.png", "SIZE":1917}
+{"TAG":"CONNE", "TIME":1430494894.154985, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.004325, "SRCPORT":59031}
+{"TAG":"CONNE", "TIME":1430494894.155017, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.003183, "SRCPORT":59033}
+{"TAG":"CONNE", "TIME":1430494894.155273, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.003439, "SRCPORT":59032}
+{"TAG":"CONNE", "TIME":1430494894.155712, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.002808, "SRCPORT":59035}
+{"TAG":"CONNE", "TIME":1430494894.155916, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.003011, "SRCPORT":59036}
+{"TAG":"CONNE", "TIME":1430494894.159256, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.004225, "SRCPORT":59037}
+{"TAG":"CONNE", "TIME":1430494894.168133, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.002751, "SRCPORT":59038}
+{"TAG":"CONNE", "TIME":1430494894.169869, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.004486, "SRCPORT":59039}
+{"TAG":"CONNE", "TIME":1430494894.684712, "DSTIP":"216.58.216.66  ", "DSTPORT":80, "DURATION":0.003049, "SRCPORT":59041}
+{"TAG":"REQ",   "TIME":1430494894.905721, "DSTIP":"129.105.230.9  ", "URL":"http://si.wsj.net/public/resources/images/BN-IE507_HERDjp_Z120_20150430150943.jpg"}
+{"TAG":"REQ",   "TIME":1430494894.909231, "DSTIP":"129.105.230.9  ", "URL":"http://si.wsj.net/public/resources/images/BN-IE877_0501BA_E_20150501111841.jpg"}
+{"TAG":"RESPB", "TIME":1430494894.909633, "DSTIP":"129.105.230.9  ", "URL":"http://si.wsj.net/public/resources/images/BN-IE507_HERDjp_Z120_20150430150943.jpg"}
+{"TAG":"RESPD", "TIME":1430494894.910293, "DSTIP":"129.105.230.9  ", "URL":"http://si.wsj.net/public/resources/images/BN-IE507_HERDjp_Z120_20150430150943.jpg", "SIZE":3075}
+{"TAG":"REQ",   "TIME":1430494894.912584, "DSTIP":"129.105.230.9  ", "URL":"http://si.wsj.net/public/resources/images/BN-IE825_0501WI_Z120_20150501101026.jpg"}
+{"TAG":"RESPB", "TIME":1430494894.915562, "DSTIP":"129.105.230.9  ", "URL":"http://si.wsj.net/public/resources/images/BN-IE877_0501BA_E_20150501111841.jpg"}
+{"TAG":"REQ",   "TIME":1430494894.915976, "DSTIP":"129.105.230.9  ", "URL":"http://si.wsj.net/public/resources/images/BN-IE803_0501ta_Z120_20150501093215.jpg"}
+{"TAG":"RESPD", "TIME":1430494894.918087, "DSTIP":"129.105.230.9  ", "URL":"http://si.wsj.net/public/resources/images/BN-IE877_0501BA_E_20150501111841.jpg", "SIZE":17556}
+{"TAG":"RESPB", "TIME":1430494894.918116, "DSTIP":"129.105.230.9  ", "URL":"http://si.wsj.net/public/resources/images/BN-IE825_0501WI_Z120_20150501101026.jpg"}
+{"TAG":"RESPD", "TIME":1430494894.918308, "DSTIP":"129.105.230.9  ", "URL":"http://si.wsj.net/public/resources/images/BN-IE825_0501WI_Z120_20150501101026.jpg", "SIZE":3696}
+{"TAG":"RESPB", "TIME":1430494894.920384, "DSTIP":"129.105.230.9  ", "URL":"http://si.wsj.net/public/resources/images/BN-IE803_0501ta_Z120_20150501093215.jpg"}
+{"TAG":"RESPD", "TIME":1430494894.921012, "DSTIP":"129.105.230.9  ", "URL":"http://si.wsj.net/public/resources/images/BN-IE803_0501ta_Z120_20150501093215.jpg", "SIZE":4626}
+{"TAG":"REQ",   "TIME":1430494894.921381, "DSTIP":"129.105.230.9  ", "URL":"http://si.wsj.net/public/resources/images/OG-AE363_201505_Z120_20150430195145.jpg"}
+{"TAG":"REQ",   "TIME":1430494894.922511, "DSTIP":"129.105.230.9  ", "URL":"http://s.wsj.net/public/resources/images/BN-IE834_king51_D_20150501102833.jpg"}
+{"TAG":"RESPB", "TIME":1430494894.925794, "DSTIP":"129.105.230.9  ", "URL":"http://si.wsj.net/public/resources/images/OG-AE363_201505_Z120_20150430195145.jpg"}
+{"TAG":"RESPD", "TIME":1430494894.926348, "DSTIP":"129.105.230.9  ", "URL":"http://si.wsj.net/public/resources/images/OG-AE363_201505_Z120_20150430195145.jpg", "SIZE":4118}
+{"TAG":"REQ",   "TIME":1430494894.928028, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/locked.png"}
+{"TAG":"RESPB", "TIME":1430494894.928313, "DSTIP":"129.105.230.9  ", "URL":"http://s.wsj.net/public/resources/images/BN-IE834_king51_D_20150501102833.jpg"}
+{"TAG":"RESPD", "TIME":1430494894.929663, "DSTIP":"129.105.230.9  ", "URL":"http://s.wsj.net/public/resources/images/BN-IE834_king51_D_20150501102833.jpg", "SIZE":12114}
+{"TAG":"REQ",   "TIME":1430494894.931239, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/rich-textIcons/interactive26.png"}
+{"TAG":"RESPB", "TIME":1430494894.931444, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/locked.png"}
+{"TAG":"RESPD", "TIME":1430494894.931444, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/locked.png", "SIZE":389}
+{"TAG":"RESPB", "TIME":1430494894.934490, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/rich-textIcons/interactive26.png"}
+{"TAG":"RESPD", "TIME":1430494894.934490, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/rich-textIcons/interactive26.png", "SIZE":287}
+{"TAG":"REQ",   "TIME":1430494894.935543, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/new-MediaIcons/play40-base.png"}
+{"TAG":"RESPB", "TIME":1430494894.938535, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/new-MediaIcons/play40-base.png"}
+{"TAG":"RESPD", "TIME":1430494894.938535, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/new-MediaIcons/play40-base.png", "SIZE":958}
+{"TAG":"REQ",   "TIME":1430494894.940106, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/rich-textIcons/bullet26.png"}
+{"TAG":"RESPB", "TIME":1430494894.943436, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/rich-textIcons/bullet26.png"}
+{"TAG":"RESPD", "TIME":1430494894.943436, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/rich-textIcons/bullet26.png", "SIZE":202}
+{"TAG":"REQ",   "TIME":1430494895.160780, "DSTIP":"129.105.230.9  ", "URL":"http://si.wsj.net/public/resources/images/BN-IE497_SUBWAR_Z120_20150430145643.jpg"}
+{"TAG":"RESPB", "TIME":1430494895.164897, "DSTIP":"129.105.230.9  ", "URL":"http://si.wsj.net/public/resources/images/BN-IE497_SUBWAR_Z120_20150430145643.jpg"}
+{"TAG":"REQ",   "TIME":1430494895.165218, "DSTIP":"129.105.230.9  ", "URL":"http://si.wsj.net/public/resources/images/BN-IE522_labor0_Z120_20150430154548.jpg"}
+{"TAG":"RESPD", "TIME":1430494895.165374, "DSTIP":"129.105.230.9  ", "URL":"http://si.wsj.net/public/resources/images/BN-IE497_SUBWAR_Z120_20150430145643.jpg", "SIZE":3289}
+{"TAG":"REQ",   "TIME":1430494895.167410, "DSTIP":"129.105.230.9  ", "URL":"http://si.wsj.net/public/resources/images/BN-IE791_0501re_Z120_20150501080735.jpg"}
+{"TAG":"RESPB", "TIME":1430494895.169201, "DSTIP":"129.105.230.9  ", "URL":"http://si.wsj.net/public/resources/images/BN-IE522_labor0_Z120_20150430154548.jpg"}
+{"TAG":"RESPD", "TIME":1430494895.169835, "DSTIP":"129.105.230.9  ", "URL":"http://si.wsj.net/public/resources/images/BN-IE522_labor0_Z120_20150430154548.jpg", "SIZE":3950}
+{"TAG":"RESPB", "TIME":1430494895.171753, "DSTIP":"129.105.230.9  ", "URL":"http://si.wsj.net/public/resources/images/BN-IE791_0501re_Z120_20150501080735.jpg"}
+{"TAG":"REQ",   "TIME":1430494895.171787, "DSTIP":"129.105.230.9  ", "URL":"http://si.wsj.net/public/resources/images/BN-IE676_twitte_Z120_20150430195239.jpg"}
+{"TAG":"RESPD", "TIME":1430494895.172891, "DSTIP":"129.105.230.9  ", "URL":"http://si.wsj.net/public/resources/images/BN-IE791_0501re_Z120_20150501080735.jpg", "SIZE":3987}
+{"TAG":"CONNE", "TIME":1430494895.175795, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.004007, "SRCPORT":59034}
+{"TAG":"CONNE", "TIME":1430494895.176046, "DSTIP":"129.105.230.9  ", "DSTPORT":80, "DURATION":0.003145, "SRCPORT":59030}
+{"TAG":"RESPB", "TIME":1430494895.176355, "DSTIP":"129.105.230.9  ", "URL":"http://si.wsj.net/public/resources/images/BN-IE676_twitte_Z120_20150430195239.jpg"}
+{"TAG":"RESPD", "TIME":1430494895.176542, "DSTIP":"129.105.230.9  ", "URL":"http://si.wsj.net/public/resources/images/BN-IE676_twitte_Z120_20150430195239.jpg", "SIZE":4308}
+{"TAG":"REQ",   "TIME":1430494895.177283, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/border-h-fff.png"}
+{"TAG":"RESPB", "TIME":1430494895.180201, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/border-h-fff.png"}
+{"TAG":"RESPD", "TIME":1430494895.180201, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/border-h-fff.png", "SIZE":83}
+{"TAG":"REQ",   "TIME":1430494895.180572, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/slideshow/Arrow_Right_2x.png"}
+{"TAG":"RESPB", "TIME":1430494895.183488, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/slideshow/Arrow_Right_2x.png"}
+{"TAG":"RESPD", "TIME":1430494895.183488, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/slideshow/Arrow_Right_2x.png", "SIZE":210}
+{"TAG":"CONNE", "TIME":1430494895.429215, "DSTIP":"129.105.230.7  ", "DSTPORT":80, "DURATION":0.007869, "SRCPORT":59042}
+{"TAG":"CONNE", "TIME":1430494895.674323, "DSTIP":"129.105.230.7  ", "DSTPORT":80, "DURATION":0.002129, "SRCPORT":59043}
+{"TAG":"REQ",   "TIME":1430494895.691133, "DSTIP":"216.58.216.66  ", "URL":"http://www.googletagservices.com/tag/js/gpt.js"}
+{"TAG":"RESPB", "TIME":1430494895.710643, "DSTIP":"216.58.216.66  ", "URL":"http://www.googletagservices.com/tag/js/gpt.js"}
+{"TAG":"REQ",   "TIME":1430494896.264253, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/slideshow/Arrow_Left_2x.png"}
+{"TAG":"RESPB", "TIME":1430494896.267278, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/slideshow/Arrow_Left_2x.png"}
+{"TAG":"RESPD", "TIME":1430494896.267278, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/slideshow/Arrow_Left_2x.png", "SIZE":210}
+{"TAG":"REQ",   "TIME":1430494896.270974, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/slideshow/Fullscreen_off_2x.png"}
+{"TAG":"RESPB", "TIME":1430494896.273960, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/slideshow/Fullscreen_off_2x.png"}
+{"TAG":"RESPD", "TIME":1430494896.273960, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/slideshow/Fullscreen_off_2x.png", "SIZE":332}
+{"TAG":"REQ",   "TIME":1430494896.274397, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/rich-textIcons/video26.png"}
+{"TAG":"RESPB", "TIME":1430494896.277477, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/rich-textIcons/video26.png"}
+{"TAG":"RESPD", "TIME":1430494896.277477, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/rich-textIcons/video26.png", "SIZE":249}
+{"TAG":"REQ",   "TIME":1430494896.284353, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/twitter13.png"}
+{"TAG":"RESPB", "TIME":1430494896.287505, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/twitter13.png"}
+{"TAG":"RESPD", "TIME":1430494896.287505, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/twitter13.png", "SIZE":186}
+{"TAG":"REQ",   "TIME":1430494896.289992, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/email13.png"}
+{"TAG":"RESPB", "TIME":1430494896.293307, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/email13.png"}
+{"TAG":"RESPD", "TIME":1430494896.293307, "DSTIP":"129.105.230.9  ", "URL":"http://vir.wsj.net/fp/assets/images/email13.png", "SIZE":208}
+{"TAG":"REQ",   "TIME":1430494896.437747, "DSTIP":"129.105.230.7  ", "URL":"http://api.wsj.net/api/dylan/quotes/v2/comp/quoteByDialect?needed=Trading%7CBlueGrassChannels%7CMeta%7CTimeZoneInfo&id=343338&dialect=djid&maxInstrumentMatches=1&ckey=57494d5ed7&EntitlementToken=57494d5ed7ad44af85bc59a51dd87c90&accept=application%2Fjson"}
+{"TAG":"RESPB", "TIME":1430494896.491857, "DSTIP":"129.105.230.7  ", "URL":"http://api.wsj.net/api/dylan/quotes/v2/comp/quoteByDialect?needed=Trading%7CBlueGrassChannels%7CMeta%7CTimeZoneInfo&id=343338&dialect=djid&maxInstrumentMatches=1&ckey=57494d5ed7&EntitlementToken=57494d5ed7ad44af85bc59a51dd87c90&accept=application%2Fjson"}
+{"TAG":"RESPD", "TIME":1430494896.491868, "DSTIP":"129.105.230.7  ", "URL":"http://api.wsj.net/api/dylan/quotes/v2/comp/quoteByDialect?needed=Trading%7CBlueGrassChannels%7CMeta%7CTimeZoneInfo&id=343338&dialect=djid&maxInstrumentMatches=1&ckey=57494d5ed7&EntitlementToken=57494d5ed7ad44af85bc59a51dd87c90&accept=application%2Fjson", "SIZE":2746}
+{"TAG":"CONNE", "TIME":1430494896.662936, "DSTIP":"165.254.155.40 ", "DSTPORT":443, "DURATION":0.003947, "SRCPORT":59044}
+{"TAG":"CONNE", "TIME":1430494896.683730, "DSTIP":"165.254.155.40 ", "DSTPORT":443, "DURATION":0.004374, "SRCPORT":59045}
+{"TAG":"REQ",   "TIME":1430494896.702218, "DSTIP":"129.105.230.7  ", "URL":"http://api.wsj.net/api/michelangelo/timeseries/history?hash=-422813976&ckey=57494d5ed7"}
+{"TAG":"RESPD", "TIME":1430494896.741232, "DSTIP":"216.58.216.66  ", "URL":"http://www.googletagservices.com/tag/js/gpt.js", "SIZE":48947}
+{"TAG":"RESPB", "TIME":1430494896.792030, "DSTIP":"129.105.230.7  ", "URL":"http://api.wsj.net/api/michelangelo/timeseries/history?hash=-422813976&ckey=57494d5ed7"}
+{"TAG":"RESPD", "TIME":1430494896.792030, "DSTIP":"129.105.230.7  ", "URL":"http://api.wsj.net/api/michelangelo/timeseries/history?hash=-422813976&ckey=57494d5ed7", "SIZE":0}
+{"TAG":"CONNE", "TIME":1430494896.942818, "DSTIP":"165.254.155.40 ", "DSTPORT":443, "DURATION":0.013879, "SRCPORT":59047}
+{"TAG":"CONNE", "TIME":1430494897.112973, "DSTIP":"205.203.132.147", "DSTPORT":80, "DURATION":0.030235, "SRCPORT":59048}
+{"TAG":"CONNE", "TIME":1430494897.358574, "DSTIP":"205.203.132.147", "DSTPORT":80, "DURATION":0.024165, "SRCPORT":59049}
+{"TAG":"CONNE", "TIME":1430494897.505600, "DSTIP":"216.58.216.66  ", "DSTPORT":80, "DURATION":0.003709, "SRCPORT":59040}
+{"TAG":"CONNE", "TIME":1430494897.739644, "DSTIP":"205.203.132.147", "DSTPORT":80, "DURATION":0.023647, "SRCPORT":59046}
+{"TAG":"CONNE", "TIME":1430494897.782070, "DSTIP":"216.58.216.66  ", "DSTPORT":80, "DURATION":0.003094, "SRCPORT":59050}
+{"TAG":"CONNE", "TIME":1430494897.782896, "DSTIP":"216.58.216.66  ", "DSTPORT":80, "DURATION":0.002754, "SRCPORT":59051}
+{"TAG":"REQ",   "TIME":1430494897.783486, "DSTIP":"216.58.216.66  ", "URL":"http://www.googletagservices.com/tag/js/check_359604.js"}
+{"TAG":"RESPB", "TIME":1430494897.787196, "DSTIP":"216.58.216.66  ", "URL":"http://www.googletagservices.com/tag/js/check_359604.js"}
+{"TAG":"RESPD", "TIME":1430494897.787486, "DSTIP":"216.58.216.66  ", "URL":"http://www.googletagservices.com/tag/js/check_359604.js", "SIZE":2945}
+{"TAG":"CONNE", "TIME":1430494897.787574, "DSTIP":"216.58.216.65  ", "DSTPORT":80, "DURATION":0.003036, "SRCPORT":59052}
+{"TAG":"CONNE", "TIME":1430494897.801709, "DSTIP":"216.58.216.66  ", "DSTPORT":80, "DURATION":0.003450, "SRCPORT":59054}
+{"TAG":"CONNE", "TIME":1430494897.801788, "DSTIP":"216.58.216.66  ", "DSTPORT":80, "DURATION":0.003530, "SRCPORT":59053}
+{"TAG":"CONNE", "TIME":1430494898.036132, "DSTIP":"216.58.216.65  ", "DSTPORT":80, "DURATION":0.003511, "SRCPORT":59055}
+{"TAG":"CONNE", "TIME":1430494898.052419, "DSTIP":"216.58.216.66  ", "DSTPORT":80, "DURATION":0.002868, "SRCPORT":59057}
+{"TAG":"REQ",   "TIME":1430494898.119123, "DSTIP":"205.203.132.147", "URL":"http://wsjstream.wsj.net/bg/api/connect.ashx?_=1430494896185"}
+{"TAG":"RESPB", "TIME":1430494898.144551, "DSTIP":"205.203.132.147", "URL":"http://wsjstream.wsj.net/bg/api/connect.ashx?_=1430494896185"}
+{"TAG":"RESPD", "TIME":1430494898.144551, "DSTIP":"205.203.132.147", "URL":"http://wsjstream.wsj.net/bg/api/connect.ashx?_=1430494896185", "SIZE":227}
+{"TAG":"REQ",   "TIME":1430494898.679688, "DSTIP":"165.254.155.40 ", "URL":"https://a248.e.akamai.net"}
+{"TAG":"REQ",   "TIME":1430494898.699062, "DSTIP":"165.254.155.40 ", "URL":"https://a248.e.akamai.net"}
+{"TAG":"REQ",   "TIME":1430494898.786800, "DSTIP":"216.58.216.66  ", "URL":"http://partner.googleadservices.com/gpt/pubads_impl_60.js"}
+{"TAG":"REQ",   "TIME":1430494898.790197, "DSTIP":"216.58.216.66  ", "URL":"http://pagead2.googlesyndication.com/pagead/show_companion_ad.js"}
+{"TAG":"RESPB", "TIME":1430494898.799940, "DSTIP":"216.58.216.66  ", "URL":"http://partner.googleadservices.com/gpt/pubads_impl_60.js"}
+{"TAG":"RESPB", "TIME":1430494898.801037, "DSTIP":"216.58.216.66  ", "URL":"http://pagead2.googlesyndication.com/pagead/show_companion_ad.js"}
+{"TAG":"REQ",   "TIME":1430494898.812302, "DSTIP":"216.58.216.65  ", "URL":"http://tpc.googlesyndication.com/safeframe/1-0-2/html/container.html"}
+{"TAG":"RESPB", "TIME":1430494898.818409, "DSTIP":"216.58.216.65  ", "URL":"http://tpc.googlesyndication.com/safeframe/1-0-2/html/container.html"}
+{"TAG":"RESPD", "TIME":1430494898.818567, "DSTIP":"216.58.216.65  ", "URL":"http://tpc.googlesyndication.com/safeframe/1-0-2/html/container.html", "SIZE":4049}
+{"TAG":"REQ",   "TIME":1430494898.959664, "DSTIP":"165.254.155.40 ", "URL":"https://a248.e.akamai.net"}
+{"TAG":"CONNE", "TIME":1430494899.108143, "DSTIP":"216.58.216.66  ", "DSTPORT":80, "DURATION":0.044190, "SRCPORT":59056}
+{"TAG":"REQ",   "TIME":1430494899.266829, "DSTIP":"205.203.132.147", "URL":"http://wsjstream.wsj.net/bg/api/Pickup.ashx?c={%22c%22:%22671b320374074bcdb9ac31edb76bc6fe%22,%22s%22:%2210.241.40.130%22}&m=[{%22h%22:{%22t%22:%22/quotes/zigman/627449/realtime%22,%22a%22:%22subscribe%22},%22b%22:{%22sequence%22:%22%22,%22number%22:%220%22}},{%22h%22:{%22t%22:%22/quotes/zigman/12633936/realtime%22,%22a%22:%22subscribe%22},%22b%22:{%22sequence%22:%22%22,%22number%22:%220%22}},{%22h%22:{%22t%22:%22/quotes/zigman/15866666/realtime%22,%22a%22:%22subscribe%22},%22b%22:{%22sequence%22:%22%22,%22number%22:%220%22}},{%22h%22:{%22t%22:%22/quotes/zigman/2237091/delayed%22,%22a%22:%22subscribe%22},%22b%22:{%22sequence%22:%22%22,%22number%22:%220%22}},{%22h%22:{%22t%22:%22/quotes/zigman/16008136/realtime/sampled%22,%22a%22:%22subscribe%22},%22b%22:{%22sequence%22:%22%22,%22number%22:%220%22}}]&_=1430494898756"}
+{"TAG":"RESPB", "TIME":1430494899.293721, "DSTIP":"205.203.132.147", "URL":"http://wsjstream.wsj.net/bg/api/Pickup.ashx?c={%22c%22:%22671b320374074bcdb9ac31edb76bc6fe%22,%22s%22:%2210.241.40.130%22}&m=[{%22h%22:{%22t%22:%22/quotes/zigman/627449/realtime%22,%22a%22:%22subscribe%22},%22b%22:{%22sequence%22:%22%22,%22number%22:%220%22}},{%22h%22:{%22t%22:%22/quotes/zigman/12633936/realtime%22,%22a%22:%22subscribe%22},%22b%22:{%22sequence%22:%22%22,%22number%22:%220%22}},{%22h%22:{%22t%22:%22/quotes/zigman/15866666/realtime%22,%22a%22:%22subscribe%22},%22b%22:{%22sequence%22:%22%22,%22number%22:%220%22}},{%22h%22:{%22t%22:%22/quotes/zigman/2237091/delayed%22,%22a%22:%22subscribe%22},%22b%22:{%22sequence%22:%22%22,%22number%22:%220%22}},{%22h%22:{%22t%22:%22/quotes/zigman/16008136/realtime/sampled%22,%22a%22:%22subscribe%22},%22b%22:{%22sequence%22:%22%22,%22number%22:%220%22}}]&_=1430494898756"}
+{"TAG":"RESPD", "TIME":1430494899.293721, "DSTIP":"205.203.132.147", "URL":"http://wsjstream.wsj.net/bg/api/Pickup.ashx?c={%22c%22:%22671b320374074bcdb9ac31edb76bc6fe%22,%22s%22:%2210.241.40.130%22}&m=[{%22h%22:{%22t%22:%22/quotes/zigman/627449/realtime%22,%22a%22:%22subscribe%22},%22b%22:{%22sequence%22:%22%22,%22number%22:%220%22}},{%22h%22:{%22t%22:%22/quotes/zigman/12633936/realtime%22,%22a%22:%22subscribe%22},%22b%22:{%22sequence%22:%22%22,%22number%22:%220%22}},{%22h%22:{%22t%22:%22/quotes/zigman/15866666/realtime%22,%22a%22:%22subscribe%22},%22b%22:{%22sequence%22:%22%22,%22number%22:%220%22}},{%22h%22:{%22t%22:%22/quotes/zigman/2237091/delayed%22,%22a%22:%22subscribe%22},%22b%22:{%22sequence%22:%22%22,%22number%22:%220%22}},{%22h%22:{%22t%22:%22/quotes/zigman/16008136/realtime/sampled%22,%22a%22:%22subscribe%22},%22b%22:{%22sequence%22:%22%22,%22number%22:%220%22}}]&_=1430494898756", "SIZE":736}
+{"TAG":"RESPD", "TIME":1430494900.956152, "DSTIP":"216.58.216.66  ", "URL":"http://partner.googleadservices.com/gpt/pubads_impl_60.js", "SIZE":98684}
+{"TAG":"RESPD", "TIME":1430494902.130494, "DSTIP":"216.58.216.66  ", "URL":"http://pagead2.googlesyndication.com/pagead/show_companion_ad.js", "SIZE":195877}
+{"TAG":"REQ",   "TIME":1430494902.447551, "DSTIP":"129.105.230.9  ", "URL":"http://m.wsj.net/video/20150430/043015ukelect/043015ukelect_115x65.jpg"}
+{"TAG":"RESPB", "TIME":1430494902.451443, "DSTIP":"129.105.230.9  ", "URL":"http://m.wsj.net/video/20150430/043015ukelect/043015ukelect_115x65.jpg"}
+{"TAG":"RESPD", "TIME":1430494902.452374, "DSTIP":"129.105.230.9  ", "URL":"http://m.wsj.net/video/20150430/043015ukelect/043015ukelect_115x65.jpg", "SIZE":3175}
+{"TAG":"REQ",   "TIME":1430494904.446898, "DSTIP":"129.105.230.7  ", "URL":"http://api.wsj.net/api/michelangelo/timeseries/history?hash=-422813976&ckey=57494d5ed7"}
+{"TAG":"CONNE", "TIME":1430494905.151836, "DSTIP":"93.184.216.180 ", "DSTPORT":80, "DURATION":0.013669, "SRCPORT":59058}
+{"TAG":"CONNE", "TIME":1430494905.217291, "DSTIP":"216.58.216.66  ", "DSTPORT":80, "DURATION":0.007450, "SRCPORT":59059}
+{"TAG":"CONNE", "TIME":1430494905.248955, "DSTIP":"93.184.216.180 ", "DSTPORT":80, "DURATION":0.016841, "SRCPORT":59061}
+{"TAG":"CONNE", "TIME":1430494905.249564, "DSTIP":"216.58.216.66  ", "DSTPORT":80, "DURATION":0.017449, "SRCPORT":59062}
+{"TAG":"CONNE", "TIME":1430494905.490333, "DSTIP":"216.58.216.66  ", "DSTPORT":80, "DURATION":0.005180, "SRCPORT":59065}
+{"TAG":"CONNE", "TIME":1430494905.490522, "DSTIP":"93.184.216.180 ", "DSTPORT":80, "DURATION":0.006534, "SRCPORT":59064}
+{"TAG":"CONNE", "TIME":1430494905.503373, "DSTIP":"129.105.230.8  ", "DSTPORT":80, "DURATION":0.002289, "SRCPORT":59066}
+{"TAG":"CONNE", "TIME":1430494906.259664, "DSTIP":"129.105.230.8  ", "DSTPORT":80, "DURATION":0.002313, "SRCPORT":59063}
+{"TAG":"REQ",   "TIME":1430494906.516680, "DSTIP":"129.105.230.8  ", "URL":"http://www.wsj.com/android-chrome-192x192.png"}
+{"TAG":"RESPB", "TIME":1430494906.525570, "DSTIP":"129.105.230.8  ", "URL":"http://www.wsj.com/android-chrome-192x192.png"}
+{"TAG":"RESPD", "TIME":1430494906.526444, "DSTIP":"129.105.230.8  ", "URL":"http://www.wsj.com/android-chrome-192x192.png", "SIZE":7996}
+{"TAG":"REQ",   "TIME":1430494906.723205, "DSTIP":"216.58.216.66  ", "URL":"http://pubads.g.doubleclick.net/gampad/ads?gdfp_req=1&correlator=2295624622017391&output=json_html&callback=callbackProxy&impl=fif&fif_to=1&sc=0&sfv=1-0-2&iu=%2F2%2Finteractive.wsj.com%2Ftopcirc&sz=165x28&scp=metazone%3D%26msrc%3D%26circ%3Dnonsub%26breakPoint%3Dat12units&cust_params=page%3Darticle&cookie=ID%3D0c7e2e2a45c781b3%3AT%3D1430332530%3AS%3DALNI_MahAj5a0SGK26zW4WCwOroVJBsCWw&lmt=1430494873&dt=1430494906210&cc=100&frm=20&biw=1080&bih=575&oid=3&adx=842&ady=85&adk=2633538034&gut=v2&ifi=2&u_tz=-300&u_his=1&u_java=true&u_h=900&u_w=1440&u_ah=873&u_aw=1440&u_cd=24&u_nplug=12&u_nmime=72&u_sd=2&flash=17.0.0&url=http%3A%2F%2Fwww.wsj.com%2F&vrg=60&vrp=60&ga_vid=569001723.1430494905&ga_sid=1430494905&ga_hid=204956088"}
+{"TAG":"RESPB", "TIME":1430494906.763527, "DSTIP":"216.58.216.66  ", "URL":"http://pubads.g.doubleclick.net/gampad/ads?gdfp_req=1&correlator=2295624622017391&output=json_html&callback=callbackProxy&impl=fif&fif_to=1&sc=0&sfv=1-0-2&iu=%2F2%2Finteractive.wsj.com%2Ftopcirc&sz=165x28&scp=metazone%3D%26msrc%3D%26circ%3Dnonsub%26breakPoint%3Dat12units&cust_params=page%3Darticle&cookie=ID%3D0c7e2e2a45c781b3%3AT%3D1430332530%3AS%3DALNI_MahAj5a0SGK26zW4WCwOroVJBsCWw&lmt=1430494873&dt=1430494906210&cc=100&frm=20&biw=1080&bih=575&oid=3&adx=842&ady=85&adk=2633538034&gut=v2&ifi=2&u_tz=-300&u_his=1&u_java=true&u_h=900&u_w=1440&u_ah=873&u_aw=1440&u_cd=24&u_nplug=12&u_nmime=72&u_sd=2&flash=17.0.0&url=http%3A%2F%2Fwww.wsj.com%2F&vrg=60&vrp=60&ga_vid=569001723.1430494905&ga_sid=1430494905&ga_hid=204956088"}
+{"TAG":"RESPD", "TIME":1430494906.764454, "DSTIP":"216.58.216.66  ", "URL":"http://pubads.g.doubleclick.net/gampad/ads?gdfp_req=1&correlator=2295624622017391&output=json_html&callback=callbackProxy&impl=fif&fif_to=1&sc=0&sfv=1-0-2&iu=%2F2%2Finteractive.wsj.com%2Ftopcirc&sz=165x28&scp=metazone%3D%26msrc%3D%26circ%3Dnonsub%26breakPoint%3Dat12units&cust_params=page%3Darticle&cookie=ID%3D0c7e2e2a45c781b3%3AT%3D1430332530%3AS%3DALNI_MahAj5a0SGK26zW4WCwOroVJBsCWw&lmt=1430494873&dt=1430494906210&cc=100&frm=20&biw=1080&bih=575&oid=3&adx=842&ady=85&adk=2633538034&gut=v2&ifi=2&u_tz=-300&u_his=1&u_java=true&u_h=900&u_w=1440&u_ah=873&u_aw=1440&u_cd=24&u_nplug=12&u_nmime=72&u_sd=2&flash=17.0.0&url=http%3A%2F%2Fwww.wsj.com%2F&vrg=60&vrp=60&ga_vid=569001723.1430494905&ga_sid=1430494905&ga_hid=204956088", "SIZE":31919}
+{"TAG":"REQ",   "TIME":1430494907.808877, "DSTIP":"205.203.132.147", "URL":"http://wsjstream.wsj.net/bg/api/Pickup.ashx?c={%22c%22:%22671b320374074bcdb9ac31edb76bc6fe%22,%22s%22:%2210.241.40.130%22}&m=[]&_=1430494907303"}
+{"TAG":"RESPB", "TIME":1430494907.834238, "DSTIP":"205.203.132.147", "URL":"http://wsjstream.wsj.net/bg/api/Pickup.ashx?c={%22c%22:%22671b320374074bcdb9ac31edb76bc6fe%22,%22s%22:%2210.241.40.130%22}&m=[]&_=1430494907303"}
+{"TAG":"RESPD", "TIME":1430494907.834238, "DSTIP":"205.203.132.147", "URL":"http://wsjstream.wsj.net/bg/api/Pickup.ashx?c={%22c%22:%22671b320374074bcdb9ac31edb76bc6fe%22,%22s%22:%2210.241.40.130%22}&m=[]&_=1430494907303", "SIZE":890}
+{"TAG":"CONNE", "TIME":1430494907.864641, "DSTIP":"23.13.115.236  ", "DSTPORT":80, "DURATION":0.003382, "SRCPORT":59067}
+{"TAG":"REQ",   "TIME":1430494907.871016, "DSTIP":"216.58.216.66  ", "URL":"http://pubads.g.doubleclick.net/gampad/ads?gdfp_req=1&correlator=2295624622017391&output=json_html&callback=callbackProxy&impl=fif&sc=0&sfv=1-0-2&iu=%2F2%2Finteractive.wsj.com%2Ftopcirc&sz=76x28&scp=metazone%3D%26msrc%3D%26circ%3Dnonsub%26breakPoint%3Dat12units&eri=1&cust_params=page%3Darticle&cookie=ID%3D0c7e2e2a45c781b3%3AT%3D1430332530%3AS%3DALNI_MahAj5a0SGK26zW4WCwOroVJBsCWw&lmt=1430494873&dt=1430494907361&cc=100&frm=20&biw=1080&bih=575&oid=3&adx=876&ady=59&adk=3551885991&gut=v2&ifi=3&u_tz=-300&u_his=1&u_java=true&u_h=900&u_w=1440&u_ah=873&u_aw=1440&u_cd=24&u_nplug=12&u_nmime=72&u_sd=2&flash=17.0.0&url=http%3A%2F%2Fwww.wsj.com%2F&vrg=60&vrp=60&ga_vid=569001723.1430494905&ga_sid=1430494905&ga_hid=204956088"}
+{"TAG":"RESPB", "TIME":1430494907.907515, "DSTIP":"216.58.216.66  ", "URL":"http://pubads.g.doubleclick.net/gampad/ads?gdfp_req=1&correlator=2295624622017391&output=json_html&callback=callbackProxy&impl=fif&sc=0&sfv=1-0-2&iu=%2F2%2Finteractive.wsj.com%2Ftopcirc&sz=76x28&scp=metazone%3D%26msrc%3D%26circ%3Dnonsub%26breakPoint%3Dat12units&eri=1&cust_params=page%3Darticle&cookie=ID%3D0c7e2e2a45c781b3%3AT%3D1430332530%3AS%3DALNI_MahAj5a0SGK26zW4WCwOroVJBsCWw&lmt=1430494873&dt=1430494907361&cc=100&frm=20&biw=1080&bih=575&oid=3&adx=876&ady=59&adk=3551885991&gut=v2&ifi=3&u_tz=-300&u_his=1&u_java=true&u_h=900&u_w=1440&u_ah=873&u_aw=1440&u_cd=24&u_nplug=12&u_nmime=72&u_sd=2&flash=17.0.0&url=http%3A%2F%2Fwww.wsj.com%2F&vrg=60&vrp=60&ga_vid=569001723.1430494905&ga_sid=1430494905&ga_hid=204956088"}
+{"TAG":"RESPD", "TIME":1430494907.908578, "DSTIP":"216.58.216.66  ", "URL":"http://pubads.g.doubleclick.net/gampad/ads?gdfp_req=1&correlator=2295624622017391&output=json_html&callback=callbackProxy&impl=fif&sc=0&sfv=1-0-2&iu=%2F2%2Finteractive.wsj.com%2Ftopcirc&sz=76x28&scp=metazone%3D%26msrc%3D%26circ%3Dnonsub%26breakPoint%3Dat12units&eri=1&cust_params=page%3Darticle&cookie=ID%3D0c7e2e2a45c781b3%3AT%3D1430332530%3AS%3DALNI_MahAj5a0SGK26zW4WCwOroVJBsCWw&lmt=1430494873&dt=1430494907361&cc=100&frm=20&biw=1080&bih=575&oid=3&adx=876&ady=59&adk=3551885991&gut=v2&ifi=3&u_tz=-300&u_his=1&u_java=true&u_h=900&u_w=1440&u_ah=873&u_aw=1440&u_cd=24&u_nplug=12&u_nmime=72&u_sd=2&flash=17.0.0&url=http%3A%2F%2Fwww.wsj.com%2F&vrg=60&vrp=60&ga_vid=569001723.1430494905&ga_sid=1430494905&ga_hid=204956088", "SIZE":31916}
+{"TAG":"CONNE", "TIME":1430494908.848612, "DSTIP":"23.13.115.236  ", "DSTPORT":80, "DURATION":0.003647, "SRCPORT":59070}

@@ -1,0 +1,291 @@
+{"TAG":"CONNE", "TIME":1430944262.633549, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.234557, "SRCPORT":54534}
+{"TAG":"CONNE", "TIME":1430944263.176780, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.235660, "SRCPORT":54535}
+{"TAG":"REQ",   "TIME":1430944263.241446, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/"}
+{"TAG":"RESPB", "TIME":1430944263.481709, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/"}
+{"TAG":"REQ",   "TIME":1430944264.058104, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/sohuflash_1.js"}
+{"TAG":"CONNE", "TIME":1430944264.294565, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.235327, "SRCPORT":54536}
+{"TAG":"RESPB", "TIME":1430944264.298168, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/sohuflash_1.js"}
+{"TAG":"RESPD", "TIME":1430944264.298492, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/sohuflash_1.js", "SIZE":7442}
+{"TAG":"CONNE", "TIME":1430944264.299426, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.234741, "SRCPORT":54538}
+{"TAG":"CONNE", "TIME":1430944264.299804, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.235119, "SRCPORT":54537}
+{"TAG":"CONNE", "TIME":1430944264.301456, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.235560, "SRCPORT":54539}
+{"TAG":"CONNE", "TIME":1430944264.301882, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.234957, "SRCPORT":54540}
+{"TAG":"CONNE", "TIME":1430944264.301980, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.235055, "SRCPORT":54541}
+{"TAG":"CONNE", "TIME":1430944264.513910, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.234871, "SRCPORT":54543}
+{"TAG":"CONNE", "TIME":1430944264.514175, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.234043, "SRCPORT":54544}
+{"TAG":"CONNE", "TIME":1430944264.514371, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.235333, "SRCPORT":54542}
+{"TAG":"CONNE", "TIME":1430944264.515978, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.234628, "SRCPORT":54545}
+{"TAG":"CONNE", "TIME":1430944264.764589, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.234289, "SRCPORT":54546}
+{"TAG":"CONNE", "TIME":1430944264.765464, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.235163, "SRCPORT":54547}
+{"TAG":"CONNE", "TIME":1430944264.766032, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.234630, "SRCPORT":54549}
+{"TAG":"CONNE", "TIME":1430944264.766699, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.235298, "SRCPORT":54548}
+{"TAG":"REQ",   "TIME":1430944264.827923, "DSTIP":"101.227.172.11 ", "URL":"http://js.sohu.com/pv/pvclick1211071116.js"}
+{"TAG":"REQ",   "TIME":1430944264.862923, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/style/global130716.css"}
+{"TAG":"REQ",   "TIME":1430944264.870795, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/style/layout130716.css"}
+{"TAG":"REQ",   "TIME":1430944264.879527, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/style/style150302.css"}
+{"TAG":"REQ",   "TIME":1430944264.905862, "DSTIP":"101.227.172.11 ", "URL":"http://news.sohu.com/upload/itoolbar/itoolbar.index.loader.20140923.js"}
+{"TAG":"REQ",   "TIME":1430944264.911589, "DSTIP":"101.227.172.11 ", "URL":"http://news.sohu.com/upload/itoolbar/index/itoolbar.2014071411.css"}
+{"TAG":"RESPB", "TIME":1430944265.065818, "DSTIP":"101.227.172.11 ", "URL":"http://js.sohu.com/pv/pvclick1211071116.js"}
+{"TAG":"RESPD", "TIME":1430944265.065864, "DSTIP":"101.227.172.11 ", "URL":"http://js.sohu.com/pv/pvclick1211071116.js", "SIZE":5007}
+{"TAG":"RESPB", "TIME":1430944265.100765, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/style/global130716.css"}
+{"TAG":"RESPD", "TIME":1430944265.100996, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/style/global130716.css", "SIZE":3872}
+{"TAG":"RESPB", "TIME":1430944265.106690, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/style/layout130716.css"}
+{"TAG":"RESPD", "TIME":1430944265.106690, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/style/layout130716.css", "SIZE":4081}
+{"TAG":"CONNE", "TIME":1430944265.115008, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.234427, "SRCPORT":54551}
+{"TAG":"CONNE", "TIME":1430944265.115398, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.234818, "SRCPORT":54550}
+{"TAG":"CONNE", "TIME":1430944265.116881, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.235249, "SRCPORT":54552}
+{"TAG":"RESPB", "TIME":1430944265.117696, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/style/style150302.css"}
+{"TAG":"REQ",   "TIME":1430944265.143260, "DSTIP":"101.227.172.11 ", "URL":"http://images.sohu.com/saf/static/2/1000082.shtml"}
+{"TAG":"RESPB", "TIME":1430944265.145170, "DSTIP":"101.227.172.11 ", "URL":"http://news.sohu.com/upload/itoolbar/itoolbar.index.loader.20140923.js"}
+{"TAG":"REQ",   "TIME":1430944265.146587, "DSTIP":"101.227.172.11 ", "URL":"http://images.sohu.com/bill/s2012/gates/all/sohuad2012v15.js"}
+{"TAG":"RESPB", "TIME":1430944265.149901, "DSTIP":"101.227.172.11 ", "URL":"http://news.sohu.com/upload/itoolbar/index/itoolbar.2014071411.css"}
+{"TAG":"REQ",   "TIME":1430944265.159787, "DSTIP":"101.227.172.11 ", "URL":"http://images.sohu.com/bill/s2014/jscript/sohu-require.js"}
+{"TAG":"CONNE", "TIME":1430944265.356830, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.233803, "SRCPORT":54553}
+{"TAG":"CONNE", "TIME":1430944265.357986, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.233870, "SRCPORT":54555}
+{"TAG":"CONNE", "TIME":1430944265.358492, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.235465, "SRCPORT":54554}
+{"TAG":"RESPB", "TIME":1430944265.380392, "DSTIP":"101.227.172.11 ", "URL":"http://images.sohu.com/saf/static/2/1000082.shtml"}
+{"TAG":"RESPB", "TIME":1430944265.382649, "DSTIP":"101.227.172.11 ", "URL":"http://images.sohu.com/bill/s2012/gates/all/sohuad2012v15.js"}
+{"TAG":"RESPB", "TIME":1430944265.397383, "DSTIP":"101.227.172.11 ", "URL":"http://images.sohu.com/bill/s2014/jscript/sohu-require.js"}
+{"TAG":"RESPD", "TIME":1430944265.509877, "DSTIP":"101.227.172.11 ", "URL":"http://news.sohu.com/upload/itoolbar/itoolbar.index.loader.20140923.js", "SIZE":7192}
+{"TAG":"RESPD", "TIME":1430944265.545445, "DSTIP":"101.227.172.11 ", "URL":"http://news.sohu.com/upload/itoolbar/index/itoolbar.2014071411.css", "SIZE":27826}
+{"TAG":"RESPD", "TIME":1430944265.744478, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/style/style150302.css", "SIZE":56254}
+{"TAG":"REQ",   "TIME":1430944265.899843, "DSTIP":"101.227.172.11 ", "URL":"http://news.sohu.com/upload/itoolbar/index/toolbar_logo.png"}
+{"TAG":"REQ",   "TIME":1430944265.904307, "DSTIP":"101.227.172.11 ", "URL":"http://news.sohu.com/upload/itoolbar/itoolbar.index.20140923.js"}
+{"TAG":"REQ",   "TIME":1430944265.909833, "DSTIP":"101.227.172.11 ", "URL":"http://news.sohu.com/upload/itoolbar/index/toolbar_bg_130315.gif"}
+{"TAG":"REQ",   "TIME":1430944265.915366, "DSTIP":"101.227.172.11 ", "URL":"http://news.sohu.com/upload/itoolbar/index/icon_toolbar_arrow.png"}
+{"TAG":"RESPD", "TIME":1430944265.924665, "DSTIP":"101.227.172.11 ", "URL":"http://images.sohu.com/saf/static/2/1000082.shtml", "SIZE":5828}
+{"TAG":"REQ",   "TIME":1430944265.957828, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20140108/sohulogo.png"}
+{"TAG":"REQ",   "TIME":1430944265.966817, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20130716/bg01.png"}
+{"TAG":"RESPD", "TIME":1430944265.967984, "DSTIP":"101.227.172.11 ", "URL":"http://images.sohu.com/bill/s2012/gates/all/sohuad2012v15.js", "SIZE":11504}
+{"TAG":"RESPD", "TIME":1430944266.015304, "DSTIP":"101.227.172.11 ", "URL":"http://images.sohu.com/bill/s2014/jscript/sohu-require.js", "SIZE":16316}
+{"TAG":"REQ",   "TIME":1430944266.039233, "DSTIP":"101.227.172.11 ", "URL":"http://images.sohu.com/bill//s2014/gates/picmixedctrl.js"}
+{"TAG":"RESPB", "TIME":1430944266.141234, "DSTIP":"101.227.172.11 ", "URL":"http://news.sohu.com/upload/itoolbar/index/toolbar_logo.png"}
+{"TAG":"RESPD", "TIME":1430944266.141535, "DSTIP":"101.227.172.11 ", "URL":"http://news.sohu.com/upload/itoolbar/index/toolbar_logo.png", "SIZE":2649}
+{"TAG":"RESPB", "TIME":1430944266.145651, "DSTIP":"101.227.172.11 ", "URL":"http://news.sohu.com/upload/itoolbar/itoolbar.index.20140923.js"}
+{"TAG":"RESPB", "TIME":1430944266.146174, "DSTIP":"101.227.172.11 ", "URL":"http://news.sohu.com/upload/itoolbar/index/toolbar_bg_130315.gif"}
+{"TAG":"RESPD", "TIME":1430944266.146174, "DSTIP":"101.227.172.11 ", "URL":"http://news.sohu.com/upload/itoolbar/index/toolbar_bg_130315.gif", "SIZE":212}
+{"TAG":"RESPB", "TIME":1430944266.152256, "DSTIP":"101.227.172.11 ", "URL":"http://news.sohu.com/upload/itoolbar/index/icon_toolbar_arrow.png"}
+{"TAG":"RESPD", "TIME":1430944266.152337, "DSTIP":"101.227.172.11 ", "URL":"http://news.sohu.com/upload/itoolbar/index/icon_toolbar_arrow.png", "SIZE":1114}
+{"TAG":"REQ",   "TIME":1430944266.177216, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20130624/vd.png"}
+{"TAG":"RESPB", "TIME":1430944266.195020, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20140108/sohulogo.png"}
+{"TAG":"RESPD", "TIME":1430944266.196181, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20140108/sohulogo.png", "SIZE":3431}
+{"TAG":"RESPB", "TIME":1430944266.203400, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20130716/bg01.png"}
+{"TAG":"RESPD", "TIME":1430944266.203400, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20130716/bg01.png", "SIZE":614}
+{"TAG":"REQ",   "TIME":1430944266.216178, "DSTIP":"101.227.172.11 ", "URL":"http://news.sohu.com/upload/itoolbar/index/sohunewsapp2.jpg"}
+{"TAG":"REQ",   "TIME":1430944266.222740, "DSTIP":"101.227.172.11 ", "URL":"http://images.sohu.com/bill/s2015/gates/05051123/passion.min.js"}
+{"TAG":"REQ",   "TIME":1430944266.231648, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20130624/sohubg01.png"}
+{"TAG":"REQ",   "TIME":1430944266.240739, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20140418/sogou_logo01.gif"}
+{"TAG":"REQ",   "TIME":1430944266.248506, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images/sogou_bg02.gif"}
+{"TAG":"REQ",   "TIME":1430944266.254200, "DSTIP":"101.227.172.11 ", "URL":"http://images.sohu.com/uiue/dot.gif"}
+{"TAG":"REQ",   "TIME":1430944266.271751, "DSTIP":"101.227.172.11 ", "URL":"http://news.sohu.com/upload/20140623/image20140623.jpg"}
+{"TAG":"RESPB", "TIME":1430944266.274014, "DSTIP":"101.227.172.11 ", "URL":"http://images.sohu.com/bill//s2014/gates/picmixedctrl.js"}
+{"TAG":"RESPD", "TIME":1430944266.274014, "DSTIP":"101.227.172.11 ", "URL":"http://images.sohu.com/bill//s2014/gates/picmixedctrl.js", "SIZE":419}
+{"TAG":"RESPB", "TIME":1430944266.412297, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20130624/vd.png"}
+{"TAG":"RESPD", "TIME":1430944266.412361, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20130624/vd.png", "SIZE":1091}
+{"TAG":"REQ",   "TIME":1430944266.419362, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20130624/bg.png"}
+{"TAG":"REQ",   "TIME":1430944266.431537, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20130716/bg_news_city.png"}
+{"TAG":"CONNE", "TIME":1430944266.445580, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.234989, "SRCPORT":54556}
+{"TAG":"CONNE", "TIME":1430944266.451685, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.234433, "SRCPORT":54559}
+{"TAG":"CONNE", "TIME":1430944266.452723, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.236544, "SRCPORT":54557}
+{"TAG":"RESPB", "TIME":1430944266.452996, "DSTIP":"101.227.172.11 ", "URL":"http://news.sohu.com/upload/itoolbar/index/sohunewsapp2.jpg"}
+{"TAG":"RESPD", "TIME":1430944266.453235, "DSTIP":"101.227.172.11 ", "URL":"http://news.sohu.com/upload/itoolbar/index/sohunewsapp2.jpg", "SIZE":2059}
+{"TAG":"RESPB", "TIME":1430944266.463394, "DSTIP":"101.227.172.11 ", "URL":"http://images.sohu.com/bill/s2015/gates/05051123/passion.min.js"}
+{"TAG":"RESPB", "TIME":1430944266.468147, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20130624/sohubg01.png"}
+{"TAG":"RESPD", "TIME":1430944266.468343, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20130624/sohubg01.png", "SIZE":1778}
+{"TAG":"CONNE", "TIME":1430944266.469067, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.251815, "SRCPORT":54558}
+{"TAG":"RESPB", "TIME":1430944266.477121, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20140418/sogou_logo01.gif"}
+{"TAG":"RESPB", "TIME":1430944266.485800, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images/sogou_bg02.gif"}
+{"TAG":"CONNE", "TIME":1430944266.489400, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.235200, "SRCPORT":54560}
+{"TAG":"RESPB", "TIME":1430944266.489960, "DSTIP":"101.227.172.11 ", "URL":"http://images.sohu.com/uiue/dot.gif"}
+{"TAG":"RESPD", "TIME":1430944266.489960, "DSTIP":"101.227.172.11 ", "URL":"http://images.sohu.com/uiue/dot.gif", "SIZE":156}
+{"TAG":"CONNE", "TIME":1430944266.491427, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.234943, "SRCPORT":54561}
+{"TAG":"CONNE", "TIME":1430944266.491823, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.233042, "SRCPORT":54564}
+{"TAG":"CONNE", "TIME":1430944266.492183, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.234508, "SRCPORT":54562}
+{"TAG":"CONNE", "TIME":1430944266.492541, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.234866, "SRCPORT":54563}
+{"TAG":"CONNE", "TIME":1430944266.494198, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.234404, "SRCPORT":54565}
+{"TAG":"CONNE", "TIME":1430944266.496995, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.235135, "SRCPORT":54566}
+{"TAG":"CONNE", "TIME":1430944266.498141, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.234011, "SRCPORT":54568}
+{"TAG":"CONNE", "TIME":1430944266.498230, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.235232, "SRCPORT":54567}
+{"TAG":"CONNE", "TIME":1430944266.498800, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.234670, "SRCPORT":54569}
+{"TAG":"CONNE", "TIME":1430944266.499476, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.235345, "SRCPORT":54570}
+{"TAG":"CONNE", "TIME":1430944266.507203, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.234411, "SRCPORT":54571}
+{"TAG":"RESPB", "TIME":1430944266.508371, "DSTIP":"101.227.172.11 ", "URL":"http://news.sohu.com/upload/20140623/image20140623.jpg"}
+{"TAG":"REQ",   "TIME":1430944266.546202, "DSTIP":"101.227.172.11 ", "URL":"http://images.sohu.com/bill/jingzhun/2014/suning/ertong0206.html"}
+{"TAG":"CONNE", "TIME":1430944266.561809, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.234720, "SRCPORT":54572}
+{"TAG":"RESPD", "TIME":1430944266.564656, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/", "SIZE":426732}
+{"TAG":"RESPB", "TIME":1430944266.656560, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20130624/bg.png"}
+{"TAG":"RESPD", "TIME":1430944266.656863, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20130624/bg.png", "SIZE":4060}
+{"TAG":"RESPB", "TIME":1430944266.668999, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20130716/bg_news_city.png"}
+{"TAG":"RESPD", "TIME":1430944266.668999, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20130716/bg_news_city.png", "SIZE":879}
+{"TAG":"CONNE", "TIME":1430944266.674118, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.234724, "SRCPORT":54573}
+{"TAG":"CONNE", "TIME":1430944266.681177, "DSTIP":"220.181.19.154 ", "DSTPORT":80, "DURATION":0.224092, "SRCPORT":54574}
+{"TAG":"REQ",   "TIME":1430944266.704671, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20130111/down.gif"}
+{"TAG":"REQ",   "TIME":1430944266.710192, "DSTIP":"101.227.172.11 ", "URL":"http://i2.itc.cn/20150506/34a9_02409543_8fe4_de29_3ce0_220fa3b0ee85_1.jpg"}
+{"TAG":"REQ",   "TIME":1430944266.714743, "DSTIP":"101.227.172.11 ", "URL":"http://i3.itc.cn/20150506/2b65_9e493fb8_f27b_2015_5e5d_8d9bbe722571_1.jpg"}
+{"TAG":"CONNE", "TIME":1430944266.715942, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.234608, "SRCPORT":54576}
+{"TAG":"CONNE", "TIME":1430944266.716152, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.232543, "SRCPORT":54578}
+{"TAG":"CONNE", "TIME":1430944266.716559, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.236309, "SRCPORT":54575}
+{"TAG":"CONNE", "TIME":1430944266.718179, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.235692, "SRCPORT":54577}
+{"TAG":"REQ",   "TIME":1430944266.719194, "DSTIP":"101.227.172.11 ", "URL":"http://i2.itc.cn/20150506/34a9_1deff12e_6c96_7ba0_f67e_8db6a2815567_1.jpg"}
+{"TAG":"CONNE", "TIME":1430944266.743939, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.234523, "SRCPORT":54579}
+{"TAG":"CONNE", "TIME":1430944266.746813, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.235192, "SRCPORT":54580}
+{"TAG":"CONNE", "TIME":1430944266.750327, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.234200, "SRCPORT":54583}
+{"TAG":"CONNE", "TIME":1430944266.750331, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.235342, "SRCPORT":54582}
+{"TAG":"CONNE", "TIME":1430944266.750696, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.236802, "SRCPORT":54581}
+{"TAG":"CONNE", "TIME":1430944266.751656, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.235529, "SRCPORT":54584}
+{"TAG":"CONNE", "TIME":1430944266.759901, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.234971, "SRCPORT":54585}
+{"TAG":"CONNE", "TIME":1430944266.776562, "DSTIP":"220.181.19.154 ", "DSTPORT":80, "DURATION":0.223713, "SRCPORT":54591}
+{"TAG":"CONNE", "TIME":1430944266.781904, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.233498, "SRCPORT":54588}
+{"TAG":"CONNE", "TIME":1430944266.781941, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.235738, "SRCPORT":54586}
+{"TAG":"RESPB", "TIME":1430944266.782329, "DSTIP":"101.227.172.11 ", "URL":"http://images.sohu.com/bill/jingzhun/2014/suning/ertong0206.html"}
+{"TAG":"RESPD", "TIME":1430944266.782329, "DSTIP":"101.227.172.11 ", "URL":"http://images.sohu.com/bill/jingzhun/2014/suning/ertong0206.html", "SIZE":344}
+{"TAG":"CONNE", "TIME":1430944266.782559, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.235282, "SRCPORT":54587}
+{"TAG":"CONNE", "TIME":1430944266.785726, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.235043, "SRCPORT":54589}
+{"TAG":"CONNE", "TIME":1430944266.786157, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.234351, "SRCPORT":54590}
+{"TAG":"REQ",   "TIME":1430944266.811698, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images/bg.png"}
+{"TAG":"CONNE", "TIME":1430944266.812853, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.234530, "SRCPORT":54592}
+{"TAG":"REQ",   "TIME":1430944266.816328, "DSTIP":"101.227.172.11 ", "URL":"http://i3.itc.cn/20150506/2b65_5853dfd7_79c7_2c94_41be_d49d45214ab6_1.jpg"}
+{"TAG":"REQ",   "TIME":1430944266.868356, "DSTIP":"101.227.172.11 ", "URL":"http://i2.itc.cn/20141127/26b_cfb2c120_a3a4_e586_a214_786e26fa7bbc_1.gif"}
+{"TAG":"REQ",   "TIME":1430944266.876022, "DSTIP":"101.227.172.11 ", "URL":"http://i2.itc.cn/20150506/32a2_3570892b_335d_e7f6_3117_e5ef647512f5_1.jpg"}
+{"TAG":"REQ",   "TIME":1430944266.880581, "DSTIP":"101.227.172.11 ", "URL":"http://i2.itc.cn/20150506/330c_cd7399d0_320a_29de_2a95_28c902268508_1.jpg"}
+{"TAG":"REQ",   "TIME":1430944266.885044, "DSTIP":"101.227.172.11 ", "URL":"http://i3.itc.cn/20150506/70b_37cdc162_349e_8739_7ca0_642c50ad0e61_1.jpg"}
+{"TAG":"REQ",   "TIME":1430944266.889472, "DSTIP":"101.227.172.11 ", "URL":"http://i3.itc.cn/20140115/331_e68b0dec_268f_fb55_e6b9_8c20071db6c1_1.gif"}
+{"TAG":"REQ",   "TIME":1430944266.893926, "DSTIP":"101.227.172.11 ", "URL":"http://i2.itc.cn/20150506/3355_19b8848b_6642_9f79_4bd9_4a8c7652c92d_1.jpg"}
+{"TAG":"RESPB", "TIME":1430944266.940022, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20130111/down.gif"}
+{"TAG":"RESPD", "TIME":1430944266.940026, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20130111/down.gif", "SIZE":1604}
+{"TAG":"CONNE", "TIME":1430944266.943449, "DSTIP":"220.181.19.154 ", "DSTPORT":80, "DURATION":0.224255, "SRCPORT":54593}
+{"TAG":"RESPB", "TIME":1430944266.948723, "DSTIP":"101.227.172.11 ", "URL":"http://i2.itc.cn/20150506/34a9_02409543_8fe4_de29_3ce0_220fa3b0ee85_1.jpg"}
+{"TAG":"RESPB", "TIME":1430944266.950602, "DSTIP":"101.227.172.11 ", "URL":"http://i3.itc.cn/20150506/2b65_9e493fb8_f27b_2015_5e5d_8d9bbe722571_1.jpg"}
+{"TAG":"REQ",   "TIME":1430944266.954987, "DSTIP":"101.227.172.11 ", "URL":"http://i0.itc.cn/20150506/340a_ecff3378_5cc1_910b_09cc_4418a8a1b67d_1.jpg"}
+{"TAG":"RESPB", "TIME":1430944266.956452, "DSTIP":"101.227.172.11 ", "URL":"http://i2.itc.cn/20150506/34a9_1deff12e_6c96_7ba0_f67e_8db6a2815567_1.jpg"}
+{"TAG":"REQ",   "TIME":1430944266.959445, "DSTIP":"101.227.172.11 ", "URL":"http://i1.itc.cn/20130609/2bab_7d56dde4_ed54_7168_6690_b809f967b3f5_1.jpg"}
+{"TAG":"RESPD", "TIME":1430944267.012356, "DSTIP":"101.227.172.11 ", "URL":"http://images.sohu.com/bill/s2015/gates/05051123/passion.min.js", "SIZE":27828}
+{"TAG":"CONNE", "TIME":1430944267.030004, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.235184, "SRCPORT":54594}
+{"TAG":"CONNE", "TIME":1430944267.030834, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.234859, "SRCPORT":54595}
+{"TAG":"CONNE", "TIME":1430944267.032596, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.235459, "SRCPORT":54596}
+{"TAG":"CONNE", "TIME":1430944267.036896, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.234136, "SRCPORT":54597}
+{"TAG":"CONNE", "TIME":1430944267.038556, "DSTIP":"101.227.172.11 ", "DSTPORT":80, "DURATION":0.235796, "SRCPORT":54598}
+{"TAG":"CONNE", "TIME":1430944267.045705, "DSTIP":"220.181.19.154 ", "DSTPORT":80, "DURATION":0.229376, "SRCPORT":54599}
+{"TAG":"RESPB", "TIME":1430944267.047916, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images/bg.png"}
+{"TAG":"RESPD", "TIME":1430944267.047916, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images/bg.png", "SIZE":952}
+{"TAG":"REQ",   "TIME":1430944267.056454, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images/icon01.png"}
+{"TAG":"RESPD", "TIME":1430944267.066984, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20140418/sogou_logo01.gif", "SIZE":3746}
+{"TAG":"REQ",   "TIME":1430944267.070106, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20130128/btn_right02.png"}
+{"TAG":"RESPB", "TIME":1430944267.071600, "DSTIP":"101.227.172.11 ", "URL":"http://i3.itc.cn/20150506/2b65_5853dfd7_79c7_2c94_41be_d49d45214ab6_1.jpg"}
+{"TAG":"RESPD", "TIME":1430944267.072500, "DSTIP":"101.227.172.11 ", "URL":"http://i3.itc.cn/20150506/2b65_5853dfd7_79c7_2c94_41be_d49d45214ab6_1.jpg", "SIZE":11888}
+{"TAG":"REQ",   "TIME":1430944267.073391, "DSTIP":"101.227.172.11 ", "URL":"http://i2.itc.cn/20150506/29e_60b62ccb_3152_c927_9895_6c81627806aa_1.jpg"}
+{"TAG":"REQ",   "TIME":1430944267.081158, "DSTIP":"220.181.19.154 ", "URL":"http://db.auto.sohu.com/attachment/js/new_model.js"}
+{"TAG":"REQ",   "TIME":1430944267.084451, "DSTIP":"101.227.172.11 ", "URL":"http://i2.itc.cn/20150506/2df0_bf03e3b8_fec5_bf6e_21ba_44e9b902e459_1.jpg"}
+{"TAG":"REQ",   "TIME":1430944267.088914, "DSTIP":"101.227.172.11 ", "URL":"http://i3.itc.cn/20150506/3245_6552cc5c_70ad_a19e_1c97_c48abbf757f5_1.jpg"}
+{"TAG":"REQ",   "TIME":1430944267.094407, "DSTIP":"101.227.172.11 ", "URL":"http://i0.itc.cn/20150506/340a_30754fa2_d7d6_9a49_fd82_aa90da0995e5_1.jpg"}
+{"TAG":"REQ",   "TIME":1430944267.099852, "DSTIP":"101.227.172.11 ", "URL":"http://i0.itc.cn/20150506/340a_baadf379_979b_0343_cb78_e0992c2a176f_1.jpg"}
+{"TAG":"REQ",   "TIME":1430944267.103222, "DSTIP":"101.227.172.11 ", "URL":"http://i1.itc.cn/20150506/340a_c4443477_1c3c_5e48_754c_3def06a3ceab_1.jpg"}
+{"TAG":"RESPB", "TIME":1430944267.103829, "DSTIP":"101.227.172.11 ", "URL":"http://i2.itc.cn/20141127/26b_cfb2c120_a3a4_e586_a214_786e26fa7bbc_1.gif"}
+{"TAG":"RESPD", "TIME":1430944267.103970, "DSTIP":"101.227.172.11 ", "URL":"http://i2.itc.cn/20141127/26b_cfb2c120_a3a4_e586_a214_786e26fa7bbc_1.gif", "SIZE":1677}
+{"TAG":"REQ",   "TIME":1430944267.108733, "DSTIP":"101.227.172.11 ", "URL":"http://i0.itc.cn/20150506/2edc_53308b03_2c3a_7106_3699_7cd06b8525e6_1.jpg"}
+{"TAG":"REQ",   "TIME":1430944267.113215, "DSTIP":"101.227.172.11 ", "URL":"http://d1.biz.itc.cn/q/zs/001/000001/sohuhome.png?jsid=1430944266542"}
+{"TAG":"REQ",   "TIME":1430944267.118901, "DSTIP":"220.181.19.154 ", "URL":"http://db.auto.sohu.com/attachment/js/new_model.js"}
+{"TAG":"REQ",   "TIME":1430944267.122272, "DSTIP":"101.227.172.11 ", "URL":"http://i0.itc.cn/20150506/2f5b_010815cb_df1d_f116_2836_7ffb2e6429aa_1.jpg"}
+{"TAG":"RESPB", "TIME":1430944267.123151, "DSTIP":"101.227.172.11 ", "URL":"http://i3.itc.cn/20150506/70b_37cdc162_349e_8739_7ca0_642c50ad0e61_1.jpg"}
+{"TAG":"RESPB", "TIME":1430944267.124809, "DSTIP":"101.227.172.11 ", "URL":"http://i3.itc.cn/20140115/331_e68b0dec_268f_fb55_e6b9_8c20071db6c1_1.gif"}
+{"TAG":"RESPD", "TIME":1430944267.124937, "DSTIP":"101.227.172.11 ", "URL":"http://i3.itc.cn/20140115/331_e68b0dec_268f_fb55_e6b9_8c20071db6c1_1.gif", "SIZE":1631}
+{"TAG":"RESPB", "TIME":1430944267.125831, "DSTIP":"101.227.172.11 ", "URL":"http://i2.itc.cn/20150506/32a2_3570892b_335d_e7f6_3117_e5ef647512f5_1.jpg"}
+{"TAG":"RESPD", "TIME":1430944267.126818, "DSTIP":"101.227.172.11 ", "URL":"http://i2.itc.cn/20150506/32a2_3570892b_335d_e7f6_3117_e5ef647512f5_1.jpg", "SIZE":12835}
+{"TAG":"RESPD", "TIME":1430944267.127617, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images/sogou_bg02.gif", "SIZE":5123}
+{"TAG":"REQ",   "TIME":1430944267.127662, "DSTIP":"101.227.172.11 ", "URL":"http://i0.itc.cn/20150112/3190_655c341d_6434_a283_f1c0_c458da5158f8_1.jpg"}
+{"TAG":"RESPB", "TIME":1430944267.127710, "DSTIP":"101.227.172.11 ", "URL":"http://i2.itc.cn/20150506/330c_cd7399d0_320a_29de_2a95_28c902268508_1.jpg"}
+{"TAG":"RESPB", "TIME":1430944267.130086, "DSTIP":"101.227.172.11 ", "URL":"http://i2.itc.cn/20150506/3355_19b8848b_6642_9f79_4bd9_4a8c7652c92d_1.jpg"}
+{"TAG":"REQ",   "TIME":1430944267.133187, "DSTIP":"101.227.172.11 ", "URL":"http://i1.itc.cn/20150506/34a6_5d8e264b_38d4_c8e3_22a1_f4e60907cdb8_1.jpg"}
+{"TAG":"REQ",   "TIME":1430944267.146569, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20130128/btn_left02.png"}
+{"TAG":"RESPB", "TIME":1430944267.191519, "DSTIP":"101.227.172.11 ", "URL":"http://i0.itc.cn/20150506/340a_ecff3378_5cc1_910b_09cc_4418a8a1b67d_1.jpg"}
+{"TAG":"RESPB", "TIME":1430944267.195257, "DSTIP":"101.227.172.11 ", "URL":"http://i1.itc.cn/20130609/2bab_7d56dde4_ed54_7168_6690_b809f967b3f5_1.jpg"}
+{"TAG":"REQ",   "TIME":1430944267.267226, "DSTIP":"101.227.172.11 ", "URL":"http://i0.itc.cn/20150506/focus_5a_61d73acc_b3ce_4fdb_8fde_8ae224e793a2_0.jpg"}
+{"TAG":"REQ",   "TIME":1430944267.276153, "DSTIP":"101.227.172.11 ", "URL":"http://images.sohu.com/bill/s2015/jscript/lib/sjs/matrix/ad/multfusion.js"}
+{"TAG":"REQ",   "TIME":1430944267.292968, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20150302/icon02_tv.png"}
+{"TAG":"RESPB", "TIME":1430944267.293840, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images/icon01.png"}
+{"TAG":"RESPD", "TIME":1430944267.294707, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images/icon01.png", "SIZE":5399}
+{"TAG":"RESPB", "TIME":1430944267.306548, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20130128/btn_right02.png"}
+{"TAG":"RESPD", "TIME":1430944267.306548, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20130128/btn_right02.png", "SIZE":314}
+{"TAG":"REQ",   "TIME":1430944267.307105, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20130624/tv-ico.png"}
+{"TAG":"RESPB", "TIME":1430944267.308801, "DSTIP":"101.227.172.11 ", "URL":"http://i2.itc.cn/20150506/29e_60b62ccb_3152_c927_9895_6c81627806aa_1.jpg"}
+{"TAG":"RESPB", "TIME":1430944267.312521, "DSTIP":"220.181.19.154 ", "URL":"http://db.auto.sohu.com/attachment/js/new_model.js"}
+{"TAG":"RESPD", "TIME":1430944267.314568, "DSTIP":"220.181.19.154 ", "URL":"http://db.auto.sohu.com/attachment/js/new_model.js", "SIZE":31555}
+{"TAG":"RESPB", "TIME":1430944267.320841, "DSTIP":"101.227.172.11 ", "URL":"http://i2.itc.cn/20150506/2df0_bf03e3b8_fec5_bf6e_21ba_44e9b902e459_1.jpg"}
+{"TAG":"RESPB", "TIME":1430944267.323356, "DSTIP":"101.227.172.11 ", "URL":"http://i3.itc.cn/20150506/3245_6552cc5c_70ad_a19e_1c97_c48abbf757f5_1.jpg"}
+{"TAG":"RESPB", "TIME":1430944267.330434, "DSTIP":"101.227.172.11 ", "URL":"http://i0.itc.cn/20150506/340a_30754fa2_d7d6_9a49_fd82_aa90da0995e5_1.jpg"}
+{"TAG":"RESPD", "TIME":1430944267.331002, "DSTIP":"101.227.172.11 ", "URL":"http://i0.itc.cn/20150506/340a_30754fa2_d7d6_9a49_fd82_aa90da0995e5_1.jpg", "SIZE":6004}
+{"TAG":"RESPB", "TIME":1430944267.337872, "DSTIP":"101.227.172.11 ", "URL":"http://i0.itc.cn/20150506/340a_baadf379_979b_0343_cb78_e0992c2a176f_1.jpg"}
+{"TAG":"RESPB", "TIME":1430944267.339554, "DSTIP":"101.227.172.11 ", "URL":"http://i1.itc.cn/20150506/340a_c4443477_1c3c_5e48_754c_3def06a3ceab_1.jpg"}
+{"TAG":"RESPB", "TIME":1430944267.345023, "DSTIP":"101.227.172.11 ", "URL":"http://i0.itc.cn/20150506/2edc_53308b03_2c3a_7106_3699_7cd06b8525e6_1.jpg"}
+{"TAG":"RESPB", "TIME":1430944267.349333, "DSTIP":"220.181.19.154 ", "URL":"http://db.auto.sohu.com/attachment/js/new_model.js"}
+{"TAG":"RESPD", "TIME":1430944267.350225, "DSTIP":"220.181.19.154 ", "URL":"http://db.auto.sohu.com/attachment/js/new_model.js", "SIZE":31555}
+{"TAG":"RESPB", "TIME":1430944267.358747, "DSTIP":"101.227.172.11 ", "URL":"http://i0.itc.cn/20150506/2f5b_010815cb_df1d_f116_2836_7ffb2e6429aa_1.jpg"}
+{"TAG":"RESPB", "TIME":1430944267.365124, "DSTIP":"101.227.172.11 ", "URL":"http://i0.itc.cn/20150112/3190_655c341d_6434_a283_f1c0_c458da5158f8_1.jpg"}
+{"TAG":"RESPB", "TIME":1430944267.369079, "DSTIP":"101.227.172.11 ", "URL":"http://i1.itc.cn/20150506/34a6_5d8e264b_38d4_c8e3_22a1_f4e60907cdb8_1.jpg"}
+{"TAG":"RESPB", "TIME":1430944267.383156, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20130128/btn_left02.png"}
+{"TAG":"RESPD", "TIME":1430944267.383156, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20130128/btn_left02.png", "SIZE":226}
+{"TAG":"RESPB", "TIME":1430944267.411987, "DSTIP":"101.227.172.11 ", "URL":"http://d1.biz.itc.cn/q/zs/001/000001/sohuhome.png?jsid=1430944266542"}
+{"TAG":"RESPD", "TIME":1430944267.412106, "DSTIP":"101.227.172.11 ", "URL":"http://d1.biz.itc.cn/q/zs/001/000001/sohuhome.png?jsid=1430944266542", "SIZE":1968}
+{"TAG":"RESPB", "TIME":1430944267.504437, "DSTIP":"101.227.172.11 ", "URL":"http://i0.itc.cn/20150506/focus_5a_61d73acc_b3ce_4fdb_8fde_8ae224e793a2_0.jpg"}
+{"TAG":"RESPB", "TIME":1430944267.513418, "DSTIP":"101.227.172.11 ", "URL":"http://images.sohu.com/bill/s2015/jscript/lib/sjs/matrix/ad/multfusion.js"}
+{"TAG":"RESPD", "TIME":1430944267.513452, "DSTIP":"101.227.172.11 ", "URL":"http://images.sohu.com/bill/s2015/jscript/lib/sjs/matrix/ad/multfusion.js", "SIZE":1849}
+{"TAG":"RESPB", "TIME":1430944267.529774, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20150302/icon02_tv.png"}
+{"TAG":"RESPD", "TIME":1430944267.529774, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20150302/icon02_tv.png", "SIZE":687}
+{"TAG":"RESPB", "TIME":1430944267.542511, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20130624/tv-ico.png"}
+{"TAG":"RESPD", "TIME":1430944267.719913, "DSTIP":"101.227.172.11 ", "URL":"http://i3.itc.cn/20150506/70b_37cdc162_349e_8739_7ca0_642c50ad0e61_1.jpg", "SIZE":5257}
+{"TAG":"REQ",   "TIME":1430944267.813835, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20131016/sportstitle131016.png"}
+{"TAG":"REQ",   "TIME":1430944267.836197, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20130801/btns.gif"}
+{"TAG":"RESPB", "TIME":1430944268.049940, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20131016/sportstitle131016.png"}
+{"TAG":"RESPD", "TIME":1430944268.049940, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20131016/sportstitle131016.png", "SIZE":638}
+{"TAG":"REQ",   "TIME":1430944268.066265, "DSTIP":"101.227.172.11 ", "URL":"http://images.sohu.com/bill/s2015/jscript/lib/sjs/plugin/fingerprint2.js"}
+{"TAG":"RESPB", "TIME":1430944268.075122, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20130801/btns.gif"}
+{"TAG":"RESPD", "TIME":1430944268.075122, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20130801/btns.gif", "SIZE":353}
+{"TAG":"RESPD", "TIME":1430944268.093025, "DSTIP":"101.227.172.11 ", "URL":"http://i2.itc.cn/20150506/29e_60b62ccb_3152_c927_9895_6c81627806aa_1.jpg", "SIZE":5451}
+{"TAG":"REQ",   "TIME":1430944268.094670, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20130716/icon03_tv.png"}
+{"TAG":"RESPD", "TIME":1430944268.280450, "DSTIP":"101.227.172.11 ", "URL":"http://i0.itc.cn/20150506/focus_5a_61d73acc_b3ce_4fdb_8fde_8ae224e793a2_0.jpg", "SIZE":5180}
+{"TAG":"RESPB", "TIME":1430944268.310784, "DSTIP":"101.227.172.11 ", "URL":"http://images.sohu.com/bill/s2015/jscript/lib/sjs/plugin/fingerprint2.js"}
+{"TAG":"RESPD", "TIME":1430944268.311174, "DSTIP":"101.227.172.11 ", "URL":"http://images.sohu.com/bill/s2015/jscript/lib/sjs/plugin/fingerprint2.js", "SIZE":22100}
+{"TAG":"RESPB", "TIME":1430944268.330574, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20130716/icon03_tv.png"}
+{"TAG":"RESPD", "TIME":1430944268.330574, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20130716/icon03_tv.png", "SIZE":494}
+{"TAG":"REQ",   "TIME":1430944268.336778, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images9_18/bg.png"}
+{"TAG":"REQ",   "TIME":1430944268.345712, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20130716/fntitle130716.png"}
+{"TAG":"CONNE", "TIME":1430944268.430123, "DSTIP":"118.26.144.74  ", "DSTPORT":80, "DURATION":0.216772, "SRCPORT":54600}
+{"TAG":"RESPB", "TIME":1430944268.573446, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images9_18/bg.png"}
+{"TAG":"RESPD", "TIME":1430944268.573661, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images9_18/bg.png", "SIZE":1693}
+{"TAG":"RESPB", "TIME":1430944268.583500, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20130716/fntitle130716.png"}
+{"TAG":"RESPD", "TIME":1430944268.583539, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20130716/fntitle130716.png", "SIZE":1456}
+{"TAG":"REQ",   "TIME":1430944268.587518, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20130801/cor.gif"}
+{"TAG":"REQ",   "TIME":1430944268.600070, "DSTIP":"118.26.144.74  ", "URL":"http://snim.allyes.com/main/s?user=sohu|index|sohu_hptonglan2&db=snim&border=0&local=yes&js=ie"}
+{"TAG":"RESPD", "TIME":1430944268.600427, "DSTIP":"101.227.172.11 ", "URL":"http://i0.itc.cn/20150506/340a_ecff3378_5cc1_910b_09cc_4418a8a1b67d_1.jpg", "SIZE":6905}
+{"TAG":"RESPD", "TIME":1430944268.664225, "DSTIP":"101.227.172.11 ", "URL":"http://i3.itc.cn/20150506/2b65_9e493fb8_f27b_2015_5e5d_8d9bbe722571_1.jpg", "SIZE":11928}
+{"TAG":"CONNE", "TIME":1430944268.679722, "DSTIP":"118.26.144.74  ", "DSTPORT":80, "DURATION":0.216514, "SRCPORT":54601}
+{"TAG":"RESPB", "TIME":1430944268.823211, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20130801/cor.gif"}
+{"TAG":"RESPD", "TIME":1430944268.823211, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20130801/cor.gif", "SIZE":49}
+{"TAG":"RESPB", "TIME":1430944268.825280, "DSTIP":"118.26.144.74  ", "URL":"http://snim.allyes.com/main/s?user=sohu|index|sohu_hptonglan2&db=snim&border=0&local=yes&js=ie"}
+{"TAG":"RESPD", "TIME":1430944268.825280, "DSTIP":"118.26.144.74  ", "URL":"http://snim.allyes.com/main/s?user=sohu|index|sohu_hptonglan2&db=snim&border=0&local=yes&js=ie", "SIZE":1627}
+{"TAG":"RESPD", "TIME":1430944269.027933, "DSTIP":"101.227.172.11 ", "URL":"http://i2.itc.cn/20150506/34a9_1deff12e_6c96_7ba0_f67e_8db6a2815567_1.jpg", "SIZE":12149}
+{"TAG":"CONNE", "TIME":1430944269.228163, "DSTIP":"115.236.76.122 ", "DSTPORT":80, "DURATION":0.228086, "SRCPORT":54602}
+{"TAG":"REQ",   "TIME":1430944269.236103, "DSTIP":"115.236.76.122 ", "URL":"http://mmae.allyes.com/x?_t=8&_m=259_1027_279-30&_k=allyes_show_ads_18923661430944268992&_page=http%3A%2F%2Fwww.sohu.com%2F&_rt=0&_pf=MacIntel"}
+{"TAG":"REQ",   "TIME":1430944269.515812, "DSTIP":"101.227.172.11 ", "URL":"http://js.sohu.com/pv/spv1209061800.js"}
+{"TAG":"RESPB", "TIME":1430944269.537927, "DSTIP":"115.236.76.122 ", "URL":"http://mmae.allyes.com/x?_t=8&_m=259_1027_279-30&_k=allyes_show_ads_18923661430944268992&_page=http%3A%2F%2Fwww.sohu.com%2F&_rt=0&_pf=MacIntel"}
+{"TAG":"RESPD", "TIME":1430944269.537927, "DSTIP":"115.236.76.122 ", "URL":"http://mmae.allyes.com/x?_t=8&_m=259_1027_279-30&_k=allyes_show_ads_18923661430944268992&_page=http%3A%2F%2Fwww.sohu.com%2F&_rt=0&_pf=MacIntel", "SIZE":871}
+{"TAG":"RESPD", "TIME":1430944269.660229, "DSTIP":"101.227.172.11 ", "URL":"http://i2.itc.cn/20150506/34a9_02409543_8fe4_de29_3ce0_220fa3b0ee85_1.jpg", "SIZE":11539}
+{"TAG":"REQ",   "TIME":1430944269.709499, "DSTIP":"118.26.144.74  ", "URL":"http://snim.allyes.com/main/s?user=sohu|index|sohu_hptonglan2&db=snim&border=0&local=yes&js=ie&lsid=709"}
+{"TAG":"RESPB", "TIME":1430944269.754030, "DSTIP":"101.227.172.11 ", "URL":"http://js.sohu.com/pv/spv1209061800.js"}
+{"TAG":"RESPD", "TIME":1430944269.754184, "DSTIP":"101.227.172.11 ", "URL":"http://js.sohu.com/pv/spv1209061800.js", "SIZE":6463}
+{"TAG":"RESPD", "TIME":1430944269.826884, "DSTIP":"101.227.172.11 ", "URL":"http://i2.itc.cn/20150506/3355_19b8848b_6642_9f79_4bd9_4a8c7652c92d_1.jpg", "SIZE":15074}
+{"TAG":"RESPB", "TIME":1430944269.929072, "DSTIP":"118.26.144.74  ", "URL":"http://snim.allyes.com/main/s?user=sohu|index|sohu_hptonglan2&db=snim&border=0&local=yes&js=ie&lsid=709"}
+{"TAG":"RESPD", "TIME":1430944269.929237, "DSTIP":"118.26.144.74  ", "URL":"http://snim.allyes.com/main/s?user=sohu|index|sohu_hptonglan2&db=snim&border=0&local=yes&js=ie&lsid=709", "SIZE":3035}
+{"TAG":"RESPD", "TIME":1430944270.081568, "DSTIP":"101.227.172.11 ", "URL":"http://www.sohu.com/upload/images20130624/tv-ico.png", "SIZE":1024}
+{"TAG":"RESPD", "TIME":1430944270.081568, "DSTIP":"101.227.172.11 ", "URL":"http://i0.itc.cn/20150506/2f5b_010815cb_df1d_f116_2836_7ffb2e6429aa_1.jpg", "SIZE":2408}
+{"TAG":"RESPD", "TIME":1430944270.081568, "DSTIP":"101.227.172.11 ", "URL":"http://i0.itc.cn/20150112/3190_655c341d_6434_a283_f1c0_c458da5158f8_1.jpg", "SIZE":2409}
+{"TAG":"RESPD", "TIME":1430944270.081568, "DSTIP":"101.227.172.11 ", "URL":"http://i1.itc.cn/20130609/2bab_7d56dde4_ed54_7168_6690_b809f967b3f5_1.jpg", "SIZE":2409}
+{"TAG":"RESPD", "TIME":1430944270.081568, "DSTIP":"101.227.172.11 ", "URL":"http://i1.itc.cn/20150506/34a6_5d8e264b_38d4_c8e3_22a1_f4e60907cdb8_1.jpg", "SIZE":2409}
+{"TAG":"RESPD", "TIME":1430944270.081568, "DSTIP":"101.227.172.11 ", "URL":"http://news.sohu.com/upload/20140623/image20140623.jpg", "SIZE":23197}
+{"TAG":"RESPD", "TIME":1430944270.081568, "DSTIP":"101.227.172.11 ", "URL":"http://i0.itc.cn/20150506/340a_baadf379_979b_0343_cb78_e0992c2a176f_1.jpg", "SIZE":2409}
+{"TAG":"RESPD", "TIME":1430944270.081568, "DSTIP":"101.227.172.11 ", "URL":"http://i0.itc.cn/20150506/2edc_53308b03_2c3a_7106_3699_7cd06b8525e6_1.jpg", "SIZE":2409}
+{"TAG":"RESPD", "TIME":1430944270.081568, "DSTIP":"101.227.172.11 ", "URL":"http://news.sohu.com/upload/itoolbar/itoolbar.index.20140923.js", "SIZE":92468}
+{"TAG":"RESPD", "TIME":1430944270.081568, "DSTIP":"101.227.172.11 ", "URL":"http://i2.itc.cn/20150506/330c_cd7399d0_320a_29de_2a95_28c902268508_1.jpg", "SIZE":2408}
+{"TAG":"RESPD", "TIME":1430944270.081568, "DSTIP":"101.227.172.11 ", "URL":"http://i3.itc.cn/20150506/3245_6552cc5c_70ad_a19e_1c97_c48abbf757f5_1.jpg", "SIZE":2408}
+{"TAG":"RESPD", "TIME":1430944270.081568, "DSTIP":"101.227.172.11 ", "URL":"http://i2.itc.cn/20150506/2df0_bf03e3b8_fec5_bf6e_21ba_44e9b902e459_1.jpg", "SIZE":2409}
+{"TAG":"RESPD", "TIME":1430944270.081568, "DSTIP":"101.227.172.11 ", "URL":"http://i1.itc.cn/20150506/340a_c4443477_1c3c_5e48_754c_3def06a3ceab_1.jpg", "SIZE":2409}
