@@ -1,5 +1,5 @@
 {
 "firefoxProfilePathWithProxy":"/home/alex/.mozilla/firefox/m2af5pzg.default",
-"mitmproxyScriptPath": "./screen-shot-script.py",
+"mitmproxyScriptPath": "./screenshot-script.py",
 "logDir": "./logs"
 }
