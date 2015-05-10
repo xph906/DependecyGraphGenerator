@@ -12,6 +12,7 @@ import subprocess
 import psutil
 import argparse
 import socket
+import threading
 
 ####Configure Info######
 
@@ -25,8 +26,9 @@ def openNewTab(browser):
 		ActionChains(browser).send_keys(Keys.COMMAND, "t").perform()
 		ActionChains(browser).send_keys(Keys.COMMAND, "t").perform()
 	elif sys.platform == "linux2":
-		ActionChains(browser).send_keys(Keys.CONTROL, "t").perform()
-		ActionChains(browser).send_keys(Keys.CONTROL, "t").perform()
+		#ActionChains(browser).send_keys(Keys.CONTROL, "t").perform()
+		logger.debug( "not supported in ubuntu, firefox?")
+		#ActionChains(browser).send_keys(Keys.CONTROL, "t").perform()
 	else:
 		logger.error("openNewTab unsupported OS: %s"%sys.platform)
 
@@ -153,7 +155,7 @@ def repeatedVisitWebPage(url,times,configureFilePath,logFileBaseName=None,usePro
 		logFileBaseName = host+'_%d'
 	else:
 		logFileBaseName += '_%d'
-	browser.set_page_load_timeout(60)
+	browser.set_page_load_timeout(600)
 	#openNewTab(browser)
 	for i in range(times):
 		try:
@@ -163,9 +165,28 @@ def repeatedVisitWebPage(url,times,configureFilePath,logFileBaseName=None,usePro
 				p, outFile, errFile = runMitmproxy(data['mitmproxyScriptPath'], data['logDir'], logName)
 				logger.debug("  start browsing %d time and store to file %s"%(i,logName) )
 			time.sleep(2)
+			logger.debug("  opening tab in browser")	
 			openNewTab(browser)
-			
-			browser.get(url)
+			logger.debug("  opened tab in browser")	
+			serversocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+		        serversocket.bind(('', 9090))
+        		serversocket.listen(1)
+			logger.debug("  calling browser.get(url)")
+
+			threading.Thread(target=call_getBrowser, args=[browser, url]).start()
+
+			logger.debug("  async executed")
+			logger.debug("  waiting on signal")
+			connection, address = serversocket.accept()
+                        logger.debug("  accepted a connection")
+       			while True:
+                		buf = connection.recv(64)
+                		if len(buf) > 0 and "done" in buf:
+			        	break		
+
+			connection.close()
+
+  			logger.debug("  closing tab in browser")
 			closeCurrentTab(browser)
 			logger.debug("  done browsing %d time and store to file %s"%(i,logName) )
 			if useProxy:
@@ -185,6 +206,9 @@ def repeatedVisitWebPage(url,times,configureFilePath,logFileBaseName=None,usePro
 			
 			
 	browser.quit()
+
+def call_getBrowser(browser, url):
+	browser.get(url)
 
 def readHostList(filePath):
 	f = open(filePath)
@@ -228,33 +252,11 @@ def main():
 	if not args:
 		return
 	if args.function == "normalvisit":
-		logger.debug("repated visit %s for %d times without proxy" % (args.firsturl,args.times))
+		logger.debug("repeated visit %s for %d times without proxy" % (args.firsturl,args.times))
 		repeatedVisitWebPage(args.firsturl,args.times,args.configurepath,args.prefix,useProxy=False)
 	elif args.function == "proxyvisit":
-		logger.debug("repated visit %s for %d times with proxy" % (args.firsturl,args.times))
+		logger.debug("repeated visit %s for %d times with proxy" % (args.firsturl,args.times))
 		repeatedVisitWebPage(args.firsturl,args.times,args.configurepath,args.prefix,useProxy=True)
-
-	serversocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-	serversocket.bind(('localhost', 9090))
-	serversocket.listen(5)
-
-	while True:
-		connection, address = serversocket.accept()
-		buf = connection.recv(64)
-		if len(buf) > 0 and buf == "done":
-			sendExitSignalToProxy()
-			terminateMitmproxy(p, outFile, errFile)
-				
-	#repeatedVisitWebPage(url,times,configureFilePath,logFileBaseName=None,useProxy=False):
-	#						url 		times
-	#repeatedVisitWebPage(sys.argv[1],10,sys.argv[2],useProxy=True,logFileBaseName="TSINA2")
-
-	#createObjectDependecyExtractionTraces(url,hostList,configureFilePath,logFileBaseName=None,threshold=10)
-	#argv1: firstURL
-	#argv2: path for hostList
-	#argv3: path for configuration 
-	#hostList = readHostList(sys.argv[2])
-	#createObjectDependecyExtractionTraces(sys.argv[1],hostList,sys.argv[3],logFileBaseName="sinagraph",threshold=30)
 
 
 if __name__ == "__main__":

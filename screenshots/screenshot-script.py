@@ -57,16 +57,17 @@ def response(context, flow):
 	f.write(info + '\n')
 
 	if picture_similar <= 0.85 and picture_similar > 0.75:
-		f.write("FOUND THRESHOLD HERE")
-
-	f.close()
+		f.write("FOUND THRESHOLD HERE\n")
 
 	shutil.copy("outputImagePost.png", "outputImagePre.png")
 
 	if picture_similar <= 0.85 and picture_similar > 0.75:
+		f.write("SENDING MESSAGE TO LOCALHOST 9090\n")
 		clientsocket = socket.socket(socket.AF_INET, socket.OSCK_STREAM)
 		clientsocket.connect(('localhost', 9090))
-		clientsocket.send("done")
+		clientsocket.sendall("done")
+
+	f.close()
 
 def make_regalur_image(img, size = (256, 256)):
     return img.resize(size).convert('RGB')
