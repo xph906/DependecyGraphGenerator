@@ -65,7 +65,7 @@ def response(context, flow):
 		f.write("SENDING MESSAGE TO LOCALHOST 9090\n")
 		clientsocket = socket.socket(socket.AF_INET, socket.OSCK_STREAM)
 		clientsocket.connect(('localhost', 9090))
-		clientsocket.send("done")
+		clientsocket.sendall("done")
 
 	f.close()
 

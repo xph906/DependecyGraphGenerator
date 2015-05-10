@@ -169,21 +169,22 @@ def repeatedVisitWebPage(url,times,configureFilePath,logFileBaseName=None,usePro
 			openNewTab(browser)
 			logger.debug("  opened tab in browser")	
 			serversocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-		        serversocket.bind(('localhost', 9090))
-        		serversocket.listen(5)
-			logger.debug("  browser.get(url)")
+		        serversocket.bind(('', 9090))
+        		serversocket.listen(1)
+			logger.debug("  calling browser.get(url)")
 
 			threading.Thread(target=call_getBrowser, args=[browser, url]).start()
 
 			logger.debug("  async executed")
 			logger.debug("  waiting on signal")
+			connection, address = serversocket.accept()
+                        logger.debug("  accepted a connection")
        			while True:
-                		connection, address = serversocket.accept()
                 		buf = connection.recv(64)
-				if len(buf) > 0:
-					logger.debug(buf)
-                		if len(buf) > 0 and buf == "done":
+                		if len(buf) > 0 and "done" in buf:
 			        	break		
+
+			connection.close()
 
   			logger.debug("  closing tab in browser")
 			closeCurrentTab(browser)
