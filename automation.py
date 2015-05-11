@@ -1,4 +1,5 @@
 import os, sys, shlex
+import subprocess
 
 def createDir(direc):
 	command = "mkdir "+direc
@@ -55,7 +56,7 @@ latencies = ['10ms','50ms', '100ms']
 
 while True:
 	for bw in bandwidths:
-		bwcomm = 'tc qdisc add dev eth0 root handle 1:0 tbf rate '+bw
+		bwcomm = 'tc qdisc add dev eth0 root handle 1:0 tbf bandwidth '+bw
 		os.system(bwcomm)
 		for lat in latencies:
 			labcomm = 'tc qdisc add dev eth0 root netem delay '+ lat
