@@ -588,8 +588,11 @@ def main():
 					continue
 				
 				tt = "[" + '|'.join(transmittionTable[k]) +"]"
-				tmpDict[k] = (1,avgTime,len(handshakeTable[ip]),totalSize,len(sizeTable[k]),tt)
+				#tmpDict[k] = (1,avgTime,len(handshakeTable[ip]),totalSize,len(sizeTable[k]),tt)
+				tmpDict[k] = ("rtt",avgTime,"objectNumber",len(handshakeTable[ip]),"totalSize",totalSize, "sizeTableLength" \
+					,len(sizeTable[k]), "latency",tt)
 				
+
 			else:
 				x = tmpDict[k]
 				tmpDict[k] = (x[0]+1,x[1],x[2],x[3],x[4],x[5])

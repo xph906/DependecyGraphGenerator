@@ -29,8 +29,11 @@ def automate_driver(file_name):
 
 def automate_analyze(host_name, graph_name, last_url, bandwidth):
     # setting up bandwidth...
-    dnctl = shlex.split("dnctl pipe 1 config bw 300KByte/s")
+    dnctl = shlex.split("dnctl pipe 1 config bw 300KByte/s queue 10Kbytes")
     subprocess.call(dnctl)
+    #dummynet = shlex.split("echo \"dummynet in all pipe 1\" >> /etc/pf.conf")
+    #subprocess.call(dummynet)
+
 
     # collecting data...
     listen = shlex.split("sudo /opt/bro/bin/bro -i en0 -C broscript/httpinfo.bro")
@@ -52,7 +55,7 @@ def automate_analyze(host_name, graph_name, last_url, bandwidth):
    
     # getting latency and output
     output = open("%dkb_output.txt" % bandwidth, "w")
-    analyze = shlex.split("python LogAnalysis.py -f analyzebrolog -fu http://www.wsj.com/ -lu http://video-api.wsj.com/api-video/player/v2/css/wsjvideo.min.css -gi " + graph_name + " -c " + host_name + " -b broscript/test.txt")
+    analyze = shlex.split("python LogAnalysis.py -f analyzebrolog -fu http://www.wsj.com/ -lu " + last_url + " -gi " + graph_name + " -c " + host_name + " -b broscript/test.txt")
     subprocess.call(analyze, stderr=output)
     
 def openNewTab(browser):
