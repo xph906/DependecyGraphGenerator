@@ -1,5 +1,8 @@
 {
 "firefoxProfilePathWithProxy":"/home/alex/.mozilla/firefox/m2af5pzg.default",
 "mitmproxyScriptPath": "./screenshot-script.py",
-"logDir": "./logs"
+"logDir": "./logs",
+"thresholdLow": "0.75",
+"thresholdHigh": "0.85",
+"secondsBetweenRequests": "5"
 }

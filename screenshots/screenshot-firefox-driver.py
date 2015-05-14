@@ -70,8 +70,8 @@ def runBackgroundProcess(args,outFile,errFile):
 	except Exception as e:
 		logger.error("error runBackgroundProcess due to: %s" % str(e))
 
-def runMitmproxy(scriptPath, logDir, logFile):
-	param = '"\"%s %s %s\""'%(scriptPath, logDir, logFile)
+def runMitmproxy(scriptPath, logDir, thresholdLow, thresholdHigh, secondsBetweenRequests, logFile):
+	param = '"\"%s %s %s %s %s %s\""'%(scriptPath, logDir, thresholdLow, thresholdHigh, secondsBetweenRequests, logFile)
 
 	args = ['mitmproxy','-s',param]
 	outFileName = os.path.join(logDir, 'stdout.txt')
@@ -162,7 +162,7 @@ def repeatedVisitWebPage(url,times,configureFilePath,logFileBaseName=None,usePro
 			logName = logFileBaseName % i
 			if useProxy:
 				logger.debug("  start running mitmproxy");
-				p, outFile, errFile = runMitmproxy(data['mitmproxyScriptPath'], data['logDir'], logName)
+				p, outFile, errFile = runMitmproxy(data['mitmproxyScriptPath'], data['logDir'], data['thresholdLow'], data['thresholdHigh'], data['secondsBetweenRequests'], logName)
 				logger.debug("  start browsing %d time and store to file %s"%(i,logName) )
 			time.sleep(2)
 			logger.debug("  opening tab in browser")	
