@@ -12,13 +12,22 @@ import socket
 pre_pic = ImageGrab.grab()
 post_pic = ImageGrab.grab()
 
+arglist = sys.argv[2].split(" ")
+print arglist
+
+logDir = arglist[1]
+thresholdLow = float(arglist[2])
+thresholdHigh = float(arglist[3])
+secondsBetweenRequests = arglist[4]
+logName = arglist[5]
+
 def start(context, flow):
 	context.lock = threading.RLock()	
 	context.lastTime = 0
 	context.stop_analysis = False
 	pre_pic = ImageGrab.grab();
 	pre_pic.save("outputImagePre.png", "PNG")
-	open("output.log", "w").close()
+	open(logDir + "/" + logName, "w").close() #clear the file if it exists
 	
 
 ##we want each request to be 5 seconds apart from *each other*
@@ -29,8 +38,8 @@ def request(context, flow):
 	context.lock.acquire()
 
 	## critical section - set your current waitTime and next lastTime
-        waitTime = context.lastTime + 5
-	context.lastTime += 5
+        waitTime = context.lastTime + secondsBetweenRequests
+	context.lastTime += secondsBetweenRequests
 
 	## releasing lock
 	context.lock.release()
@@ -49,21 +58,21 @@ def response(context, flow):
        	url = "%s://%s%s" % (flow.request.scheme,o.netloc,o.path)
        	url = url.lower()
 		
-	f = open("output.log", "a")
+	f = open(logDir + "/" + logName, "a")
 
 	picture_similar = calc_similar_by_path("outputImagePre.png", "outputImagePost.png")
 	info = '[SIMILAR:%f][REQUEST:%s]' % (picture_similar, str(url))
 
 	f.write(info + '\n')
 
-	if picture_similar <= 0.85 and picture_similar > 0.75:
+	if picture_similar <= thresholdHigh and picture_similar > thresholdLow:
 		f.write("FOUND THRESHOLD HERE\n")
 
-	shutil.copy("outputImagePost.png", "outputImagePre.png")
+	#shutil.copy("outputImagePost.png", "outputImagePre.png")
 
-	if picture_similar <= 0.85 and picture_similar > 0.75:
+	if picture_similar <= thresholdHigh and picture_similar > thresholdLow:
 		f.write("SENDING MESSAGE TO LOCALHOST 9090\n")
-		clientsocket = socket.socket(socket.AF_INET, socket.OSCK_STREAM)
+		clientsocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 		clientsocket.connect(('localhost', 9090))
 		clientsocket.sendall("done")
 
