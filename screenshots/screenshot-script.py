@@ -13,12 +13,11 @@ pre_pic = ImageGrab.grab()
 post_pic = ImageGrab.grab()
 
 arglist = sys.argv[2].split(" ")
-print arglist
 
 logDir = arglist[1]
 thresholdLow = float(arglist[2])
 thresholdHigh = float(arglist[3])
-secondsBetweenRequests = arglist[4]
+secondsBetweenRequests = int(arglist[4])
 logName = arglist[5]
 
 def start(context, flow):
@@ -65,16 +64,15 @@ def response(context, flow):
 
 	f.write(info + '\n')
 
-	if picture_similar <= thresholdHigh and picture_similar > thresholdLow:
-		f.write("FOUND THRESHOLD HERE\n")
-
 	#shutil.copy("outputImagePost.png", "outputImagePre.png")
 
 	if picture_similar <= thresholdHigh and picture_similar > thresholdLow:
-		f.write("SENDING MESSAGE TO LOCALHOST 9090\n")
+		f.write("FOUND THRESHOLD AT " + str(url))
+		f.write("SENDING MESSAGE TO LOCALHOST:9090\n")
 		clientsocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 		clientsocket.connect(('localhost', 9090))
 		clientsocket.sendall("done")
+		open("results/" + logName, "a").write(str(url))
 
 	f.close()
 

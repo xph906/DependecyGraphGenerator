@@ -27,7 +27,7 @@ def openNewTab(browser):
 		ActionChains(browser).send_keys(Keys.COMMAND, "t").perform()
 	elif sys.platform == "linux2":
 		#ActionChains(browser).send_keys(Keys.CONTROL, "t").perform()
-		logger.debug( "not supported in ubuntu, firefox?")
+		logger.debug( "skipping this key command for now")
 		#ActionChains(browser).send_keys(Keys.CONTROL, "t").perform()
 	else:
 		logger.error("openNewTab unsupported OS: %s"%sys.platform)
@@ -36,7 +36,8 @@ def closeCurrentTab(browser):
 	if sys.platform == "darwin":
 		browser.find_element_by_tag_name('body').send_keys(Keys.COMMAND + 'w')
 	elif sys.platform == "linux2":
-		browser.find_element_by_tag_name('body').send_keys(Keys.CONTROL + 'w')
+		#browser.find_element_by_tag_name('body').send_keys(Keys.CONTROL + 'w')
+		logger.debug("skipping closing for now")
 	else:
 		logger.error("closeCurrentTab unsupported OS: %s"%sys.platform)
 
@@ -156,6 +157,9 @@ def repeatedVisitWebPage(url,times,configureFilePath,logFileBaseName=None,usePro
 	else:
 		logFileBaseName += '_%d'
 	browser.set_page_load_timeout(600)
+	serversocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        serversocket.bind(('', 9090))
+    	serversocket.listen(1)
 	#openNewTab(browser)
 	for i in range(times):
 		try:
@@ -167,15 +171,10 @@ def repeatedVisitWebPage(url,times,configureFilePath,logFileBaseName=None,usePro
 			time.sleep(2)
 			logger.debug("  opening tab in browser")	
 			openNewTab(browser)
-			logger.debug("  opened tab in browser")	
-			serversocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-		        serversocket.bind(('', 9090))
-        		serversocket.listen(1)
-			logger.debug("  calling browser.get(url)")
 
+			logger.debug("  calling browser.get(url) asynchronously")
 			threading.Thread(target=call_getBrowser, args=[browser, url]).start()
 
-			logger.debug("  async executed")
 			logger.debug("  waiting on signal")
 			connection, address = serversocket.accept()
                         logger.debug("  accepted a connection")
@@ -186,7 +185,7 @@ def repeatedVisitWebPage(url,times,configureFilePath,logFileBaseName=None,usePro
 
 			connection.close()
 
-  			logger.debug("  closing tab in browser")
+  			logger.debug("  closing browser")
 			closeCurrentTab(browser)
 			logger.debug("  done browsing %d time and store to file %s"%(i,logName) )
 			if useProxy:
@@ -205,8 +204,6 @@ def repeatedVisitWebPage(url,times,configureFilePath,logFileBaseName=None,usePro
 			time.sleep(2);
 			
 			
-	browser.quit()
-
 def call_getBrowser(browser, url):
 	browser.get(url)
 
