@@ -13,6 +13,7 @@ import psutil
 import argparse
 import socket
 import threading
+import signal
 
 ####Configure Info######
 
@@ -59,10 +60,13 @@ def testSelenium():
 #			Process Utilities			#
 #########################################
 def killProcessAndChildren(pid):
+	os.kill(pid, signal.SIGKILL)
 	parent = psutil.Process(pid)
 	for child in parent.children(recursive=True):  # or parent.children() for recursive=False
-		child.kill()
-	parent.kill()
+		#child.kill()
+		os.kill(child.pid, signal.SIGKILL)
+	os.kill(pid, signal.SIGKILL)
+	#parent.kill()
 
 def runBackgroundProcess(args,outFile,errFile):
 	try:
@@ -142,32 +146,26 @@ def repeatedVisitWebPage(url,times,configureFilePath,logFileBaseName=None,usePro
 		logger.error("failed to read configure file")
 		return
 	
-	if useProxy:
-		profile = webdriver.FirefoxProfile(data['firefoxProfilePathWithProxy'])
-	else:
-		profile = webdriver.FirefoxProfile(data['firefoxProfilePathWithoutProxy'])
-	browser = webdriver.Firefox(profile)
-	if browser == None:
-		logger.error("failed to create firefox instance")
-		return 
-	o = urlparse(url)
-	host = o.netloc;
-	if logFileBaseName == None:
-		logFileBaseName = host+'_%d'
-	else:
-		logFileBaseName += '_%d'
-	browser.set_page_load_timeout(600)
 	serversocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         serversocket.bind(('', 9090))
     	serversocket.listen(1)
-	#openNewTab(browser)
 	for i in range(times):
+		profile = webdriver.FirefoxProfile(data['firefoxProfilePathWithProxy'])
+		browser = webdriver.Firefox(profile)
+		if browser == None:
+			logger.error("failed to create firefox instance")
+			return 
+		o = urlparse(url)
+		host = o.netloc
+
+		browser.set_page_load_timeout(600)
+
 		try:
-			logName = logFileBaseName % i
-			if useProxy:
-				logger.debug("  start running mitmproxy");
-				p, outFile, errFile = runMitmproxy(data['mitmproxyScriptPath'], data['logDir'], data['thresholdLow'], data['thresholdHigh'], data['secondsBetweenRequests'], logName)
-				logger.debug("  start browsing %d time and store to file %s"%(i,logName) )
+			logName = host + "_" + str(i)
+			logger.debug("  start running mitmproxy")
+
+			p, outFile, errFile = runMitmproxy(data['mitmproxyScriptPath'], data['logDir'], data['thresholdLow'], data['thresholdHigh'], data['secondsBetweenRequests'], logName)
+			logger.debug("  start browsing %d time and store to file %s"%(i,logName) )
 			time.sleep(2)
 			logger.debug("  opening tab in browser")	
 			openNewTab(browser)
@@ -185,23 +183,25 @@ def repeatedVisitWebPage(url,times,configureFilePath,logFileBaseName=None,usePro
 
 			connection.close()
 
-  			logger.debug("  closing browser")
-			closeCurrentTab(browser)
-			logger.debug("  done browsing %d time and store to file %s"%(i,logName) )
 			if useProxy:
-				sendExitSignalToProxy()
+				#sendExitSignalToProxy()
 				terminateMitmproxy(p, outFile, errFile)
 				logger.debug("  done terminating mitmproxy")
+
+  			logger.debug("  closing browser")
+			browser.quit()
+			logger.debug("  done browsing %d time and store to file %s"%(i,logName) )
 			time.sleep(2);
 		except Exception as e:
 			logger.error("error [%s] in repeatedVisitWebPage reason: %s. start cleaning states..."%(logName,str(e)) )
-			closeCurrentTab(browser)
-			logger.debug("  [IN EXCEPTION HANDLER] done closing current tab")
+
 			if useProxy:
 				sendExitSignalToProxy()
 				terminateMitmproxy(p, outFile, errFile)
 				logger.debug("  [IN EXCEPTION HANDLER] done terminating mitmproxy")
-			time.sleep(2);
+			browser.quit()
+			logger.debug("  [IN EXCEPTION HANDLER] done closing current tab")
+			time.sleep(2)
 			
 			
 def call_getBrowser(browser, url):

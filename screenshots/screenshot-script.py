@@ -20,10 +20,13 @@ thresholdHigh = float(arglist[3])
 secondsBetweenRequests = int(arglist[4])
 logName = arglist[5]
 
+start_time = time.time()
+
 def start(context, flow):
 	context.lock = threading.RLock()	
 	context.lastTime = 0
 	context.stop_analysis = False
+	context.requests_handled = 0
 	pre_pic = ImageGrab.grab();
 	pre_pic.save("outputImagePre.png", "PNG")
 	open(logDir + "/" + logName, "w").close() #clear the file if it exists
@@ -48,6 +51,8 @@ def request(context, flow):
 #just print out the lengths of each response for now
 def response(context, flow):
 
+	context.requests_handled += 1
+
 	# fullscreen screenshot, save it locally for now
 	post_pic = ImageGrab.grab()
 	post_pic.save("outputImagePost.png", "PNG")
@@ -67,12 +72,16 @@ def response(context, flow):
 	#shutil.copy("outputImagePost.png", "outputImagePre.png")
 
 	if picture_similar <= thresholdHigh and picture_similar > thresholdLow:
-		f.write("FOUND THRESHOLD AT " + str(url))
+		f.write("FOUND THRESHOLD AT " + str(url) + "\n")
 		f.write("SENDING MESSAGE TO LOCALHOST:9090\n")
+		end_time = time.time()
+		elapsed_time = end_time - start_time
+		user_perceived_delay = elapsed_time - (context.requests_handled * 5)
+		open("results/results.log", "a").write(logName.strip('"') + " : " + str(user_perceived_delay) + "\n")
 		clientsocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 		clientsocket.connect(('localhost', 9090))
 		clientsocket.sendall("done")
-		open("results/" + logName, "a").write(str(url))
+		
 
 	f.close()
 
