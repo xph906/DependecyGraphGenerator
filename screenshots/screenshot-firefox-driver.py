@@ -139,8 +139,13 @@ def readConfigure(file_path):
 #			Other Utilities				#
 #########################################
 
-def repeatedVisitWebPage(url,times,configureFilePath,logFileBaseName=None,useProxy=True):
-	logger.debug("Start visiting web page %s for %d times..."%(url,times))
+def repeatedVisitWebPage(args):
+
+        configureFilePath = args.configurepath
+        times = args.times
+        url = args.url
+
+	logger.debug("Start visiting web page %s for %d times..."%(args.url,args.times))
 	data = readConfigure(configureFilePath)
 	if data == None:
 		logger.error("failed to read configure file")
@@ -152,26 +157,28 @@ def repeatedVisitWebPage(url,times,configureFilePath,logFileBaseName=None,usePro
 	for i in range(times):
 		profile = webdriver.FirefoxProfile(data['firefoxProfilePathWithProxy'])
 		browser = webdriver.Firefox(profile)
+                browser.maximize_window()
 		if browser == None:
 			logger.error("failed to create firefox instance")
 			return 
 		o = urlparse(url)
 		host = o.netloc
 
+		#10 minutes
 		browser.set_page_load_timeout(600)
 
 		try:
 			logName = host + "_" + str(i)
 			logger.debug("  start running mitmproxy")
 
-			p, outFile, errFile = runMitmproxy(data['mitmproxyScriptPath'], data['logDir'], data['thresholdLow'], data['thresholdHigh'], data['secondsBetweenRequests'], logName)
+			p, outFile, errFile = runMitmproxy(data['mitmproxyScriptPath'], args.dir, args.low, args.high, args.secondsbetweenrequests, logName)
 			logger.debug("  start browsing %d time and store to file %s"%(i,logName) )
 			time.sleep(2)
 			logger.debug("  opening tab in browser")	
 			openNewTab(browser)
 
 			logger.debug("  calling browser.get(url) asynchronously")
-			threading.Thread(target=call_getBrowser, args=[browser, url]).start()
+			threading.Thread(target=call_getBrowser, args=[browser, url, p, outFile, errFile]).start()
 
 			logger.debug("  waiting on signal")
 			connection, address = serversocket.accept()
@@ -183,10 +190,9 @@ def repeatedVisitWebPage(url,times,configureFilePath,logFileBaseName=None,usePro
 
 			connection.close()
 
-			if useProxy:
-				#sendExitSignalToProxy()
-				terminateMitmproxy(p, outFile, errFile)
-				logger.debug("  done terminating mitmproxy")
+			sendExitSignalToProxy()
+			terminateMitmproxy(p, outFile, errFile)
+			logger.debug("  done terminating mitmproxy")
 
   			logger.debug("  closing browser")
 			browser.quit()
@@ -195,17 +201,22 @@ def repeatedVisitWebPage(url,times,configureFilePath,logFileBaseName=None,usePro
 		except Exception as e:
 			logger.error("error [%s] in repeatedVisitWebPage reason: %s. start cleaning states..."%(logName,str(e)) )
 
-			if useProxy:
-				sendExitSignalToProxy()
-				terminateMitmproxy(p, outFile, errFile)
-				logger.debug("  [IN EXCEPTION HANDLER] done terminating mitmproxy")
+			sendExitSignalToProxy()
+			terminateMitmproxy(p, outFile, errFile)
+			logger.debug("  [IN EXCEPTION HANDLER] done terminating mitmproxy")
 			browser.quit()
 			logger.debug("  [IN EXCEPTION HANDLER] done closing current tab")
 			time.sleep(2)
 			
 			
-def call_getBrowser(browser, url):
-	browser.get(url)
+def call_getBrowser(browser, url, p, outFile, errFile):
+	try:
+		browser.get(url)
+	except Exception as e:  #probably on timeout
+		logger.error("error in call_getBrowser : %s. start cleaning states..."%(str(e)))
+		sendExitSignalToProxy()
+                terminateMitmproxy(p, outFile, errFile)
+                browser.quit()
 
 def readHostList(filePath):
 	f = open(filePath)
@@ -217,19 +228,17 @@ def readHostList(filePath):
 
 def parse_arguments():
 	parser = argparse.ArgumentParser()
-	parser.add_argument('--function','-f', help='the function to execute')
-	parser.add_argument('--prefix','-p', help='prefix of file names')
 	parser.add_argument('--configurepath','-c', help='the path of configure file')
 	parser.add_argument('--dir','-d', help='directory of log files')
-	parser.add_argument('--times','-t',type=int, help='the times of browsing a file')
-	parser.add_argument('--timeout','-to',type=int, help='the timeout of loading a page')
-	parser.add_argument('--firsturl','-fu', help='the first url of each trace')
-	#parser.add_argument('--os','-os', help='the operating system type')
-	#parser.add_argument('--lasturl','-lu', help='the last url of each trace')
-	parser.add_argument('--commonhostlist','-ch', help='the path of valid object url list')
+	parser.add_argument('--times','-t',type=int, help='the times to browse')
+	parser.add_argument('--url','-u', help='the url of the trace')
+	parser.add_argument('--high','-hi',type=float, help='the picture similarity must be below this value')
+	parser.add_argument('--low','-lo', type=float, help='the picture similarity must be above this value')
+	parser.add_argument('--secondsbetweenrequests','-s', help='delay in seconds between requests allowed by proxy')
+
 	args = parser.parse_args()
 	try:
-		o = urlparse(args.firsturl)
+		o = urlparse(args.url)
 	except Exception as e:
 		parser.print_help()
 		return None
@@ -244,16 +253,16 @@ def main():
 	consoleHandler.setFormatter(formatter)
 	logger.addHandler(consoleHandler)
 	logger.setLevel(logging.DEBUG)
+
+	if not os.path.exists("./results"):
+		os.makedirs("./results")
 	
 	args = parse_arguments()
 	if not args:
 		return
-	if args.function == "normalvisit":
-		logger.debug("repeated visit %s for %d times without proxy" % (args.firsturl,args.times))
-		repeatedVisitWebPage(args.firsturl,args.times,args.configurepath,args.prefix,useProxy=False)
-	elif args.function == "proxyvisit":
-		logger.debug("repeated visit %s for %d times with proxy" % (args.firsturl,args.times))
-		repeatedVisitWebPage(args.firsturl,args.times,args.configurepath,args.prefix,useProxy=True)
+
+	logger.debug("repeated visit %s for %d times with proxy" % (args.url,args.times))
+	repeatedVisitWebPage(args)
 
 
 if __name__ == "__main__":

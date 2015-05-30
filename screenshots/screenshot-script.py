@@ -76,8 +76,8 @@ def response(context, flow):
 		f.write("SENDING MESSAGE TO LOCALHOST:9090\n")
 		end_time = time.time()
 		elapsed_time = end_time - start_time
-		user_perceived_delay = elapsed_time - (context.requests_handled * 5)
-		open("results/results.log", "a").write(logName.strip('"') + " : " + str(user_perceived_delay) + "\n")
+		user_perceived_delay = elapsed_time - (context.requests_handled * secondsBetweenRequests)
+		open("results/results.log", "w").write(logName.strip('"') + " : " + str(user_perceived_delay) + "\n")
 		clientsocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 		clientsocket.connect(('localhost', 9090))
 		clientsocket.sendall("done")
