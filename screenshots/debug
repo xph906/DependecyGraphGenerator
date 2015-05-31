@@ -962,3 +962,15 @@ UserPerceived:None
 []
 http://www.instagram.com	1433094735.4	1433094745.58	10.1813189983
 Download:5000	Upload:2000
+Runningsudo python screenshot-firefox-driver.py -u http://www.tumblr.com -t 1 -c screenshot_configure -d ./logs/ -hi 0.8 -lo 0 -s 1
+
+Running: sudo python screenshot-firefox-driver.py -u http://www.tumblr.com -t 1 -c screenshot_configure -d ./logs/ -hi 0 -lo 0 -s 0
+Results:
+All timings: ['[SIMILAR:0.978236][REQUEST:http://www.tumblr.com/][STARTTIME:1433096525.18][ENDTIME:1433096527.61]', '[SIMILAR:0.946005][REQUEST:http://sd.symcd.com/][STARTTIME:1433096525.18][ENDTIME:1433096556.11]', '[SIMILAR:0.503391][REQUEST:http://clients1.google.com/ocsp][STARTTIME:1433096525.18][ENDTIME:1433096558.2]', '[SIMILAR:0.501284][REQUEST:http://clients1.google.com/ocsp][STARTTIME:1433096525.18][ENDTIME:1433096559.17]', '[SIMILAR:0.501497][REQUEST:http://vassg141.ocsp.omniroot.com/][STARTTIME:1433096525.18][ENDTIME:1433096560.2]']
+Time for last object: ['[SIMILAR:0.501497][REQUEST:http://vassg141.ocsp.omniroot.com/][STARTTIME:1433096525.18][ENDTIME:1433096560.2]']
+fetchtime:http://www.tumblr.com	1433096526.94	1433096648.91	121.972193003
+Written to file:1433096655.88tumblr.com	results:
+UserPerceived:None
+['[SIMILAR:0.501497][REQUEST:http://vassg141.ocsp.omniroot.com/][STARTTIME:1433096525.18][ENDTIME:1433096560.2]']
+http://www.tumblr.com	1433096526.94	1433096648.91	121.972193003
+Download:5000	Upload:2000
