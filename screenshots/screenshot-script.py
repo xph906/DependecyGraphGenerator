@@ -8,6 +8,7 @@ import pyscreenshot as ImageGrab
 from urlparse import urlparse
 import shutil
 import socket
+import numpy as np
 
 pre_pic = ImageGrab.grab()
 post_pic = ImageGrab.grab()
@@ -25,8 +26,12 @@ start_time = time.time()
 def start(context, flow):
 	context.lock = threading.RLock()	
 	context.lastTime = 0
-	context.stop_analysis = False
 	context.requests_handled = 0
+        context.np_a = []
+        context.mean = 0
+        context.two_std_dev = 0
+        context.threshold = 0
+        context.result_list = []
 	pre_pic = ImageGrab.grab();
 	pre_pic.save("outputImagePre.png", "PNG")
 	open(logDir + "/" + logName, "w").close() #clear the file if it exists
@@ -62,16 +67,28 @@ def response(context, flow):
        	url = "%s://%s%s" % (flow.request.scheme,o.netloc,o.path)
        	url = url.lower()
 		
-	f = open(logDir + "/" + logName, "a")
+	f = open(logDir + "/" + logName.strip('"'), "a")
+        
+        #get the standard deviation to compare difference in set
+        if context.requests_handled > 1:
+          context.np_a = np.array(context.result_list)
+          context.two_std_dev = np.std(context.np_a) * 2.0
+          context.mean = np.mean(context.np_a)
 
 	picture_similar = calc_similar_by_path("outputImagePre.png", "outputImagePost.png")
 	info = '[SIMILAR:%f][REQUEST:%s]' % (picture_similar, str(url))
 
+        #add new similar results to result list
+        context.result_list.append([picture_similar])
+
 	f.write(info + '\n')
 
 	#shutil.copy("outputImagePost.png", "outputImagePre.png")
+	#if picture_similar <= thresholdHigh and picture_similar > thresholdLow:
 
-	if picture_similar <= thresholdHigh and picture_similar > thresholdLow:
+        context.threshold = context.mean - context.two_std_dev
+
+        if picture_similar <= context.threshold:
 		f.write("FOUND THRESHOLD AT " + str(url) + "\n")
 		f.write("SENDING MESSAGE TO LOCALHOST:9090\n")
 		end_time = time.time()
@@ -81,7 +98,6 @@ def response(context, flow):
 		clientsocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 		clientsocket.connect(('localhost', 9090))
 		clientsocket.sendall("done")
-		
 
 	f.close()
 
