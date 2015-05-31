@@ -1,0 +1,5 @@
+
+UserPerceived:None
+['[SIMILAR:0.980147][REQUEST:http://clients1.google.com/ocsp][STARTTIME:1433073206.8][ENDTIME:1433073209.91]', '[SIMILAR:0.842546][REQUEST:http://clients1.google.com/ocsp][STARTTIME:1433073206.8][ENDTIME:1433073211.42]']
+http://www.google.fr	1433073208.6	1433073211.53	2.92453289032
+Download:5000	Upload:2000

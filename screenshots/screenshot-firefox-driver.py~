@@ -158,8 +158,8 @@ def repeatedVisitWebPage(args):
         serversocket.bind(('', 9090))
     	serversocket.listen(1)
 	#serversocket.setblocking(0)
-	serversocket.settimeout(300)
-	for i in range(times):		
+	#serversocket.settimeout(10)
+	for i in range(times):
 		profile = webdriver.FirefoxProfile(data['firefoxProfilePathWithProxy'])
 		browser = webdriver.Firefox(profile)
                 browser.maximize_window()
@@ -170,7 +170,7 @@ def repeatedVisitWebPage(args):
 		host = o.netloc
 
 		#10 minutes
-		browser.set_page_load_timeout(300)
+		browser.set_page_load_timeout(600)
 
 		try:
 			logName = host + "_" + str(i)
@@ -178,7 +178,7 @@ def repeatedVisitWebPage(args):
 
 			p, outFile, errFile = runMitmproxy(data['mitmproxyScriptPath'], args.dir, args.low, args.high, args.secondsbetweenrequests, logName)
 			logger.debug("  start browsing %d time and store to file %s"%(i,logName) )
-			#time.sleep(2)
+			time.sleep(2)
 			logger.debug("  opening tab in browser")	
 			openNewTab(browser)
 
@@ -194,15 +194,14 @@ def repeatedVisitWebPage(args):
 				#connection.settimeout(10)
                         	logger.debug("  accepted a connection")
        			while True:
-				if url in fetchedurls:
-					logger.debug('Completed fetching')
-					break
-				
 				if args.high >0:
                 			buf = connection.recv(64)
                 			if len(buf) > 0 and "done" in buf:
 						logger.debug('Got signal')
 			        		break		
+				if url in fetchedurls:
+					logger.debug('Completed fetching')
+					break
 			if args.high > 0:			
 				connection.close()
 
@@ -226,16 +225,17 @@ def repeatedVisitWebPage(args):
 			
 			
 def call_getBrowser(browser, url, p, outFile, errFile):
-	try:	
-		starttime = time.time()
+	try:
 		browser.get(url)
-		endtime = time.time()
-		loading_time = endtime - starttime
-		open('fetchingtime.txt', 'a').write('\n'+url+'\t'+str(starttime)+'\t'+str(endtime)+'\t'+str(loading_time))
 		logger.debug('fetched........')	
 	except Exception as e:  #probably on timeout
-		logger.debug('error in get browser.....')
+		logger.error("error in call_getBrowser : %s. start cleaning states..."%(str(e)))
+		sendExitSignalToProxy()
+                terminateMitmproxy(p, outFile, errFile)
+                browser.quit()
 	fetchedurls.append(url)
+	#global connection	
+	#connection.close()
 	logger.debug('added to fetched'+str(fetchedurls))
 
 def readHostList(filePath):

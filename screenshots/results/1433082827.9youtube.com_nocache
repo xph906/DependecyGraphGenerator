@@ -1,0 +1,5 @@
+
+UserPerceived:['www.youtube.com_0 :', ' http://clients1.google.com/ocsp', '9.592056036\n']
+['[SIMILAR:0.977832][REQUEST:http://clients1.google.com/ocsp][STARTTIME:1433082812.27][ENDTIME:1433082815.26]', '[SIMILAR:0.951778][REQUEST:http://clients1.google.com/ocsp][STARTTIME:1433082812.27][ENDTIME:1433082817.38]', '[SIMILAR:0.551452][REQUEST:http://clients1.google.com/ocsp][STARTTIME:1433082812.27][ENDTIME:1433082819.13]', '[SIMILAR:0.550193][REQUEST:http://clients1.google.com/ocsp][STARTTIME:1433082812.27][ENDTIME:1433082820.48]']
+http://www.youtube.com	1433082814.06	1433082819.71	5.64780211449
+Download:5000	Upload:2000

@@ -1,0 +1,4 @@
+COMMAND     PID USER   FD   TYPE DEVICE SIZE/OFF NODE NAME
+python    21246 root    4u  IPv4 795022      0t0  TCP *:9090 (LISTEN)
+firefox   21289 root    4u  IPv4 795022      0t0  TCP *:9090 (LISTEN)
+mitmproxy 21330 root    4u  IPv4 795022      0t0  TCP *:9090 (LISTEN)

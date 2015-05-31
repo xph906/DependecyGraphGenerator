@@ -1,0 +1,5 @@
+
+UserPerceived:['www.wikipedia.org_0 :', ' http://upload.wikimedia.org/wikipedia/meta/6/6d/wikipedia_wordmark_1x.png', '7.25719189644\n']
+['[SIMILAR:0.756117][REQUEST:http://upload.wikimedia.org/wikipedia/meta/6/6d/wikipedia_wordmark_1x.png][STARTTIME:1433059414.08][ENDTIME:1433059421.74]']
+http://www.wikipedia.org	1433059415.89	1433059427.42	11.5266160965
+Download:5000	Upload:2000

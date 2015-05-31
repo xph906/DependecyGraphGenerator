@@ -1,0 +1,5 @@
+
+UserPerceived:['www.linkedin.com_0 :', ' http://ocsp.digicert.com/', '8.33469605446\n']
+['[SIMILAR:0.977450][REQUEST:http://ocsp.digicert.com/][STARTTIME:1433087536.65][ENDTIME:1433087539.67]', '[SIMILAR:0.961106][REQUEST:http://ocsp.digicert.com/][STARTTIME:1433087536.65][ENDTIME:1433087540.46]', '[SIMILAR:0.939180][REQUEST:http://ocsp.digicert.com/][STARTTIME:1433087536.65][ENDTIME:1433087541.63]']
+http://www.linkedin.com	1433087538.45	1433087541.3	2.8467001915
+Download:5000	Upload:2000

@@ -20,10 +20,6 @@ thresholdHigh = float(arglist[3])
 secondsBetweenRequests = int(arglist[4])
 logName = arglist[5]
 
-try:
-	os.system('rm results/results.log')
-except:
-	pass
 start_time = time.time()
 
 def start(context, flow):

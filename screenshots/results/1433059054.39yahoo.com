@@ -1,0 +1,5 @@
+
+UserPerceived:None
+['[SIMILAR:0.472718][REQUEST:http://clients1.google.com/ocsp][STARTTIME:1433059033.73][ENDTIME:1433059044.78]']
+http://www.yahoo.com	1433059035.51	1433059047.69	12.1773560047
+Download:5000	Upload:2000
