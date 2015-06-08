@@ -1,0 +1,6 @@
+[SIMILAR:0.969682][REQUEST:http://www.cnn.com/]
+[SIMILAR:0.953707][REQUEST:http://fast.fonts.net/t/1.css]
+FOUND THRESHOLD AT http://fast.fonts.net/t/1.css
+SENDING MESSAGE TO LOCALHOST:9090
+[SIMILAR:0.953729][REQUEST:http://z.cdn.turner.com/analytics/cnn/ais.js]
+[SIMILAR:0.953729][REQUEST:http://www.i.cdn.cnn.com/.a/1.138.0/js/vendor/jquery.min.js]
