@@ -1,0 +1,2 @@
+python screenshot-firefox-driver.py -u http://www.cnn.com/ -t 1 -c screenshot_configure -d ./logs/ -hi 0.85 -lo 0.75 -s 2
+

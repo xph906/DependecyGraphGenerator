@@ -82,7 +82,7 @@ if 'stop' in args:
 	clearallqdisc(interfacename)
 	sys.exit(0)
 elif len(args) == 3 or len(args) == 4:
-	clearallqdisc(interfacename)
+	#clearallqdisc(interfacename)
 	if len(args) == 4:
 		interfacename = args[1]
 		downbw = args[2]
@@ -90,11 +90,12 @@ elif len(args) == 3 or len(args) == 4:
 	else:
 		downbw = args[1]
 		upbw = args[2]
+	clearallqdisc(interfacename)
 	print 'Configuring bandwidth...'
 	os.system('sudo wondershaper '+interfacename+' '+downbw+' '+upbw)
-	sc = runspeedtest()
-	st = parsespeedtest(sc)
-	print 'Current speeds (using speedtest) are: download  %s, upload %s' %(st[1], st[0])
+	#sc = runspeedtest()
+	#st = parsespeedtest(sc)
+	#print 'Current speeds (using speedtest) are: download  %s, upload %s' %(st[1], st[0])
 	#pc = runping()
 	#pingres = parsepingoutput(pc)
 	#print 'Current Latency to Google is %s' % (pingres)
